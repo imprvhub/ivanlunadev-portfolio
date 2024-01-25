@@ -109,7 +109,7 @@ const SearchLayout = ({ searchList }: Props) => {
                 alt="no-search-found"
               />
               <h1 className="h2 mb-4">
-                {inputVal.length < 1 ? "Buscar" : "¡No se encontró nada en su búsqueda!!"}
+                {inputVal.length < 1 ? "Buscar" : "¡No se encontró nada en su búsqueda!"}
               </h1>
               <p>
                 {inputVal.length < 1
