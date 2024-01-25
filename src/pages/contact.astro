@@ -23,42 +23,42 @@ const { title, description, meta_title, image } = contact.data;
           <form action={contact_form_action} method="POST">
             <div class="mb-6">
               <label for="name" class="form-label">
-                Full Name <span class="text-red-500">*</span>
+                Nombre Completo <span class="text-red-500">*</span>
               </label>
               <input
                 id="name"
                 name="name"
                 class="form-input"
-                placeholder="John Doe"
+                placeholder="Juan Pérez"
                 type="text"
               />
             </div>
             <div class="mb-6">
               <label for="email" class="form-label">
-                Working Mail <span class="text-red-500">*</span>
+                Correo Electrónico Funcional <span class="text-red-500">*</span>
               </label>
               <input
                 id="email"
                 name="email"
                 class="form-input"
-                placeholder="john.doe@email.com"
+                placeholder="juan.perez@email.com"
                 type="email"
               />
             </div>
             <div class="mb-6">
               <label for="message" class="form-label">
-                Message <span class="text-red-500">*</span>
+                Mensaje <span class="text-red-500">*</span>
               </label>
               <textarea
                 id="message"
                 name="message"
                 class="form-input"
-                placeholder="Message goes here..."
+                placeholder="Escriba su mensaje aquí..."
                 rows="8"></textarea>
             </div>
             <div class="flex justify-between">
-              <a href="/" class="btn btn-primary">Back to home</a>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <a href="/" class="btn btn-primary">Volver al Inicio</a>
+              <button type="submit" class="btn btn-primary">Enviar</button>
           </form>
         </div>
       </div>

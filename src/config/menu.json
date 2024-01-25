@@ -1,53 +1,53 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Inicio",
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "Perfil",
       "url": "/about"
     },
     {
-      "name": "Projects",
-      "url": "/projects",
+      "name": "Proyectos",
+      "url": "/proyectos",
       "hasChildren": true,
       "children": [
         {
           "name": "BoltURL",
-          "url": "/projects/post-python-bolturl"
+          "url": "/proyectos/post-python-bolturl"
         },
         {
           "name": "Fifty List",
-          "url": "/projects/post-reactpython-fiftylist"
+          "url": "/proyectos/post-reactpython-fiftylist"
         },
         {
           "name": "E-commerce Data Analysis",
-          "url": "/projects/post-python-ecommerce"
+          "url": "/proyectos/post-python-ecommerce"
         },
         {
           "name": "_______"
         },
         {
-          "name": "Relevant Projects",
-          "url": "/projects"
+          "name": "Proyectos Relevantes",
+          "url": "/proyectos"
         }
       ]
     },
 
     {
-      "name": "Get My Resume",
-      "url": "/my-resume"
+      "name": "Mi CV",
+      "url": "/mi-cv"
     },
     {
-      "name": "Contact",
+      "name": "Contacto",
       "url": "/contact"
     }
   ],
   "footer": [
     {
-      "name": "User Agreement - Terms - Privacy Policy",
-      "url": "/user-agreement"
+      "name": "Acuerdo de Usuario - Términos y Condiciones - Política de Privacidad.",
+      "url": "/acuerdo-de-usuario"
     }
   ]
 }

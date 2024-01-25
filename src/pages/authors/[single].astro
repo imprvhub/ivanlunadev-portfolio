@@ -1,5 +1,5 @@
 ---
-import ProjectsCard from "@/components/ProjectsCard.astro";
+import ProyectosCard from "@/components/ProyectosCard.astro";
 import Social from "@/components/Social.astro";
 import Base from "@/layouts/Base.astro";
 import { slugify } from "@/lib/utils/textConverter";
@@ -26,7 +26,7 @@ const { author } = Astro.props;
 const { title, social, meta_title, description, image } = author.data;
 const { Content } = await author.render();
 const posts = await getCollection(
-  "projects",
+  "proyectos",
   ({ data, slug }) => !data.draft && slug !== "-index",
 );
 const postFilterByAuthor = posts.filter(
@@ -70,7 +70,7 @@ const postFilterByAuthor = posts.filter(
         {
           postFilterByAuthor.map((post) => (
             <div class="mb-12 md:col-6 lg:col-4">
-              <ProjectsCard data={post} />
+              <ProyectosCard data={post} />
             </div>
           ))
         }

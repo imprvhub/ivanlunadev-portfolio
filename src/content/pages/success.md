@@ -1,15 +1,15 @@
 ---
-title: "Thank you! Form submitted successfully."
-meta_title: "Iván Luna - Software Developer"
-description: "Iván Luna - Software Developer"
+title: "¡Gracias! Formulario enviado con éxito."
+meta_title: "Iván Luna - Desarrollador de Software"
+description: "Iván Luna - Desarrollador de Software"
 draft: false
 ---
 
 <div class="flex justify-center">
-  <p>Thanks you! Your message will be reviewed and answered as soon as possible.</p>
+  <p>¡Gracias por ponerse en contacto!. Su mensaje será revisado y contestado a la brevedad.</p>
 </div>
 
 ---
 <div class="flex justify-center">
-  <button class="btn btn-primary" onclick="window.location.href='/';">Back to Home</button>
+  <button class="btn btn-primary" onclick="window.location.href='/';">Volver al Inicio</button>
 </div>

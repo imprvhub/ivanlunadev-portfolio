@@ -1,5 +1,5 @@
 ---
-import ProjectsCard from "@/components/ProjectsCard.astro";
+import ProyectosCard from "@/components/ProyectosCard.astro";
 import Pagination from "@/components/Pagination.astro";
 import config from "@/config/config.json";
 import Base from "@/layouts/Base.astro";
@@ -9,9 +9,8 @@ import PageHeader from "@/partials/PageHeader.astro";
 import PostSidebar from "@/partials/PostSidebar.astro";
 import { getCollection, getEntry } from "astro:content";
 
-const COLLECTION_FOLDER = "projects";
+const COLLECTION_FOLDER = "proyectos";
 
-const { slug } = Astro.params;
 const postIndex = await getEntry(COLLECTION_FOLDER, "-index");
 const posts = await getCollection(
   COLLECTION_FOLDER,
@@ -21,30 +20,8 @@ const allCategories = await getAllTaxonomy(COLLECTION_FOLDER, "categories");
 const categories = await getTaxonomy(COLLECTION_FOLDER, "categories");
 const tags = await getTaxonomy(COLLECTION_FOLDER, "tags");
 const sortedPosts = sortByDate(posts);
-const totalPages = Math.ceil(posts.length / config.settings.pagination);
-const currentPage = slug && !isNaN(Number(slug)) ? Number(slug) : 1;
-const indexOfLastPost = currentPage * config.settings.pagination;
-const indexOfFirstPost = indexOfLastPost - config.settings.pagination;
-const currentPosts = sortedPosts.slice(indexOfFirstPost, indexOfLastPost);
-
-export async function getStaticPaths() {
-  const COLLECTION_FOLDER = "projects";
-  const posts = await getCollection(
-    COLLECTION_FOLDER,
-    ({ data, slug }) => !data.draft && slug !== "-index",
-  );
-  const totalPages = Math.ceil(posts.length / config.settings.pagination);
-  const paths = [];
-
-  for (let i = 1; i < totalPages; i++) {
-    paths.push({
-      params: {
-        slug: (i + 1).toString(),
-      },
-    });
-  }
-  return paths;
-}
+const totalPages: number = Math.ceil(posts.length / config.settings.pagination);
+const currentPosts = sortedPosts.slice(0, config.settings.pagination);
 ---
 
 <Base
@@ -63,14 +40,14 @@ export async function getStaticPaths() {
             {
               currentPosts.map((post) => (
                 <div class="mb-14 md:col-6">
-                  <ProjectsCard data={post} />
+                  <ProyectosCard data={post} />
                 </div>
               ))
             }
           </div>
           <Pagination
             section={COLLECTION_FOLDER}
-            currentPage={currentPage}
+            currentPage={1}
             totalPages={totalPages}
           />
         </div>

@@ -1,0 +1,93 @@
+---
+title: "🎧 Fifty List - Una Plataforma de Automatización Musical con React/Python."
+meta_title: "Iván Luna - Desarrollador de Software - Fifty List"
+description: "Esta es la descripción meta"
+date: 2024-01-07T05:00:00Z
+image: "/images/fifty-list.png"
+categories: ["React.js", "Python", "Entretenimiento", "Desarrollo", "Despliegue en Vercel"]
+tags: ["fifty-list", "flask", "react"]
+draft: false
+---
+
+#### Bienvenid@s a [Fifty List - Obteniendo tus 50 mejores canciones.](https://fiftylist.vercel.app/)
+
+Este proyecto demuestra una integración sofisticada de React y Python utilizando las **_API de Spotify y Todoist_**. Para obtener información detallada, visita el [Repositorio de Fifty List React en Github](https://github.com/imprvhub/fiftylist-react/) y el [Repositorio de Fifty List Python en Github](https://github.com/imprvhub/fiftylist-python/).
+
+#### Demostración:
+https://fiftylist.vercel.app/
+
+#### Características Clave:
+
+##### Componente React
+- Integración con Spotify: Obtiene tus 50 mejores canciones de Spotify en un período elegido (1 mes, 6 meses o clásicos de todos los tiempos).
+- Creación de Listas de Reproducción: Genera automáticamente una nueva lista de reproducción en tu cuenta de Spotify con estas 50 canciones.
+- Creación de Listas de Recomendaciones: Basado en tus 50 canciones más escuchadas, nuestro motor de recomendaciones sugiere 20 canciones adicionales para agregar a tus listas de reproducción.
+
+##### Componente Python
+- Potenciado por Flask: Actúa como un intermediario que interactúa entre React y Todoist.
+- Gestión de Tareas: Organiza detalles de las canciones en tareas en Todoist, incluyendo nombres de artistas, títulos de canciones, nombres de álbumes, fechas de lanzamiento y géneros.
+
+#### Acerca del Proyecto:
+
+Fifty List es un proyecto exploratorio que profundiza en la colaboración de diferentes lenguajes de programación y API. Está diseñado para:
+- Demostrar Comunicación: Muestra una comunicación fluida entre el frontend y el backend mediante llamadas a distintas API.
+- Enfatizar la Sinergia de Lenguajes: Destaca la sinergia entre el frontend de React y el backend de Python.
+- Desafío de Presentación de Datos: Asegura que los datos complejos se representen de manera amigable para el usuario y se transmitan eficazmente.
+
+#### Instalación y Uso:
+
+##### Para la Instalación del Frontend:
+1. Clona este proyecto.
+ ```bash
+git clone https://github.com/imprvhub/fiftylist-react.git
+```
+2. Navega al directorio del proyecto (en tu terminal IDE).
+```bash
+cd /your/folder/directory/fiftylist-react
+```
+3. Ejecuta el siguiente comando para instalar todas las dependencias requeridas.
+```bash
+npm install
+```
+4. Reemplaza las variables de entorno (`REACT_APP_SCOPES`, `REACT_APP_REDIRECT_URI`, `REACT_APP_CLIENT_SECRET`, `REACT_APP_CLIENT_ID`) con las tuyas. Podrás generar estas variables desde el Panel de Desarrolladores de Spotify.
+5. Reemplaza la variable definida al principio del código en `App.js`:
+   `const redirectUri = 'https://fiftylist.vercel.app/callback';` con -> `const redirectUri = "http://localhost:3000/callback";`
+   Actualiza las URL en las variables de la función `exportTodoist` de `'https://fiftylistbackend.vercel.app/todoist'` a `'http://localhost:5000/todoist'` si tu backend de Python está utilizando un puerto diferente.
+6. Ejecuta el siguiente comando desde tu terminal IDE; esto debería iniciar el frontend en el puerto designado.
+```bash
+npm start
+```
+
+##### Para la Instalación del Backend:
+##### Requisitos:
+[**Python 3.11**](https://www.python.org/downloads/release/python-3110/)
+
+1. Clona el proyecto. ( https://github.com/imprvhub/fiftylist-python )
+ ```bash
+git clone https://github.com/imprvhub/fiftylist-python.git
+```
+
+1.2 Navega al directorio del proyecto (en tu terminal IDE).
+```bash
+cd /your/folder/directory/fiftylist-python
+```
+2. Ejecuta el siguiente comando para instalar todas las dependencias requeridas.
+```bash
+pip install -r requirements.txt
+```
+3. Reemplaza la variable definida al principio del código de todoist.py: `cors = CORS(app, resources={r"/todoist": {"origins": "https://fiftylist-frontend.vercel.app/"}})` con ->  `cors = CORS(app, resources={r"/todoist": {"origins": "http://localhost:3000/"}})` (o el puerto que hayas designado para tu frontend).
+4. Ejecuta `python3 todoist.py`.
+   
+IMPORTANTE: Abre ambos proyectos en tu IDE para ejecutar el fullstack localmente. Ejecuta los comandos para que ambos proyectos funcionen simultáneamente sin problemas.
+
+#### Contribuciones
+
+Damos la bienvenida a contribuciones al proyecto Fifty List. Para sugerencias y mejoras, comuniquese a contact@ivanluna.dev.
+
+---
+<div class="flex justify-between">
+      <button class="btn btn-primary" onclick="window.location.href='/';">Volver al Inicio</button>
+      <button class="btn btn-primary" onclick="window.location.href='/proyectos';">Volver a Proyectos</button>     
+</div>
+
+---

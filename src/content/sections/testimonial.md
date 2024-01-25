@@ -1,7 +1,7 @@
 ---
 enable: true
-title: "What Other Devs Are Saying?"
-description: "Don't just take my word for it. Hear from some others developers have to say!"
+title: "Qué dicen otros Devs?"
+description: "No te quedes únicamente con lo que yo digo, esto es lo que dicen otros engs/devs sobre mi trabajo."
 # Testimonials
 testimonials:
   - name: "Example"

@@ -1,5 +1,5 @@
 ---
-title: "Authors"
-meta_title: "Iván Luna - Software Developer - Authors"
+title: "Autores"
+meta_title: "Iván Luna - Desarrollador de Software - Autores"
 description: ""
 ---

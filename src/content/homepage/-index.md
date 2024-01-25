@@ -1,26 +1,26 @@
 ---
 # Banner
 banner:
-  title: "Hello! I'm"
-  content: "Iván Luna. Software Developer."
+  title: "¡Hola! Soy"
+  content: "Iván Luna. Desarrollador de Software."
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Relevant Projects"
-    link: "/projects"
+    label: "Proyectos Relevantes"
+    link: "/proyectos"
   
 
-# Features
+# Características
 features:
-  - title: "Experience"
+  - title: "Experiencia"
     image: "/images/service-1.png"
     content: ""
     bulletpoints:
-      - "+4 years of experience in back-end development using Python."
-      - "Versatile with Frameworks: Expertise in Flask-RESTful, Django REST framework as well in NumPy, Pandas, Scikit-learn, TensorFlow, Node.js, and others."
-      - "Frontend Capabilities: Skilled in Vanilla JavaScript, React, Astro, Next, Vue, Vite, and Nuxt."
-      - "+3 years of experience as a Freelance Developer on Fiverr."
-      - "Current Focus on Machine Learning and Data Science: Mastery of new frameworks and exploration of advanced concepts."
+      - "Más de 4 años de experiencia en desarrollo back-end utilizando Python."
+      - "Versátil con Frameworks: Experiencia en Flask-RESTful, Django REST framework, así como en NumPy, Pandas, Scikit-learn, TensorFlow, Node.js y otros."
+      - "Capacidades Frontend: Habilidades en Vanilla JavaScript, React, Astro, Next, Vue, Vite y Nuxt."
+      - "Más de 3 años de experiencia como Desarrollador Freelance en Fiverr."
+      - "Enfoque actual en Machine Learning y Data Science: Dominio de nuevos frameworks y exploración de conceptos avanzados."
 
 
     button:
@@ -28,15 +28,15 @@ features:
       label: ""
       link: ""
 
-  - title: "Highlights and Achievements"
+  - title: "Aspectos Destacados y Logros"
     image: "/images/service-2.png"
     content: ""
     bulletpoints:
-      - "[***<ins>Over 16 certificates<ins>***](https://www.linkedin.com/in/ivanluna-dev/details/certifications/) from Jet Brains Academy."
-      - "[***<ins>C2 Proeficient Certification<ins>***](https://www.efset.org/cert/d4vAsK) at EF International Language Centers."
-      - "Commitment to Innovation: Focused on innovative projects that reflect my creativity and dedication."
-      - "Results-Oriented Professional: Proven results-oriented professional, delivering effective solutions."
-      - "Continuous Exploration: Open-minded and seeking new opportunities to challenge my skills and grow."
+      - "[***<ins>Más de 16 certificados<ins>***](https://www.linkedin.com/in/ivanluna-dev/details/certifications/) de Jet Brains Academy."
+      - "[***<ins>Certificación C2 Proficiente<ins>***](https://www.efset.org/cert/d4vAsK) en EF International Language Centers."
+      - "Compromiso con la Innovación: Enfocado en proyectos innovadores que reflejen mi creatividad y dedicación."
+      - "Profesional Orientado a Resultados: Profesional orientado a resultados comprobados, ofreciendo soluciones efectivas."
+      - "Exploración Continua: En búsqueda de nuevas oportunidades para desafiar mis habilidades y crecer profesionalmente."
     button:
       enable: false
       label: ""

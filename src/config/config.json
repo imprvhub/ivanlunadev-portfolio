@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Iván Luna - Software Developer",
+    "title": "Iván Luna - Desarrollador de Software",
     "base_url": "https://ivanluna.dev",
     "base_path": "/",
     "trailing_slash": false,
@@ -24,12 +24,12 @@
     "default_theme": "light",
     "pagination": 4,
     "summary_length": 300,
-    "projects_folder": "projects"
+    "proyectos_folder": "proyectos"
   },
 
   "params": {
     "contact_form_action": "",
-    "copyright": "© 2024 [Iván Luna.](https://ivanluna.dev) Software Developer."
+    "copyright": "© 2024 [Iván Luna.](https://ivanluna.dev) Desarrollador de Software."
   },
 
   "navigation_button": {

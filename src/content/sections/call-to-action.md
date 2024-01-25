@@ -1,11 +1,11 @@
 ---
 enable: true
-title: "Ready to work together?"
+title: "¡Trabajemos juntos!"
 image: "/images/call-to-action.png"
-description: "Let's schedule an interview or brainstorm ideas for future projects!."
+description: "Programemos una entrevista o pensemos en ideas para futuros proyectos."
 button:
   enable: true
-  label: "Get My Resume & Contact Me."
-  link: "/my-resume"
+  label: "Descarga mi CV o Contáctame."
+  link: "/mi-cv"
 
 ---

@@ -1,5 +1,5 @@
 ---
-import ProjectsCard from "@/components/ProjectsCard.astro";
+import ProyectosCard from "@/components/ProyectosCard.astro";
 import Base from "@/layouts/Base.astro";
 import { getTaxonomy } from "@/lib/taxonomyParser.astro";
 import taxonomyFilter from "@/lib/utils/taxonomyFilter";
@@ -7,8 +7,8 @@ import PageHeader from "@/partials/PageHeader.astro";
 import { getCollection } from "astro:content";
 
 export async function getStaticPaths() {
-  const PROJECTS_FOLDER = "projects";
-  const tags = await getTaxonomy(PROJECTS_FOLDER, "tags");
+  const PROYECTOS_FOLDER = "proyectos";
+  const tags = await getTaxonomy(PROYECTOS_FOLDER, "tags");
 
   return tags.map((tag) => {
     return {
@@ -19,7 +19,7 @@ export async function getStaticPaths() {
 
 const { tag } = Astro.params;
 const posts = await getCollection(
-  "projects",
+  "proyectos",
   ({ data, slug }) => !data.draft && slug !== "-index",
 );
 const filterByTags = taxonomyFilter(posts, "categories", tag!);
@@ -33,7 +33,7 @@ const filterByTags = taxonomyFilter(posts, "categories", tag!);
         {
           filterByTags.map((post) => (
             <div class="mb-14 md:col-6 lg:col-4">
-              <ProjectsCard data={post} />
+              <ProyectosCard data={post} />
             </div>
           ))
         }
