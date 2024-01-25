@@ -1,5 +1,5 @@
 ---
-import ProjectsCard from "@/components/ProjectsCard.astro";
+import ProjetosCard from "@/components/ProjetosCard.astro";
 import Share from "@/components/Share.astro";
 import Disqus from "@/helpers/Disqus";
 import dateFormat from "@/lib/utils/dateFormat";
@@ -13,7 +13,7 @@ import {
   FaRegUserCircle,
 } from "react-icons/fa/index.js";
 
-const COLLECTION_FOLDER = "projects";
+const COLLECTION_FOLDER = "projetos";
 const { post } = Astro.props;
 
 const posts = await getCollection(
@@ -104,12 +104,12 @@ const { title, description, author, categories, image, date, tags } = post.data;
 
     <!-- Related posts -->
     <div class="section pb-0">
-      <h2 class="h3 mb-12 text-center">Related Posts</h2>
+      <h2 class="h3 mb-12 text-center">Projetos Semelhantes</h2>
       <div class="row justify-center">
         {
           similarPosts.map((post) => (
             <div class="lg:col-4">
-              <ProjectsCard data={post} />
+              <ProjetosCard data={post} />
             </div>
           ))
         }

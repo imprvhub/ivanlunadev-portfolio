@@ -1,6 +1,6 @@
 ---
-title: "Contact"
-meta_title: "Iván Luna - Software Developer - Contact"
-description: "this is meta description"
+title: "Contato"
+meta_title: "Iván Luna - Desenvolvedor de Software - Contato"
+description: ""
 draft: false
 ---

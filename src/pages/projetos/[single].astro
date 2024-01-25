@@ -4,7 +4,7 @@ import PostSingle from "@/layouts/PostSingle.astro";
 import { getCollection } from "astro:content";
 
 export async function getStaticPaths() {
-  const COLLECTION_FOLDER = "projects";
+  const COLLECTION_FOLDER = "projetos";
   const posts = await getCollection(
     COLLECTION_FOLDER,
     ({ data, slug }) => !data.draft && slug !== "-index",

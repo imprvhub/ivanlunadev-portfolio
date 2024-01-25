@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const matter = require("gray-matter");
 const config = require("../src/config/config.json");
-const { projects_folder } = config.settings;
+const { projetos_folder } = config.settings;
 const jsonDir = "./.json";
 
 // get data from markdown
@@ -29,7 +29,7 @@ const getData = (folder) => {
 };
 
 // get post data
-const posts = getData(`src/content/${projects_folder}`);
+const posts = getData(`src/content/${projetos_folder}`);
 
 try {
   // creare folder if it doesn't exist

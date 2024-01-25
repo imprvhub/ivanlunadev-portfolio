@@ -4,7 +4,7 @@ import SearchLayout from "@/layouts/Search";
 import { getCollection } from "astro:content";
 
 const posts = await getCollection(
-  "projects",
+  "projetos",
   ({ data, slug }) => !data.draft && slug !== "-index",
 );
 

@@ -4,10 +4,10 @@ import { getAllTaxonomy, getTaxonomy } from "@/lib/taxonomyParser.astro";
 import { humanize } from "@/lib/utils/textConverter";
 import PageHeader from "@/partials/PageHeader.astro";
 
-const PROJECTS_FOLDER = "projects";
+const PROJETOS_FOLDER = "projetos";
 
-const tags = await getTaxonomy(PROJECTS_FOLDER, "tags");
-const allTags = await getAllTaxonomy(PROJECTS_FOLDER, "tags");
+const tags = await getTaxonomy(PROJETOS_FOLDER, "tags");
+const allTags = await getAllTaxonomy(PROJETOS_FOLDER, "tags");
 ---
 
 <Base title={"Tags"}>

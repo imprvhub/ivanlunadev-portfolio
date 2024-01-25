@@ -8,7 +8,7 @@ import {
   FaSearch,
 } from "react-icons/fa/index.js";
 
-const { summary_length, projects_folder } = config.settings;
+const { summary_length, projetos_folder } = config.settings;
 
 export type SearchItem = {
   slug: string;
@@ -131,7 +131,7 @@ const SearchLayout = ({ searchList }: Props) => {
                     />
                   )}
                   <h4 className="mb-3">
-                    <a href={`/${projects_folder}/${item.slug}`}>
+                    <a href={`/${projetos_folder}/${item.slug}`}>
                       {item.data.title}
                     </a>
                   </h4>
@@ -164,9 +164,9 @@ const SearchLayout = ({ searchList }: Props) => {
                   </p>
                   <a
                     className="btn btn-outline-primary btn-sm"
-                    href={`/${projects_folder}/${item.slug}`}
+                    href={`/${projetos_folder}/${item.slug}`}
                   >
-                    read more
+                    Mais Informação
                   </a>
                 </div>
               </div>

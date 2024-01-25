@@ -1,9 +1,9 @@
 ---
-title: "About Me"
-meta_title: "Iván Luna - Software Developer - About"
-description: "this is meta description"
+title: "Perfil"
+meta_title: "Iván Luna - Desenvolvedor de software - Perfil"
+description: ""
 image: "/images/avatar.png"
 draft: false
 ---
  
-Based in Buenos Aires, I am a **Backend developer** with a technical focus on **Python** (four years of experience), I have also worked with technologies such as Vanilla Javascript, Vue.js, React.js, Vite.js, Nuxt.js and Node.js. My programming career began as a complementary interest during my Psychology studies, evolving into a central role in my life. Currently, I am dedicated to mastering new frameworks and exploring advanced concepts in machine learning and data science. Actively seeking job opportunities, my commitment to innovation and dedication positions me as a results-oriented professional.
+Sou um **desenvolvedor Backend** morando em Buenos Aires, com foco técnico em **Python** (quatro anos de experiência). Também trabalhei com tecnologias como Vanilla Javascript, Vue.js, React.js, Vite.js, Nuxt.js e Node.js. Minha jornada na programação começou como um interesse complementar durante meus estudos em Psicologia, evoluindo para um papel central em minha vida. Atualmente, dedico-me a dominar novos frameworks e explorar conceitos avançados em aprendizado de máquina e ciência de dados. Na minha busca ativa por oportunidades profissionais, meu compromisso com a inovação e a dedicação me coloca como um profissional orientado para resultados. 
