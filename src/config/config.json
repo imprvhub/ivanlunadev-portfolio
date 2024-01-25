@@ -1,0 +1,52 @@
+{
+  "site": {
+    "title": "Iván Luna - Software Developer",
+    "base_url": "https://ivanluna.dev",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_darkmode": "/images/logo-darkmode.png",
+    "logo_width": "150",
+    "logo_height": "30",
+    "logo_text": "ivanluna.dev",
+    "logo2": "/images/logowithoutbackground.png",
+    "logo2_darkmode": "/images/logowithoutbackground.png",
+    "logo2_width": "50",
+    "logo2_height": "50",
+    "logo2_text": "ivanluna.dev"
+  },
+
+  "settings": {
+    "search": true,
+    "sticky_header": true,
+    "theme_switcher": true,
+    "default_theme": "light",
+    "pagination": 4,
+    "summary_length": 300,
+    "projects_folder": "projects"
+  },
+
+  "params": {
+    "contact_form_action": "",
+    "copyright": "© 2024 [Iván Luna.](https://ivanluna.dev) Software Developer."
+  },
+
+  "navigation_button": {
+    "enable": false,
+    "label": "",
+    "link": ""
+  },
+
+  "disqus": {
+    "enable": true,
+    "shortname": "themefisher-template",
+    "settings": {}
+  },
+
+  "metadata": {
+    "meta_author": "ivanluna.dev",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Software Developer Portfolio"
+  }
+}

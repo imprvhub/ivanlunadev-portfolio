@@ -1,0 +1,63 @@
+---
+import config from "@/config/config.json";
+import { Image } from "astro:assets";
+
+const { src, srcDarkmode }: { src?: string; srcDarkmode?: string } =
+  Astro.props;
+const {
+  logo2,
+  logo2_darkmode,
+  logo2_width,
+  logo2_height,
+  logo2_text,
+  title,
+}: {
+  logo2: string;
+  logo2_darkmode: string;
+  logo2_width: any;
+  logo2_height: any;
+  logo2_text: string;
+  title: string;
+} = config.site;
+
+const { theme_switcher }: { theme_switcher: boolean } = config.settings;
+---
+
+<a href="/" class="navbar-brand inline-block">
+  {
+    src || srcDarkmode || logo2 || logo2_darkmode ? (
+      <>
+        <Image
+          src={src ? src : logo2}
+          class={`inline-block ${theme_switcher && "dark:hidden"}`}
+          width={logo2_width.replace("px", "") * 2}
+          height={logo2_height.replace("px", "") * 2}
+          alt={title}
+          style={{
+            height: logo2_height.replace("px", "") + "px",
+            width: logo2_width.replace("px", "") + "px",
+          }}
+          format="webp"
+        />
+        {theme_switcher && (
+          <Image
+            src={srcDarkmode ? srcDarkmode : logo2_darkmode}
+            class={"hidden dark:inline-block"}
+            width={logo2_width.replace("px", "") * 2}
+            height={logo2_height.replace("px", "") * 2}
+            alt={title}
+            style={{
+              height: logo2_height.replace("px", "") + "px",
+              width: logo2_width.replace("px", "") + "px",
+            }}
+            format="webp"
+          />
+        )}
+      </>
+    ) : logo2_text ? (
+      logo2_text
+    ) : (
+      title
+    )
+  }
+</a>

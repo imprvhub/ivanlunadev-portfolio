@@ -1,0 +1,43 @@
+---
+import ProjectsCard from "@/components/ProjectsCard.astro";
+import Base from "@/layouts/Base.astro";
+import { getTaxonomy } from "@/lib/taxonomyParser.astro";
+import taxonomyFilter from "@/lib/utils/taxonomyFilter";
+import PageHeader from "@/partials/PageHeader.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const PROJECTS_FOLDER = "projects";
+  const categories = await getTaxonomy(PROJECTS_FOLDER, "categories");
+
+  return categories.map((category) => {
+    return {
+      params: { category },
+    };
+  });
+}
+
+const { category } = Astro.params;
+const posts = await getCollection(
+  "projects",
+  ({ data, slug }) => !data.draft && slug !== "-index",
+);
+const filterByCategories = taxonomyFilter(posts, "categories", category!);
+---
+
+<Base title={category}>
+  <PageHeader title={category} />
+  <div class="section-sm pb-0">
+    <div class="container">
+      <div class="row">
+        {
+          filterByCategories.map((post) => (
+            <div class="mb-14 md:col-6 lg:col-4">
+              <ProjectsCard data={post} />
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</Base>
