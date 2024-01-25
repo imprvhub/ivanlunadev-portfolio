@@ -17,7 +17,7 @@ input#nav-toggle:checked ~ #nav-menu {
 
 // navbar items
 .navbar {
-  @apply absolute flex flex-wrap items-center justify-between bg-white dark:bg-darkmode-theme-light;
+  @apply absolute flex flex-wrap items-center justify-between bg-white dark:bg-darkmode-body;
 }
 
 .navbar-brand {
@@ -44,7 +44,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .nav-dropdown-list {
-  @apply z-10 min-w-[180px] rounded bg-body p-4 dark:bg-darkmode-theme-light;
+  @apply z-10 min-w-[180px] rounded bg-body p-4 dark:bg-darkmode-body;
 }
 
 .nav-dropdown-item {
