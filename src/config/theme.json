@@ -4,7 +4,7 @@
       "theme_color": {
         "primary": "#121212",
         "body": "#fff",
-        "border": "#00000000",
+        "border": "#eaeaea",
         "theme_light": "#f6f6f6",
         "theme_dark": ""
       },
@@ -18,7 +18,7 @@
       "theme_color": {
         "primary": "#fff",
         "body": "#1c1c1c",
-        "border": "#00000000",
+        "border": "#eaeaea",
         "theme_light": "#222222",
         "theme_dark": ""
       },
