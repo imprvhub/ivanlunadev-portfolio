@@ -17,7 +17,7 @@ features:
     content: ""
     bulletpoints:
       - "Más de 4 años de experiencia en desarrollo back-end utilizando Python."
-      - "Versátil con Frameworks: Experiencia en Flask-RESTful, Django REST framework, así como en NumPy, Pandas, Scikit-learn, TensorFlow, Node.js y otros."
+      - "Versátil con frameworks: Experiencia en Flask-RESTful, Django REST y Node.js, así como en librerías como NumPy, Scikit-learn, TensorFlow, y otras."
       - "Capacidades Frontend: Habilidades en Vanilla JavaScript, React, Astro, Next, Vue, Vite y Nuxt."
       - "Más de 3 años de experiencia como Desarrollador Freelance en Fiverr."
       - "Enfoque actual en Machine Learning y Data Science: Dominio de nuevos frameworks y exploración de conceptos avanzados."
