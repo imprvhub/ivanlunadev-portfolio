@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Software Developer",
   "author": "ivanluna.dev",
-  "license": "MIT",
+  "license": "",
   "packageManager": "yarn@1.22.19",
   "scripts": {
     "dev": "astro dev",
