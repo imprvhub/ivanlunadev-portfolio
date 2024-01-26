@@ -81,6 +81,14 @@ pip install -r requirements.txt
    
 IMPORTANT: Open two separate windows in your IDE to run the fullstack locally. Execute the commands to have both projects running simultaneously for them to work seamlessly.
 
+#### Conclusion:
+
+Although the functionality of exporting song data to Todoist may seem unnecessary, my main focus was to achieve effective integration between various programming languages and ensure efficient feedback with the Python backend. Additionally, I saw this opportunity as a way to learn about new APIs.
+
+#### Future Plans: 
+
+In the future, just as currently the export works for Todoist. I would also like to add an 'Export to Notion' new feature.
+
 #### Contributing
 
 We welcome contributions to the FiftyList project. If you have suggestions or improvements, feel free to contact us at contact@ivanluna.dev.
