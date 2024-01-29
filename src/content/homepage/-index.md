@@ -18,7 +18,7 @@ features:
     bulletpoints:
       - "+4 years of experience in back-end development using Python."
       - "Versatile with frameworks: Expertise in Flask-RESTful, Django REST, as well as libraries like NumPy, Scikit-learn, TensorFlow, and others."
-      - "Frontend Capabilities: Skilled in Vanilla JavaScript, React, Astro, Next, Vue, Vite, and Nuxt."
+      - "Frontend Capabilities: Skilled in Vanilla JavaScript, React, Astro, Next, Vue, Vite."
       - "+3 years of experience as a Freelance Developer on Fiverr."
       - "Current Focus on Machine Learning and Data Science: Mastery of new frameworks and exploration of advanced concepts."
 
