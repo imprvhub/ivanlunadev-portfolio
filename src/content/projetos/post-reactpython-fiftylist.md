@@ -4,7 +4,7 @@ meta_title: "Iván Luna - Desenvolvedor de Software - Fifty List"
 description: ""
 date: 2024-01-07T05:00:00Z
 image: "/images/fifty-list.png"
-categories: ["React.js","Python","Desenvolvimento","Implantação Vercel"]
+categories: ["React.js","Python","API RESTful","Desenvolvimento","Implantação Vercel"]
 tags: ["fifty-list","flask","react"]
 draft: false
 ---
