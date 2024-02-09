@@ -3,7 +3,7 @@
 banner:
   title: "¡Hola! Soy"
   content: "Iván Luna. Desarrollador de Software."
-  image: "/images/banner.png"
+  image: "/images/banner.webp"
   button:
     enable: true
     label: "Proyectos Relevantes"
