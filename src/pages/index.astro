@@ -74,6 +74,7 @@ const { banner, features }: Homepage = homepage.data;
                 width={520}
                 alt={feature.title}
                 format="webp"
+                
               />
             </div>
             <div class={`md:col-7 lg:col-6 ${index % 2 !== 0 && "md:order-1"}`}>
@@ -103,8 +104,10 @@ const { banner, features }: Homepage = homepage.data;
       </section>
     ))
   }
+  
   <!-- /Features -->
 
    <!--<Testimonial testimonial={testimonial} />-->
   <CallToAction call_to_action={call_to_action} />
 </Base>
+
