@@ -3,7 +3,7 @@
 banner:
   title: "Hello! I'm"
   content: "Iván Luna. Software Developer."
-  image: "/images/banner.png"
+  image: "/images/banner.webp"
   button:
     enable: true
     label: "Relevant Projects"
