@@ -18,12 +18,12 @@ https://fiftylist.vercel.app/
 
 #### Características Clave:
 
-##### Componente React
+##### Frontend (React.js)
 - Integración con Spotify: Obtiene tus 50 mejores canciones de Spotify en un período elegido (1 mes, 6 meses o clásicos de todos los tiempos).
 - Creación de Listas de Reproducción: Genera automáticamente una nueva lista de reproducción en tu cuenta de Spotify con estas 50 canciones.
 - Creación de Listas de Recomendaciones: Basado en tus 50 canciones más escuchadas, nuestro motor de recomendaciones sugiere 20 canciones adicionales para agregar a tus listas de reproducción.
 
-##### Componente Python
+##### Backend (Python)
 - Potenciado por Flask: Actúa como un intermediario que interactúa entre React y Todoist.
 - Gestión de Tareas: Organiza detalles de las canciones en tareas en Todoist, incluyendo nombres de artistas, títulos de canciones, nombres de álbumes, fechas de lanzamiento y géneros.
 
