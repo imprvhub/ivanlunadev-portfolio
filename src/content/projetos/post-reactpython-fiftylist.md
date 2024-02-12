@@ -18,12 +18,12 @@ https://fiftylist.vercel.app/
 
 #### Principais Recursos:
 
-##### Componente React
+##### Frontend (React.js)
 - Integração com o Spotify: Busca suas 50 principais faixas do Spotify dentro de um período escolhido (1, 6 meses ou clássicos de todos os tempos).
 - Criação de Playlists: Gera automaticamente uma nova playlist em sua conta do Spotify com essas faixas.
 - Criação de Listas de Recomendações: Com base nas suas 50 músicas mais ouvidas, nosso mecanismo de recomendação sugere mais 20 músicas para adicionar às suas playlists.
 
-##### Componente Python
+##### Backend (Python)
 - Alimentado por Flask: Age como um middleware que interage entre React e Todoist.
 - Gerenciamento de Tarefas: Organiza detalhes das faixas em tarefas no Todoist, incluindo nomes de artistas, títulos de músicas, nomes de álbuns, datas de lançamento e gêneros.
 
