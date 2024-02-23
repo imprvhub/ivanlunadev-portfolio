@@ -15,11 +15,11 @@ A Python web application for fetching NASA's Astronomy Picture of the Day, share
 
 Visit the live app: [apod-nasa-viewer.vercel.app](https://apod-nasa-viewer.vercel.app)
 
-#### About
+#### About this project:
 
 This project is a Python web application built with Flask. It fetches NASA's Astronomy Picture of the Day (APOD) from the NASA API and provides functionalities to view and share the images as APOD cards. For more information you can visit the [Github repository](https://github.com/imprvhub/nasa-apod-viewer).
 
-#### Features
+#### Features:
 
 - Fetches the Astronomy Picture of the Day from the NASA API.
 - Enables users to explore APOD images via a calendar navigation or by searching for specific dates.
@@ -27,16 +27,16 @@ This project is a Python web application built with Flask. It fetches NASA's Ast
 - Showcases a curated selection of the finest APOD images from 1995 (the inception year of APOD) to the present via the 'Featured NASA APOD per year' Recommendations section.
 - Generates shareable APOD cards comprising the retrieved image, title, and description.
 
-#### Table of Contents
+#### Topics:
 
-- [About](#about)
+- [About This Project](#about-this-project)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Feedback & Support](#feedback--support)
 - [License](#license)
 
-#### Installation
+#### Installation:
 
 To run this project locally, follow these steps:
 
@@ -68,15 +68,11 @@ To run this project locally, follow these steps:
    python3 index.py
    ```
 
-#### Usage
-
-Once the application is running locally, you can access it in your web browser at 'http://localhost:5000/'.
-
-#### Feedback & Support
+#### Feedback & Support:
 
 Your feedback is valuable! If you encounter any issues or have suggestions for improvements, please create a new GitHub issue in this repository.
 
-#### License
+#### License:
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/imprvhub/nasa-apod-viewer/blob/main/LICENSE.md) file for details.
 
