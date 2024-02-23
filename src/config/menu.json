@@ -14,6 +14,10 @@
       "hasChildren": true,
       "children": [
         {
+          "name": "Nasa Apod Viewer",
+          "url": "/projects/post-nasa-apod-viewer"
+        },
+        {
           "name": "BoltURL",
           "url": "/proyectos/post-python-bolturl"
         },
