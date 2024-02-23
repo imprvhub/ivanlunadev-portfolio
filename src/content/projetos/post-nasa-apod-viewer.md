@@ -3,12 +3,11 @@ title: "🪐Nasa Apod Viewer - Uma aplicação web Python para buscar a Imagem A
 meta_title: "Iván Luna - Desenvolvedor de Software - Nasa APOD Viewer"
 description: "this is meta description"
 date: 2024-01-20T05:00:00Z
-image: "/images/bolt-url.png"
+image: "/images/nasa-apod-viewer.png"
 categories: ["Python","SQL","Desenvolvimento","Implantação no Vercel"]
 tags: ["nasa-apod-viewer","flask"]
 draft: false
 ---
-
 
 ### Bem-vindo ao Projeto [Nasa Apod Viewer](https://apod-nasa-viewer.vercel.app/).
 
@@ -16,11 +15,11 @@ Uma aplicação web Python para buscar a Imagem Astronômica do Dia da NASA, com
 
 Visite o aplicativo ao vivo: [apod-nasa-viewer.vercel.app](https://apod-nasa-viewer.vercel.app)
 
-#### Sobre
+#### Sobre o projeto:
 
 Este projeto é uma aplicação web Python construída com Flask. Busca a Imagem Astronômica do Dia (APOD) da API da NASA e fornece funcionalidades para visualizar e compartilhar as imagens como cartões APOD. Para mais informações você pode visitar o [repositório GitHub](https://github.com/imprvhub/nasa-apod-viewer).
 
-#### Recursos
+#### Recursos:
 
 - Busca a Imagem Astronômica do Dia da API da NASA.
 - Permite aos usuários explorar imagens APOD através de uma navegação por calendário ou buscando datas específicas.
@@ -28,16 +27,16 @@ Este projeto é uma aplicação web Python construída com Flask. Busca a Imagem
 - Apresenta uma seleção curada das melhores imagens APOD desde 1995 (o ano de início do APOD) até o presente através da seção 'Recomendações destacadas da NASA APOD por ano'.
 - Gera cartões APOD compartilháveis contendo a imagem, título e descrição recuperados.
 
-#### Índice
+#### Índice:
 
-- [Sobre](#sobre)
+- [Sobre o projeto](#sobre-o-projeto)
 - [Recursos](#recursos)
 - [Instalação](#instalação)
 - [Uso](#uso)
 - [Feedback & Suporte](#feedback--suporte)
 - [Licença](#licença)
 
-#### Instalação
+#### Instalação:
 
 Para executar este projeto localmente, siga estes passos:
 
@@ -69,15 +68,11 @@ Para executar este projeto localmente, siga estes passos:
    python3 index.py
    ```
 
-#### Uso
-
-Depois que a aplicação estiver rodando localmente, você pode acessá-la em seu navegador da web em 'http://localhost:5000/'.
-
-#### Feedback & Suporte
+#### Feedback & Suporte:
 
 Seu feedback é valioso! Se encontrar algum problema ou tiver sugestões de melhorias, por favor crie uma nova issue no GitHub neste repositório.
 
-#### Licença
+#### Licença:
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https://github.com/imprvhub/nasa-apod-viewer/blob/main/LICENSE.md) para detalhes.
 
