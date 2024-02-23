@@ -19,7 +19,7 @@ Visita la aplicación en vivo: [apod-nasa-viewer.vercel.app](https://apod-nasa-v
 
 Este proyecto es una aplicación web Python construida con Flask. Obtiene la Imagen Astronómica del Día (APOD) de la API de la NASA y proporciona funcionalidades para ver y compartir las imágenes como tarjetas APOD. Para más información puede visitar el [repositorio de Github](https://github.com/imprvhub/nasa-apod-viewer).
 
-#### Características
+#### Características:
 
 - Obtiene la Imagen Astronómica del Día de la API de la NASA.
 - Permite a los usuarios explorar imágenes APOD mediante una navegación por calendario o buscando fechas específicas.
@@ -27,7 +27,7 @@ Este proyecto es una aplicación web Python construida con Flask. Obtiene la Ima
 - Presenta una selección curada de las mejores imágenes APOD desde 1995 (el año de inicio de APOD) hasta la actualidad a través de la sección 'Featured NASA APOD per year'.
 - Genera tarjetas APOD compartibles que incluyen la imagen, el título y la descripción recuperados.
 
-#### Tabla de Contenidos
+#### Tópicos:
 
 - [Acerca de este proyecto](#acerca-de-este-proyecto)
 - [Características](#características)
@@ -36,7 +36,7 @@ Este proyecto es una aplicación web Python construida con Flask. Obtiene la Ima
 - [Comentarios y Soporte](#comentarios--soporte)
 - [Licencia](#licencia)
 
-#### Instalación
+#### Instalación:
 
 Para ejecutar este proyecto localmente, sigue estos pasos:
 
@@ -68,15 +68,11 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
    python3 index.py
    ```
 
-#### Uso
-
-Una vez que la aplicación esté en funcionamiento localmente, puedes acceder a ella en tu navegador web en 'http://localhost:5000/'.
-
-#### Comentarios y Soporte
+#### Comentarios y Soporte:
 
 ¡Tu opinón es valiosa! Si encuentras algún problema o tienes sugerencias para mejoras, por favor crea un nuevo issue en este [repositorio de Github](https://github.com/imprvhub/nasa-apod-viewer).
 
-#### Licencia
+#### Licencia:
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](https://github.com/imprvhub/nasa-apod-viewer/blob/main/LICENSE.md) para más detalles.
 
