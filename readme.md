@@ -34,8 +34,9 @@ Here is an overview of the most important functions of the project.
 - Language Selector: Allows users to switch between English, Spanish, and Portuguese languages for the website interface.
 - Theme Toggle: Enables users to switch between light and dark themes for better readability and user preference.
 - Interactive PDF Resume: Provides users with a downloadable PDF resume featuring clickable hyperlinks for easy navigation to additional information.
-- Project Showcase: Displays projects in a curated format, with previews of up to 4 projects per page. Users can access detailed project information and demos.
+- Project Showcase: Displays projects in a curated format, with previews of up to 4 projects per page. Users can navigate through categories and tags to explore projects further and access detailed project information and demos.
 - Contact Form: Allows users to submit inquiries or messages via a contact form. Form submissions are processed securely using a Netlify function, ensuring reliable email delivery.
+- Search Functionality: The search feature is also enabled, providing an intuitive search engine that facilitates user queries.
 
 
 ## Known Issues & To-do
