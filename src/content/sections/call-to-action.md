@@ -6,6 +6,6 @@ description: "Vamos agendar uma entrevista ou discutir ideias para futuros proje
 button:
   enable: true
   label: "Baixe Meu CV e Entre em contato."
-  link: "/my-resume"
+  link: "/meu-cv"
 
 ---
