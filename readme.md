@@ -11,7 +11,8 @@ Welcome to my personal portfolio website, an elegant Astro project meticulously 
   - [Run the Application](#run-the-application)
     - [1. Requirements](#1-requirements)
     - [2. Clone the Source](#2-clone-the-source)
-    - [3. Start the Application](#3-start-the-application)
+    - [3. Install Dependencies](#3-install-dependencies)
+    - [4. Start the Application](#4-start-the-application)
   - [Known Issues \& To-do](#known-issues--to-do)
   - [Feedback \& Support](#feedback--support)
   - [License](#license)
@@ -61,17 +62,21 @@ All you need is a web browser like one of the following:
 - [Microsoft Edge](https://www.microsoft.com/en-US/edge)
 
 
-### 2. Clone the Source and Install required Dependencies:
+### 2. Clone the Source:
 Clone the source code or download the repository on your local computer by clicking the **Code** button.
 
 ``` bash
 git clone https://github.com/imprvhub/ivanlunadev-portfolio.git
 ```
+
+### 3. Install Dependencies:
+Install the required dependencies.
+
 ``` bash
 npm install
 ```
 
-### 3. Start the Application
+### 4. Start the Application
 From your IDE terminal navigate to the root of the project and execute the following command:
 ``` bash
 npm run dev
