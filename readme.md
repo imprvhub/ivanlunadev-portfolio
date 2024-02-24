@@ -38,19 +38,6 @@ Here is an overview of the most important functions of the project.
 - Contact Form: Allows users to submit inquiries or messages via a contact form. Form submissions are processed securely using a Netlify function, ensuring reliable email delivery.
 - Search Functionality: The search feature is also enabled, providing an intuitive search engine that facilitates user queries.
 
-
-## Known Issues & To-do
-This is an overview of the already known problems and bugs as well as a collection of things that still need to be done.
-
-**Known issues**
-
-- From mobile dimensions, if the user expands the 'nav-menu' and then resizes the screen to more than 1024px width, the nav-menu breaks. While this behavior may not be common, it's important to maintain consistency in responsive interactions for all user interactions.
-
-
-**To-do**
-
-- Fix the responsive behavior of the nav-menu when transitioning from mobile to desktop using an intersection observer.
-
 ## Preview
 
 ![Alt Text](./public/images/sample1.png "Main Page")
@@ -87,6 +74,18 @@ From your IDE terminal navigate to the root of the project and execute the follo
 npm run dev
 ```
 Then it should be accessible at http://localhost:4321
+
+## Known Issues & To-do
+This is an overview of the already known problems and bugs as well as a collection of things that still need to be done.
+
+**Known issues**
+
+- From mobile dimensions, if the user expands the 'nav-menu' and then resizes the screen to more than 1024px width, the nav-menu breaks. While this behavior may not be common, it's important to maintain consistency in responsive interactions for all user interactions.
+
+
+**To-do**
+
+- Fix the responsive behavior of the nav-menu when transitioning from mobile to desktop using an intersection observer.
 
 ## Feedback & Support
 Your feedback is important, and I'm here to assist you with any questions or concerns. Your input plays a crucial role in enhancing the project and optimizing the user experience. Feel free to reach out to me:
