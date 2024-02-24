@@ -3,7 +3,7 @@ title: "📈 E-commerce Data Analysis (Python)."
 meta_title: "Iván Luna - Software Developer - Ecommerce Data Analysis"
 description: "this is meta description"
 date: 2024-01-03T05:00:00Z
-image: "/images/ecommerce-data-analysis.png"
+image: "/images/assets/ecommerce-data-analysis.png"
 categories: ["Python","SQL","Solutions","Implementations","Azure Deployment"]
 tags: ["e-commerce data analysis","flask","gunicorn"]
 draft: false

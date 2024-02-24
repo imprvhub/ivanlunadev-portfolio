@@ -3,7 +3,7 @@
 banner:
   title: "Hello! I'm"
   content: "Iván Luna. Software Developer."
-  image: "/images/banner.webp"
+  image: "/images/assets/banner.webp"
   button:
     enable: true
     label: "Relevant Projects"
@@ -13,7 +13,7 @@ banner:
 # Features
 features:
   - title: "Experience"
-    image: "/images/service-1.png"
+    image: "/images/assets/service-1.png"
     content: ""
     bulletpoints:
       - "+4 years of experience in back-end development using Python."
@@ -29,7 +29,7 @@ features:
       link: ""
 
   - title: "Highlights and Achievements"
-    image: "/images/service-2.png"
+    image: "/images/assets/service-2.png"
     content: ""
     bulletpoints:
       - "[***<ins>Over 16 certificates<ins>***](https://www.linkedin.com/in/ivanluna-dev/details/certifications/) from Jet Brains Academy."

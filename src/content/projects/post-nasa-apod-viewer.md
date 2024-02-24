@@ -3,7 +3,7 @@ title: "🪐Nasa Apod Viewer - A Python web app for fetching NASA's Astronomy Pi
 meta_title: "Iván Luna - Software Developer - Nasa APOD Viewer"
 description: "this is meta description"
 date: 2024-01-20T05:00:00Z
-image: "/images/nasa-apod-viewer.png"
+image: "/images/assets/nasa-apod-viewer.png"
 categories: ["Python","SQL","Development","Vercel Deployment"]
 tags: ["nasa-apod-viewer","flask"]
 draft: false
