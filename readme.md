@@ -97,4 +97,4 @@ Your feedback is important, and I'm here to assist you with any questions or con
 Thank you for your support!
 
 ## License
-For more information regarding this topic please read [this](https://ivanluna.dev/user-agreement/)
+For more information regarding this topic please read the following [User Agreement](https://ivanluna.dev/user-agreement/)
