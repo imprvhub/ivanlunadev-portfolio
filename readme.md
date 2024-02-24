@@ -20,9 +20,9 @@ Welcome to my personal portfolio website, an elegant Astro project meticulously 
     - [Source Code](#source-code)
 
 ## Features
-Here is an overview of the most important functions of the project.
+Here is an overview of the most important functions and features of the project.
 
-**Available Languages**
+**Technologies Used:**
 
 - Astro: 60.0%
 - TypeScript: 22.0%
