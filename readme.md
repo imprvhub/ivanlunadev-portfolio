@@ -7,12 +7,12 @@ Welcome to my personal portfolio website, an elegant Astro project meticulously 
 
 - [Project Title](#project-title)
   - [Features](#features)
-  - [Known Issues \& To-do](#known-issues--to-do)
   - [Preview](#preview)
   - [Run the Application](#run-the-application)
     - [1. Requirements](#1-requirements)
     - [2. Clone the Source](#2-clone-the-source)
     - [3. Start the Application](#3-start-the-application)
+  - [Known Issues \& To-do](#known-issues--to-do)
   - [Feedback \& Support](#feedback--support)
   - [License](#license)
     - [Graphics](#graphics)
