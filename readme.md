@@ -5,7 +5,7 @@ Welcome to my personal portfolio website, an elegant Astro project meticulously 
 
 **Table of Contents**
 
-- [Project Title](#project-title)
+- ivanluna.dev Portfolio
   - [Features](#features)
   - [Preview](#preview)
   - [Run the Application](#run-the-application)
@@ -16,8 +16,6 @@ Welcome to my personal portfolio website, an elegant Astro project meticulously 
   - [Known Issues \& To-do](#known-issues--to-do)
   - [Feedback \& Support](#feedback--support)
   - [License](#license)
-    - [Graphics](#graphics)
-    - [Source Code](#source-code)
 
 ## Features
 Here is an overview of the most important functions and features of the project.
