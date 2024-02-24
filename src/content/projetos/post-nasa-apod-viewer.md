@@ -89,7 +89,7 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https
 ---
 <div class="flex justify-between">
       <button class="btn btn-primary" onclick="window.location.href='/';">Voltar para o Início</button>
-      <button class="btn btn-primary" onclick="window.location.href='/projects';">Voltar para Projetos</button>     
+      <button class="btn btn-primary" onclick="window.location.href='/projetos';">Voltar para Projetos</button>     
 </div>
 
 ---
