@@ -5,7 +5,7 @@ Welcome to my personal portfolio website, an elegant Astro project meticulously 
 
 **Table of Contents**
 
-- ivanluna.dev Portfolio
+- [Iván Luna Software Developer Portfolio](https://ivanluna.dev)
   - [Features](#features)
   - [Preview](#preview)
   - [Run the Application](#run-the-application)
