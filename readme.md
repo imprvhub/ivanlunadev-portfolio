@@ -61,11 +61,14 @@ All you need is a web browser like one of the following:
 - [Microsoft Edge](https://www.microsoft.com/en-US/edge)
 
 
-### 2. Clone the Source
+### 2. Clone the Source and Install required Dependencies:
 Clone the source code or download the repository on your local computer by clicking the **Code** button.
 
 ``` bash
 git clone https://github.com/imprvhub/ivanlunadev-portfolio.git
+```
+``` bash
+npm install
 ```
 
 ### 3. Start the Application
