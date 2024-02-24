@@ -2,7 +2,7 @@
 title: "Perfil"
 meta_title: "Iván Luna - Desenvolvedor de software - Perfil"
 description: ""
-image: "/images/avatar.png"
+image: "/images/avatars/avatar.png"
 draft: false
 ---
  

@@ -41,15 +41,15 @@ Here is an overview of the most important functions and features of the project.
 
 ## Preview
 
-![Alt Text](./public/images/sample1.png "Main Page")
+![Alt Text](./public/images/previews/sample1.png "Main Page")
 
 ---
 
-![Alt Text](./public/images/sample2.png "Projects Section")
+![Alt Text](./public/images/previews/sample2.png "Projects Section")
 
 ---
 
-![Alt Text](./public/images/sample3.png "Resume Section")
+![Alt Text](./public/images/previews/sample3.png "Resume Section")
 
 ## Run the Application
 Follow these steps to run the application.

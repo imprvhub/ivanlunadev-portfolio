@@ -3,7 +3,7 @@
 banner:
   title: "Olá! Eu sou"
   content: "Iván Luna. Desenvolvedor de Software."
-  image: "/images/banner.webp"
+  image: "/images/assets/banner.webp"
   button:
     enable: true
     label: "Projetos Relevantes"
@@ -12,7 +12,7 @@ banner:
 # Características
 features:
   - title: "Experiência"
-    image: "/images/service-1.png"
+    image: "/images/assets/service-1.png"
     content: ""
     bulletpoints:
       - "Mais de 4 anos de experiência em desenvolvimento back-end utilizando Python."
@@ -27,7 +27,7 @@ features:
       link: ""
 
   - title: "Destaques e Conquistas"
-    image: "/images/service-2.png"
+    image: "/images/assets/service-2.png"
     content: ""
     bulletpoints:
       - "[***<ins>Mais de 16 certificados<ins>***](https://www.linkedin.com/in/ivanluna-dev/details/certifications/) da Jet Brains Academy."

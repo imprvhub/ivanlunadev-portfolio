@@ -105,7 +105,7 @@ const SearchLayout = ({ searchList }: Props) => {
             <div className="mx-auto pt-5 text-center">
               <img
                 className="mx-auto mb-6"
-                src="/images/no-search-found.png"
+                src="/images/assets/no-search-found.png"
                 alt="no-search-found"
               />
               <h1 className="h2 mb-4">

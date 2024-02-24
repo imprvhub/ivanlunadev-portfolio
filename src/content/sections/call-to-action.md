@@ -1,7 +1,7 @@
 ---
 enable: true
 title: "Vamos trabalhar juntos!"
-image: "/images/call-to-action.png"
+image: "/images/assets/call-to-action.png"
 description: "Vamos agendar uma entrevista ou discutir ideias para futuros projetos."
 button:
   enable: true

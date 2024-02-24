@@ -1,7 +1,7 @@
 ---
 title: Iván Luna
 email: contact@ivanluna.dev
-image: "/images/avatar.png"
+image: "/images/avatars/avatar.png"
 description: this is meta description
 social:
   - name: github

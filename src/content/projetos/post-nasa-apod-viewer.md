@@ -3,7 +3,7 @@ title: "🪐Nasa Apod Viewer - Uma aplicação web Python para buscar a Imagem A
 meta_title: "Iván Luna - Desenvolvedor de Software - Nasa APOD Viewer"
 description: "this is meta description"
 date: 2024-01-20T05:00:00Z
-image: "/images/nasa-apod-viewer.png"
+image: "/images/assets/nasa-apod-viewer.png"
 categories: ["Python","SQL","Desenvolvimento","Implantação no Vercel"]
 tags: ["nasa-apod-viewer","flask"]
 draft: false
