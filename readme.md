@@ -73,7 +73,10 @@ From your IDE terminal navigate to the root of the project and execute the follo
 ``` bash
 npm run dev
 ```
-Then it should be accessible at 'http://localhost:4321'
+Then it should be accessible at:
+```
+http://localhost:4321
+```
 
 ## Known Issues & To-do
 This is an overview of the already known problems and bugs as well as a collection of things that still need to be done.
