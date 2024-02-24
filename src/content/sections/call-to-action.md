@@ -1,7 +1,7 @@
 ---
 enable: true
 title: "¡Trabajemos juntos!"
-image: "/images/call-to-action.png"
+image: "/images/assets/call-to-action.png"
 description: "Programemos una entrevista o pensemos en ideas para futuros proyectos."
 button:
   enable: true

@@ -8,7 +8,7 @@ import {
   FaSearch,
 } from "react-icons/fa/index.js";
 
-const { summary_length, proyectos_folder } = config.settings;
+const { summary_length, projects_folder } = config.settings;
 
 export type SearchItem = {
   slug: string;
@@ -105,16 +105,16 @@ const SearchLayout = ({ searchList }: Props) => {
             <div className="mx-auto pt-5 text-center">
               <img
                 className="mx-auto mb-6"
-                src="/images/no-search-found.png"
+                src="/images/assets/no-search-found.png"
                 alt="no-search-found"
               />
               <h1 className="h2 mb-4">
-                {inputVal.length < 1 ? "Buscar" : "¡No se encontró nada en su búsqueda!"}
+                {inputVal.length < 1 ? "Search Anything Here" : "No Search Found!"}
               </h1>
               <p>
                 {inputVal.length < 1
-                  ? "Buscar por título, categoría, o tag. Por ejemplo: 'Python'."
-                  : "No pudimos encontrar lo que usted está buscando. Intente de nuevo."}
+                  ? "Search anything by title, category, or tag. For example: 'Python'."
+                  : "We couldn't find what you searched for. Try searching again."}
               </p>
             </div>
           ) : (
@@ -131,7 +131,7 @@ const SearchLayout = ({ searchList }: Props) => {
                     />
                   )}
                   <h4 className="mb-3">
-                    <a href={`/${proyectos_folder}/${item.slug}`}>
+                    <a href={`/${projects_folder}/${item.slug}`}>
                       {item.data.title}
                     </a>
                   </h4>
@@ -164,9 +164,9 @@ const SearchLayout = ({ searchList }: Props) => {
                   </p>
                   <a
                     className="btn btn-outline-primary btn-sm"
-                    href={`/${proyectos_folder}/${item.slug}`}
+                    href={`/${projects_folder}/${item.slug}`}
                   >
-                    Más Información
+                    read more
                   </a>
                 </div>
               </div>

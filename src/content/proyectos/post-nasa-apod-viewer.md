@@ -3,7 +3,7 @@ title: "🪐Nasa Apod Viewer - Una Web App de Python para obtener la Imagen Astr
 meta_title: "Iván Luna - Desarrollador de Software - Nasa APOD Viewer"
 description: "this is meta description"
 date: 2024-01-20T05:00:00Z
-image: "/images/nasa-apod-viewer.png"
+image: "/images/assets/nasa-apod-viewer.png"
 categories: ["Python","SQL","Desarrollo","Despliegue en Vercel"]
 tags: ["nasa-apod-viewer","flask"]
 draft: false
