@@ -17,7 +17,7 @@ input#nav-toggle:checked ~ #nav-menu {
 
 // navbar items
 .navbar {
-  @apply absolute flex flex-wrap items-center justify-between bg-white dark:bg-darkmode-body;
+  @apply relative flex flex-wrap items-center justify-between;
 }
 
 .navbar-brand {
@@ -31,12 +31,12 @@ input#nav-toggle:checked ~ #nav-menu {
   @apply text-center lg:text-left;
 }
 
-.nav-item {
-  // @apply mx-3;
-}
+// .nav-item {
+//   @apply mx-3;
+// }
 
 .nav-link {
-  @apply block p-3 font-semibold text-dark transition hover:text-primary dark:text-darkmode-dark lg:px-2 lg:py-3;
+  @apply text-dark hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary block p-3 font-semibold transition lg:px-2 lg:py-3;
 }
 
 .nav-dropdown {
@@ -44,7 +44,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .nav-dropdown-list {
-  @apply z-10 min-w-[180px] rounded bg-body p-4 dark:bg-darkmode-body;
+  @apply z-10 min-w-[180px] rounded bg-body p-4 shadow dark:bg-darkmode-body;
 }
 
 .nav-dropdown-item {
