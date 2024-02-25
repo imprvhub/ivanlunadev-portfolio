@@ -49,12 +49,12 @@ AVISO LEGAL: Certifique-se de criar uma loja funcional no ecommerce-admin com pr
 
 #### 2. Clone o repositório de implementação
 ```bash
-git clone https://github.com/ivnimprv/ecommerce-data-analysis.git
+git clone https://github.com/ivnimprv/ecommerce_data_analysis.git
 
 ```
 #### 2.1 Navegue até o diretório do projeto
 ```bash
-cd /your/folder/directory/ecomerce-data-analysis
+cd /your/folder/directory/ecomerce_data_analysis
 ```
 #### 3. Instale as Dependências
 ```bash
@@ -67,6 +67,10 @@ python3 app.py
 The application should now be accessible at http://localhost:8000.
 
 ### Conclusão:
+
+### Problemas conhecidos:
+
+- **Latência de desempenho:** Ocasionalmente, altas cargas de instância do Azure resultam em latência significativa. Para resolver isso, pretendo migrar o projeto para uma plataforma diferente no futuro, melhorando assim o desempenho.
 
 #### Conquistas
 
