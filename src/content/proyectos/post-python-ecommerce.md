@@ -49,11 +49,11 @@ DESCARGO DE RESPONSABILIDAD: Asegúrate de crear una tienda funcional desde ecom
 
 #### 2. Clona el repositorio de la implementación
 ```bash
-git clone https://github.com/ivnimprv/ecommerce-data-analysis.git
+git clone https://github.com/ivnimprv/ecommerce_data_analysis.git
 ```
 #### 2.1 Navega al directorio del proyecto (desde la terminal de tu IDE)
 ```bash
-cd /your/folder/directory/ecomerce-data-analysis
+cd /your/folder/directory/ecomerce_data_analysis
 ```
 #### 3. Instala las Dependencias
 ```bash
@@ -66,6 +66,10 @@ python3 app.py
 La aplicación debería ser accesible ahora en http://localhost:8000.
 
 ### Conclusión:
+
+### Problemas conocidos:
+
+- **Latencia de rendimiento:** En ocasiones, las cargas elevadas de instancias de Azure generan una latencia significativa. Para solucionar este problema, planeo migrar el proyecto a una plataforma diferente en el futuro, mejorando así el rendimiento.
 
 #### Logros
 
