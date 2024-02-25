@@ -49,11 +49,11 @@ DISCLAIMER: Make sure to create a functional store from ecommerce-admin with pro
 
 #### 2. Clone the implementation repository
 ```bash
-git clone https://github.com/ivnimprv/ecommerce-data-analysis.git
+git clone https://github.com/ivnimprv/ecommerce_data_analysis.git
 ```
 #### 2.1 Navigate to the project directory
 ```bash
-cd /your/folder/directory/ecomerce-data-analysis
+cd /your/folder/directory/ecomerce_data_analysis
 ```
 #### 3. Install Dependencies
 ```bash
@@ -66,6 +66,10 @@ python3 app.py
 The application should now be accessible at http://localhost:8000.
 
 ### Conclusion:
+
+### Known Issues:
+
+- **Performance Latency:** Occasionally, high Azure instance loads result in significant latency. To address this, I plan to migrate the project to a different platform in the future, thereby improving performance.
 
 #### Achievements
 
