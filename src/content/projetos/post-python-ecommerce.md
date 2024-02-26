@@ -10,7 +10,7 @@ draft: false
 ---
 
 ### Bem-vind@s ao Projeto [Análise de Dados de E-commerce](https://ecommerce-data-analysis.azurewebsites.net/).
-Esta implementação destaca e fornece uma análise abrangente de dados de e-commerce de dois projetos Next.js diferentes. Utilizando Python (Framework Flask) com Gunicorn e Implantação Azure. Para insights detalhados, visite o [Repositório no Github](https://github.com/imprvhub/ecommerce_data_analysis/).
+Esta implementação destaca e fornece uma análise abrangente de dados de e-commerce de dois projetos Next.js diferentes. Utilizando Python (Framework Flask) com Gunicorn e Implantação Azure. Para insights detalhados, visite o [Repositório no Github](https://github.com/imprvhub/ecommerce-data-analysis/).
 
 ### Demonstração Ao Vivo:
 https://ecommerce-data-analysis.azurewebsites.net/
