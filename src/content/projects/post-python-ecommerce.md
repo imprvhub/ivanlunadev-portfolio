@@ -10,7 +10,7 @@ draft: false
 ---
 
 ### Welcome to the [E-commerce Data Analysis](https://ecommerce-data-analysis.azurewebsites.net/) Project.
-This implementation showcases and provides a comprehensive analysis of e-commerce data from two different Next.js projects. Using Python (Flask Framework) with GUnicorn and Azure Deployment. For detailed insights, please visit the [Github Repo](https://github.com/imprvhub/ecommerce_data_analysis/).
+This implementation showcases and provides a comprehensive analysis of e-commerce data from two different Next.js projects. Using Python (Flask Framework) with GUnicorn and Azure Deployment. For detailed insights, please visit the [Github Repo](https://github.com/imprvhub/ecommerce-data-analysis/).
 
 ### Live Demo:
 https://ecommerce-data-analysis.azurewebsites.net/
