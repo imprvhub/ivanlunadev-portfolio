@@ -32,8 +32,7 @@ Este proyecto es una aplicación web Python construida con Flask. Obtiene la Ima
 - [Acerca de este proyecto](#acerca-de-este-proyecto)
 - [Características](#características)
 - [Instalación](#instalación)
-- [Uso](#uso)
-- [Comentarios y Soporte](#comentarios--soporte)
+- [Feedback](#feedback)
 - [Licencia](#licencia)
 - [Conclusión](#conclusion)
 
@@ -69,7 +68,7 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
    python3 index.py
    ```
 
-#### Comentarios y Soporte:
+#### Feedback:
 
 ¡Su opinón es valiosa! Si encuentra algún problema o tiene sugerencias para mejoras, por favor cree un nuevo issue en este [repositorio de Github](https://github.com/imprvhub/nasa-apod-viewer).
 
