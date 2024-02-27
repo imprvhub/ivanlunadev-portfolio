@@ -27,10 +27,10 @@ https://bolturl.site
     - Ofrece una interfaz amigable para una experiencia de usuario intuitiva.
     - Incorpora plantillas y estilos para mejorar la apariencia visual de la aplicación web.
 
-#### Requisitos Previos:
-[**Python 3.11**](https://www.python.org/downloads/release/python-3110/)
+#### Instalación y Ejecución Local:
 
-#### Instalación y Ejecución Local
+##### Requisitos Previos
+[**Python 3.11**](https://www.python.org/downloads/release/python-3110/)
 
 ##### 1. Clonar este proyecto.
 ```bash
@@ -63,6 +63,14 @@ connection = pymysql.connect(
 python3 index.py
 ```
 
+#### Comentarios y soporte:
+Su opinión es importante y estoy listo para ayudarlo a abordar cualquier consulta o comentario que pueda tener. Sus contribuciones son esenciales para perfeccionar el proyecto y mejorar la experiencia general del usuario. No dudes en ponerte en contacto conmigo:
+
+No dude en compartir sus conocimientos, recomendaciones o sugerencias para la mejora continua. Si encuentra algún desafío o necesita ayuda, [cree un nuevo issue de GitHub](https://github.com/imprvhub/bolturl-python/issues/new). Asegúrese de proporcionar una descripción detallada de su problema para facilitar una asistencia rápida y precisa.
+
+#### Licencia:
+Para obtener más información sobre este tema, lea el siguiente [Acuerdo de usuario](https://www.bolturl.site/user_agreements).
+
 #### Conclusión:
 
 ##### Logros
@@ -72,15 +80,6 @@ python3 index.py
 ##### Aprendizajes
 
 - **Sin Frontend Framework:** En este proyecto aprendí que a veces no es necesario depender de otros frameworks frontend. 
-
-### Comentarios y soporte:
-Su opinión es importante y estoy listo para ayudarlo a abordar cualquier consulta o comentario que pueda tener. Sus contribuciones son esenciales para perfeccionar el proyecto y mejorar la experiencia general del usuario. No dudes en ponerte en contacto conmigo:
-
-No dude en compartir sus conocimientos, recomendaciones o sugerencias para la mejora continua. Si encuentra algún desafío o necesita ayuda, [cree un nuevo problema de GitHub](https://github.com/imprvhub/bolturl-python/issues/new). Asegúrese de proporcionar una descripción detallada de su problema para facilitar una asistencia rápida y precisa.
-
-### Licencia:
-Para obtener más información sobre este tema, lea la siguiente [Sección Acuerdo de usuario](https://www.bolturl.site/user_agreements)
-
 
 ---
 <div class="flex justify-between">
