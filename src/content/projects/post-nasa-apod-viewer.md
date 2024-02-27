@@ -32,8 +32,7 @@ This project is a Python web application built with Flask. It fetches NASA's Ast
 - [About This Project](#about-this-project)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Feedback & Support](#feedback--support)
+- [Feedback](#feedback)
 - [License](#license)
 - [Conclusion](#conclusion)
 
@@ -69,7 +68,7 @@ To run this project locally, follow these steps:
    python3 index.py
    ```
 
-#### Feedback & Support:
+#### Feedback:
 
 Your feedback is valuable! If you encounter any issues or have suggestions for improvements, please create a new GitHub issue in this repository.
 
