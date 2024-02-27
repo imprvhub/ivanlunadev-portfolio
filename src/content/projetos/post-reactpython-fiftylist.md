@@ -81,21 +81,21 @@ pip install -r requirements.txt
    
 IMPORTANTE: Abra duas janelas separadas no seu IDE para executar o fullstack localmente. Execute os comandos para ter ambos os projetos em execução simultaneamente para que funcionem perfeitamente juntos.
 
-#### Conclusão:
-
-Embora a funcionalidade de exportar dados de músicas para o Todoist possa parecer desnecessária, meu foco principal foi alcançar uma integração efetiva entre várias linguagens de programação e garantir um feedback eficiente com o backend em Python. Além disso, vi essa oportunidade como uma maneira de aprender sobre novas APIs.
-
-#### Planos Futuros:
-
-No futuro, assim como atualmente a exportação funciona para o Todoist, também gostaria de adicionar uma exportação para o Notion.#### 
-
-## Feedback e suporte:
+#### Feedback e suporte:
 Sua opinião é importante e estou pronto para ajudar a responder a quaisquer dúvidas ou comentários que você possa ter. Suas contribuições são essenciais para refinar o projeto e melhorar a experiência geral do usuário. Não hesite em entrar em contato comigo:
 
 Sinta-se à vontade para compartilhar seus insights, recomendações ou sugestões para melhoria contínua. Se você encontrar algum desafio ou precisar de ajuda, [crie um novo problema no GitHub](https://github.com/imprvhub/fiftylist-react/issues/new). Certifique-se de fornecer uma descrição detalhada do seu problema para facilitar um suporte rápido e preciso.
 
-## Licença:
-Para obter mais informações sobre este tópico, leia a seguinte [seção de Termos e Condições.](https://fiftylist.vercel.app/html/termsandconditions.html)
+#### Licença:
+Para mais informações sobre este tópico, leia os [Termos e Condições](https://fiftylist.vercel.app/html/termsandconditions.html) deste projeto.
+
+#### Conclusão:
+
+Embora a funcionalidade de exportar dados de músicas para o Todoist possa parecer desnecessária, meu foco principal foi alcançar uma integração efetiva entre várias linguagens de programação e garantir um feedback eficiente com o backend em Python. Além disso, vi essa oportunidade como uma maneira de aprender sobre novas APIs.
+
+##### Planos Futuros:
+
+No futuro, assim como atualmente a exportação funciona para o Todoist, também gostaria de adicionar uma exportação para o Notion.#### 
 
 ---
 <div class="flex justify-between">
