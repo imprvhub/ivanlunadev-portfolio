@@ -35,6 +35,7 @@ Este projeto é uma aplicação web Python construída com Flask. Busca a Imagem
 - [Uso](#uso)
 - [Feedback & Suporte](#feedback--suporte)
 - [Licença](#licença)
+- [Conclusão](#conclusão)
 
 #### Instalação:
 
