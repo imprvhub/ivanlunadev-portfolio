@@ -86,15 +86,6 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https
 
 - **Melhoria da Interação Frontend-Backend:** Obtive insights sobre como alcançar uma melhor interação entre os scripts frontend e os processos backend Python. Anteriormente, minha abordagem estava limitada a transmitir dados específicos e processá-los. No entanto, este projeto exigiu estabelecer uma troca contínua de dados entre o frontend e o backend devido aos numerosos scripts e interações dentro da aplicação web. Foi uma experiência de aprendizado valiosa.
 
-#### Feedback e suporte:
-Sua opinião é importante e estou pronto para ajudar a esclarecer quaisquer dúvidas ou comentários que você possa ter. Suas contribuições são essenciais para aperfeiçoar o projeto e melhorar a experiência geral do usuário. Não hesite em manter contato comigo:
-
-Fique à vontade para compartilhar seus conhecimentos, recomendações ou sugestões para melhoria contínua. Se você encontrar algum desafio ou precisar de ajuda, [crie um novo problema no GitHub](https://github.com/imprvhub/nasa-apod-viewer/issues/new). Certifique-se de fornecer uma descrição detalhada do seu problema para facilitar uma assistência rápida e precisa.
-
-#### Licença:
-
-Este projeto está sob licença do MIT. Consulte o arquivo [LICENSE](https://github.com/imprvhub/nasa-apod-viewer/blob/main/LICENSE.md) para obter mais detalhes.
-
 ---
 <div class="flex justify-between">
       <button class="btn btn-primary" onclick="window.location.href='/';">Voltar para o Início</button>
