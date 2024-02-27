@@ -11,7 +11,7 @@ draft: false
 
 #### Bienvenid@s a [Fifty List - Obteniendo tus 50 mejores canciones.](https://fiftylist.vercel.app/)
 
-Este proyecto demuestra una integración sofisticada de React y Python utilizando las **_API de Spotify y Todoist_**. Para obtener información detallada, visita el [Repositorio de Fifty List React en Github](https://github.com/imprvhub/fiftylist-react/) y el [Repositorio de Fifty List Python en Github](https://github.com/imprvhub/fiftylist-python/).
+Este proyecto es una plataforma de automatización musical y muestra una integración perfecta de React y Python. Para obtener información detallada, visite el [Repositorio de Fifty List React en Github](https://github.com/imprvhub/fiftylist-react/) y el [Repositorio de Fifty List Python en Github](https://github.com/imprvhub/fiftylist-python/).
 
 #### Demostración:
 https://fiftylist.vercel.app/
@@ -20,7 +20,7 @@ https://fiftylist.vercel.app/
 
 ##### Frontend (React.js)
 - Integración con Spotify: Obtiene tus 50 mejores canciones de Spotify en un período elegido (1 mes, 6 meses o clásicos de todos los tiempos).
-- Creación de Listas de Reproducción: Genera automáticamente una nueva lista de reproducción en tu cuenta de Spotify con estas 50 canciones.
+- Creación de Listas de Reproducción: Genera automáticamente una nueva lista de reproducción en su cuenta de Spotify con estas 50 canciones.
 - Creación de Listas de Recomendaciones: Basado en tus 50 canciones más escuchadas, nuestro motor de recomendaciones sugiere 20 canciones adicionales para agregar a tus listas de reproducción.
 
 ##### Backend (Python)
@@ -37,23 +37,23 @@ Fifty List es un proyecto exploratorio que profundiza en la colaboración de dif
 #### Instalación y Uso:
 
 ##### Para la Instalación del Frontend:
-1. Clona este proyecto.
+1. Clonar este proyecto.
  ```bash
 git clone https://github.com/imprvhub/fiftylist-react.git
 ```
-2. Navega al directorio del proyecto (en tu terminal IDE).
+2. Navegue al directorio del proyecto (en tu terminal IDE).
 ```bash
 cd /your/folder/directory/fiftylist-react
 ```
-3. Ejecuta el siguiente comando para instalar todas las dependencias requeridas.
+3. Ejecute el siguiente comando para instalar todas las dependencias requeridas.
 ```bash
 npm install
 ```
-4. Reemplaza las variables de entorno (`REACT_APP_SCOPES`, `REACT_APP_REDIRECT_URI`, `REACT_APP_CLIENT_SECRET`, `REACT_APP_CLIENT_ID`) con las tuyas. Podrás generar estas variables desde el Panel de Desarrolladores de Spotify.
-5. Reemplaza la variable definida al principio del código en `App.js`:
+4. Reemplace las variables de entorno (`REACT_APP_SCOPES`, `REACT_APP_REDIRECT_URI`, `REACT_APP_CLIENT_SECRET`, `REACT_APP_CLIENT_ID`) con las suyas. Podrá generar estas variables desde el Panel de Desarrolladores de Spotify.
+5. Reemplace la variable definida al principio del código en `App.js`:
    `const redirectUri = 'https://fiftylist.vercel.app/callback';` con -> `const redirectUri = "http://localhost:3000/callback";`
-   Actualiza las URL en las variables de la función `exportTodoist` de `'https://fiftylistbackend.vercel.app/todoist'` a `'http://localhost:5000/todoist'` si tu backend de Python está utilizando un puerto diferente.
-6. Ejecuta el siguiente comando desde tu terminal IDE; esto debería iniciar el frontend en el puerto designado.
+   Actualice las URL en las variables de la función `exportTodoist` de `'https://fiftylistbackend.vercel.app/todoist'` a `'http://localhost:5000/todoist'` si su backend de Python está utilizando un puerto diferente.
+6. Ejecute el siguiente comando desde tu terminal IDE; esto debería iniciar el frontend en el puerto designado.
 ```bash
 npm start
 ```
@@ -62,35 +62,40 @@ npm start
 ##### Requisitos:
 [**Python 3.11**](https://www.python.org/downloads/release/python-3110/)
 
-1. Clona el proyecto. ( https://github.com/imprvhub/fiftylist-python )
+1. Clonar el proyecto. ( https://github.com/imprvhub/fiftylist-python )
  ```bash
 git clone https://github.com/imprvhub/fiftylist-python.git
 ```
 
-1.2 Navega al directorio del proyecto (en tu terminal IDE).
+1.2 Navegue al directorio del proyecto (en tu terminal IDE).
 ```bash
 cd /your/folder/directory/fiftylist-python
 ```
-2. Ejecuta el siguiente comando para instalar todas las dependencias requeridas.
+2. Ejecute el siguiente comando para instalar todas las dependencias requeridas.
 ```bash
 pip install -r requirements.txt
 ```
-3. Reemplaza la variable definida al principio del código de todoist.py: `cors = CORS(app, resources={r"/todoist": {"origins": "https://fiftylist-frontend.vercel.app/"}})` con ->  `cors = CORS(app, resources={r"/todoist": {"origins": "http://localhost:3000/"}})` (o el puerto que hayas designado para tu frontend).
-4. Ejecuta `python3 todoist.py`.
+3. Reemplace la variable definida al principio del código de todoist.py: `cors = CORS(app, resources={r"/todoist": {"origins": "https://fiftylist-frontend.vercel.app/"}})` con ->  `cors = CORS(app, resources={r"/todoist": {"origins": "http://localhost:3000/"}})` (o el puerto que hayas designado para tu frontend).
+4. Ejecute `python3 todoist.py`.
    
-IMPORTANTE: Abre ambos proyectos en tu IDE para ejecutar el fullstack localmente. Ejecuta los comandos para que ambos proyectos funcionen simultáneamente sin problemas.
+IMPORTANTE: Abra ambos proyectos en su IDE para ejecutar el fullstack localmente. Ejecute los comandos para que ambos proyectos funcionen simultáneamente sin problemas.
 
 #### Conclusión:
 
 Si bien la funcionalidad para exportar datos de canciones a Todoist puede parecer innecesaria, mi enfoque principal fue lograr una integración efectiva entre múltiples lenguajes de programación y garantizar un feedback eficiente con el backend de Python. Además, vi esta oportunidad como una forma de aprender sobre nuevas API.
 
-#### Planes Futuros:
+##### Planes Futuros:
 
 En el futuro, al igual que actualmente la exportación funciona para Todoist, también me gustaría agregar una exportación a Notion.
 
-#### Contribuciones
+#### Feedback y soporte:
 
-Damos la bienvenida a contribuciones al proyecto Fifty List. Para sugerencias y mejoras, comuniquese a contact@ivanluna.dev.
+Su opinión es importante y estoy listo para ayudarle a abordar cualquier consulta o comentario que pueda tener. Sus contribuciones son esenciales para perfeccionar el proyecto y mejorar la experiencia general del usuario. 
+
+No dude en compartir sus conocimientos, recomendaciones o sugerencias para la mejora continua. Si encuentra algún problema o necesita ayuda, [cree un nuevo issue de GitHub](https://github.com/imprvhub/fiftylist-react/issues/new). Asegúrese de proporcionar una descripción detallada de su problema para facilitar una asistencia rápida y precisa.
+
+#### Licencia:
+Para obtener más información sobre este tema, lea la siguiente [Sección de Términos y condiciones] (https://fiftylist.vercel.app/html/termsandconditions.html)
 
 ---
 <div class="flex justify-between">

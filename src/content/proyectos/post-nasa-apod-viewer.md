@@ -13,7 +13,7 @@ draft: false
 
 Una aplicación web Python para obtener la Imagen Astronómica del Día de la NASA, con la funcionalidad de generar tarjetas APOD y compartirlas.
 
-Visita la aplicación en vivo: [apod-nasa-viewer.vercel.app](https://apod-nasa-viewer.vercel.app)
+Visite la aplicación en vivo: [apod-nasa-viewer.vercel.app](https://apod-nasa-viewer.vercel.app)
 
 #### Acerca de este proyecto:
 
@@ -40,19 +40,19 @@ Este proyecto es una aplicación web Python construida con Flask. Obtiene la Ima
 
 Para ejecutar este proyecto localmente, sigue estos pasos:
 
-1. Clona el repositorio en tu máquina local:
+1. Clonar el repositorio en tu máquina local:
 
    ```bash
    git clone https://github.com/imprvhub/nasa-apod-viewer.git
    ```
 
-2. Instala las dependencias necesarias:
+2. Instale las dependencias necesarias:
 
     ```bash
    pip install -r requirements.txt
    ```
 
-3. Configura las variables de entorno. Asegúrate de tener un archivo .env con las siguientes variables:
+3. Configure las variables de entorno. Asegúrese de tener un archivo .env con las siguientes variables:
 
      ```bash
     NASA_API_KEY: Your NASA API key.
@@ -62,7 +62,7 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
     DATABASE: Name of the database.
    ```
 
-4. Ejecuta la aplicación Flask:
+4. Ejecute la aplicación Flask:
     ```bash
    cd api
    python3 index.py
@@ -70,11 +70,11 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 
 #### Comentarios y Soporte:
 
-¡Tu opinón es valiosa! Si encuentras algún problema o tienes sugerencias para mejoras, por favor crea un nuevo issue en este [repositorio de Github](https://github.com/imprvhub/nasa-apod-viewer).
+¡Su opinón es valiosa! Si encuentra algún problema o tiene sugerencias para mejoras, por favor cree un nuevo issue en este [repositorio de Github](https://github.com/imprvhub/nasa-apod-viewer).
 
 #### Licencia:
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](https://github.com/imprvhub/nasa-apod-viewer/blob/main/LICENSE.md) para más detalles.
+Este proyecto está bajo la Licencia MIT. Consulte el archivo [LICENSE](https://github.com/imprvhub/nasa-apod-viewer/blob/main/LICENSE.md) para más detalles.
 
 
 #### Conclusión:
@@ -86,6 +86,15 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](https://
 ##### Aprendizajes
 
 - **Mejora de la Interacción Frontend-Backend:** Aprendí sobre una mejor interacción entre los scripts frontend y los procesos backend de Python. Anteriormente, mi enfoque estaba limitado a transmitir datos específicos y procesarlos. Sin embargo, este proyecto requirió establecer un intercambio continuo de datos entre el frontend y el backend debido a los numerosos scripts e interacciones dentro de la aplicación web. Fue una experiencia de aprendizaje valiosa.
+
+#### Comentarios y soporte:
+Su opinión es importante y estoy listo para ayudarlo a abordar cualquier consulta o comentario que pueda tener. Sus contribuciones son esenciales para perfeccionar el proyecto y mejorar la experiencia general del usuario. No dudes en ponerte en contacto conmigo:
+
+No dude en compartir sus conocimientos, recomendaciones o sugerencias para la mejora continua. Si encuentra algún desafío o necesita ayuda, [cree un nuevo problema de GitHub](https://github.com/imprvhub/nasa-apod-viewer/issues/new). Asegúrese de proporcionar una descripción detallada de su problema para facilitar una asistencia rápida y precisa.
+
+#### Licencia:
+
+Este proyecto está bajo la licencia MIT. Consulte el archivo [LICENCIA](https://github.com/imprvhub/nasa-apod-viewer/blob/main/LICENSE.md) para obtener más detalles.
 
 ---
 <div class="flex justify-between">

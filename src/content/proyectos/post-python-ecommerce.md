@@ -10,7 +10,7 @@ draft: false
 ---
 
 ### Bienvenid@s al Proyecto [E-commerce Data Analysis](https://ecommerce-data-analysis.azurewebsites.net/).
-Esta implementación muestra y proporciona un análisis integral de datos de comercio electrónico de dos proyectos diferentes de Next.js. Utiliza Python (Framework Flask) con GUnicorn e implementación en Azure. Para obtener información detallada, visita el [Repositorio en Github](https://github.com/imprvhub/ecommerce-data-analysis/).
+Esta implementación muestra y proporciona un análisis integral de datos de comercio electrónico de dos proyectos diferentes de Next.js. Utiliza Python (Framework Flask) con GUnicorn e implementación en Azure. Para obtener información detallada, visite el [Repositorio en Github](https://github.com/imprvhub/ecommerce-data-analysis/).
 
 ### Demostración:
 https://ecommerce-data-analysis.azurewebsites.net/
@@ -42,24 +42,24 @@ https://ecommerce-data-analysis.azurewebsites.net/
 
 ### Instalación y Ejecución Local
 
-#### 1. Clona los Proyectos de 'Code With Antonio'. 
+#### 1. Clonar los Proyectos de 'Code With Antonio'. 
 Para que esta implementación funcione correctamente, debes clonar y configurar primero los proyectos [ecommerce-admin](https://github.com/antonioerdeljac/next13-ecommerce-admin) y luego [ecommerce-store](https://github.com/antonioerdeljac/next13-ecommerce-store) de 'Code With Antonio'. Para obtener un tutorial detallado, visita: [Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL, 2023](https://www.youtube.com/watch?v=5miHyP6lExg).
 
 DESCARGO DE RESPONSABILIDAD: Asegúrate de crear una tienda funcional desde ecommerce-admin con productos que se puedan ver en el lado del cliente de ecommerce-store. Ten en cuenta que los pagos realizados en la demostración son simulados y utilizan datos genéricos, siguiendo las prácticas recomendadas de [Stripe Docs](https://stripe.com/docs/testing ). Si ya has configurado la gestión de pagos según tu región, entonces omite la simulación. Se recomienda no omitir este paso a menos que usted tenga la seguridad y la responsabilidad de los movimientos o transacciones que usted vaya a generar. Este proyecto es meramente demostrativo para mostrar cómo funciona una implementación en Python. Procure utilizar este proyecto con conciencia y responsabilidad. Para obtener más información: [Haz clic aquí](https://ecommerce-data-analysis.azurewebsites.net/user_agreements.html).
 
-#### 2. Clona el repositorio de la implementación
+#### 2. Clonar el repositorio de la implementación
 ```bash
 git clone https://github.com/ivnimprv/ecommerce_data_analysis.git
 ```
-#### 2.1 Navega al directorio del proyecto (desde la terminal de tu IDE)
+#### 2.1 Navegue al directorio del proyecto (desde la terminal de su IDE)
 ```bash
 cd /your/folder/directory/ecomerce_data_analysis
 ```
-#### 3. Instala las Dependencias
+#### 3. Instale las Dependencias
 ```bash
 pip install -r requirements.txt
 ```
-#### 4. Inicia la aplicación localmente
+#### 4. Inicie la aplicación localmente
 ```bash
 python3 app.py
 ```
@@ -86,6 +86,14 @@ La aplicación debería ser accesible ahora en http://localhost:8000.
 #### Agradecimientos
 
 - **Agradecimientos Especiales a Code With Antonio:** Expreso mi gratitud por inspirar con proyectos fundamentales y hacer posible esta implementación.
+
+### Feedback y soporte:
+Su opinión es importante y estoy listo para ayudarlo a abordar cualquier consulta o comentario que pueda tener. Sus contribuciones son esenciales para perfeccionar el proyecto y mejorar la experiencia general del usuario. No dudes en ponerte en contacto conmigo:
+
+No dude en compartir sus conocimientos, recomendaciones o sugerencias para la mejora continua. Si encuentra algún desafío o necesita ayuda, [cree un nuevo problema de GitHub](https://github.com/imprvhub/ecommerce-data-analysis/issues/new). Asegúrese de proporcionar una descripción detallada de su problema para facilitar una asistencia rápida y precisa.
+
+### Licencia:
+Para obtener más información sobre este tema, lea la siguiente [Sección de Acuerdo de usuario](https://ecommerce-data-analysis.azurewebsites.net/user_agreements.html)
 
 
 ---

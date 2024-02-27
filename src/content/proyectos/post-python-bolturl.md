@@ -32,20 +32,20 @@ https://bolturl.site
 
 #### Instalación y Ejecución Local
 
-##### 1. Clona este proyecto.
+##### 1. Clonar este proyecto.
 ```bash
 git clone https://github.com/ivnimprv/bolturl-python.git
 
 ```
-##### 2.1 Navega al directorio del proyecto (desde tu terminal IDE)
+##### 2.1 Navegue al directorio del proyecto (desde tu terminal IDE)
 ```bash
 cd /your/folder/directory/bolturl-python
 ```
-##### 3. Instala las Dependencias
+##### 3. Instale las Dependencias
 ```bash
 pip install -r requirements.txt
 ```
-##### 4. Crea tu propia base de datos (Este es el enfoque de Planetscale [MYSQL]) y reemplaza las siguientes variables de entorno para obtener la funcionalidad completa de la aplicación en producción local.
+##### 4. Cree su propia base de datos (Este es el enfoque de Planetscale [MYSQL]) y reemplace las siguientes variables de entorno para obtener la funcionalidad completa de la aplicación en producción local.
 ```bash
 domain_url = os.getenv("DOMAIN_URL", "http://localhost:5000")
 hashids_salt = os.getenv("HASHIDS_SALT")
@@ -58,7 +58,7 @@ connection = pymysql.connect(
         ssl={"ssl_accept": "strict"}
     )
 ```
-##### 5. Ejecuta el siguiente comando en tu terminal IDE.
+##### 5. Ejecute el siguiente comando en tu terminal IDE.
 ```bash
 python3 index.py
 ```
@@ -72,6 +72,14 @@ python3 index.py
 ##### Aprendizajes
 
 - **Sin Frontend Framework:** En este proyecto aprendí que a veces no es necesario depender de otros frameworks frontend. 
+
+### Comentarios y soporte:
+Su opinión es importante y estoy listo para ayudarlo a abordar cualquier consulta o comentario que pueda tener. Sus contribuciones son esenciales para perfeccionar el proyecto y mejorar la experiencia general del usuario. No dudes en ponerte en contacto conmigo:
+
+No dude en compartir sus conocimientos, recomendaciones o sugerencias para la mejora continua. Si encuentra algún desafío o necesita ayuda, [cree un nuevo problema de GitHub](https://github.com/imprvhub/bolturl-python/issues/new). Asegúrese de proporcionar una descripción detallada de su problema para facilitar una asistencia rápida y precisa.
+
+### Licencia:
+Para obtener más información sobre este tema, lea la siguiente [Sección Acuerdo de usuario](https://www.bolturl.site/user_agreements)
 
 
 ---
