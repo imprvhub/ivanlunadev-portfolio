@@ -32,8 +32,7 @@ Este projeto é uma aplicação web Python construída com Flask. Busca a Imagem
 - [Sobre o projeto](#sobre-o-projeto)
 - [Recursos](#recursos)
 - [Instalação](#instalação)
-- [Uso](#uso)
-- [Feedback & Suporte](#feedback--suporte)
+- [Feedback](#feedback)
 - [Licença](#licença)
 - [Conclusão](#conclusão)
 
@@ -69,7 +68,7 @@ Para executar este projeto localmente, siga estes passos:
    python3 index.py
    ```
 
-#### Feedback & Suporte:
+#### Feedback:
 
 Seu feedback é valioso! Se encontrar algum problema ou tiver sugestões de melhorias, por favor crie uma nova issue no GitHub neste repositório.
 
