@@ -35,6 +35,7 @@ Este proyecto es una aplicación web Python construida con Flask. Obtiene la Ima
 - [Uso](#uso)
 - [Comentarios y Soporte](#comentarios--soporte)
 - [Licencia](#licencia)
+- [Conclusión](#conclusion)
 
 #### Instalación:
 
