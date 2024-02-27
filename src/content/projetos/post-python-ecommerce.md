@@ -88,6 +88,14 @@ The application should now be accessible at http://localhost:8000.
 
 - **Agradecimentos Especiais ao Code With Antonio:** Expressando minha gratidão por inspirar com projetos fundamentais e tornar possível esta implementação.
 
+### Feedback e suporte:
+Sua opinião é importante e estou pronto para ajudar a responder a quaisquer dúvidas ou comentários que você possa ter. Suas contribuições são essenciais para refinar o projeto e melhorar a experiência geral do usuário. Não hesite em entrar em contato comigo:
+
+Sinta-se à vontade para compartilhar seus insights, recomendações ou sugestões para melhoria contínua. Se você encontrar algum desafio ou precisar de ajuda, [crie um novo problema no GitHub](https://github.com/imprvhub/ecommerce-data-análise/issues/new). Certifique-se de fornecer uma descrição detalhada do seu problema para facilitar um suporte rápido e preciso.
+
+### Licença:
+Para obter mais informações sobre este tópico, leia a seguinte [Seção do Contrato do Usuário.](https://ecommerce-data-análise.azurewebsites.net/user_agreements.html)
+
 
 ---
 <div class="flex justify-between">

@@ -11,7 +11,7 @@ draft: false
 
 #### Bem-vind@s ao [Fifty List - Buscando Suas 50 Melhores Músicas.](https://fiftylist.vercel.app/)
 
-Este projeto faz parte do meu portfólio apresentado em [ivanluna.dev](https://ivanluna.dev) e demonstra uma integração sofisticada de React e Python usando **_Spotify e Todoist API_**. Para insights detalhados, visite o [Repositório Fifty List React no Github](https://github.com/imprvhub/fiftylist-react/) e o [Repositório Fifty List Python no Github](https://github.com/imprvhub/fiftylist-python/).
+Este projeto é uma plataforma de automação musical e apresenta uma integração perfeita de React e Python. Para obter informações detalhadas, visite o [Repositório Fifty List React no Github](https://github.com/imprvhub/fiftylist-react/) e o [Repositório Fifty List Python no Github](https://github.com/imprvhub/fiftylist-python/).
 
 #### Demonstração Ao Vivo:
 https://fiftylist.vercel.app/
@@ -89,9 +89,13 @@ Embora a funcionalidade de exportar dados de músicas para o Todoist possa parec
 
 No futuro, assim como atualmente a exportação funciona para o Todoist, também gostaria de adicionar uma exportação para o Notion.#### 
 
-#### Contribuindo
+## Feedback e suporte:
+Sua opinião é importante e estou pronto para ajudar a responder a quaisquer dúvidas ou comentários que você possa ter. Suas contribuições são essenciais para refinar o projeto e melhorar a experiência geral do usuário. Não hesite em entrar em contato comigo:
 
-Recebemos contribuições para o projeto FiftyList. Se você tiver sugestões ou melhorias, sinta-se à vontade para nos contatar em contact@ivanluna.dev.
+Sinta-se à vontade para compartilhar seus insights, recomendações ou sugestões para melhoria contínua. Se você encontrar algum desafio ou precisar de ajuda, [crie um novo problema no GitHub](https://github.com/imprvhub/fiftylist-react/issues/new). Certifique-se de fornecer uma descrição detalhada do seu problema para facilitar um suporte rápido e preciso.
+
+## Licença:
+Para obter mais informações sobre este tópico, leia a seguinte [seção de Termos e Condições.](https://fiftylist.vercel.app/html/termsandconditions.html)
 
 ---
 <div class="flex justify-between">
