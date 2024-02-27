@@ -70,7 +70,7 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 
 #### Feedback:
 
-¡Su opinón es valiosa! Si encuentra algún problema o tiene sugerencias para mejoras, por favor cree un nuevo issue en este [repositorio de Github](https://github.com/imprvhub/nasa-apod-viewer).
+¡Su opinón es valiosa! Si encuentra algún problema o tiene sugerencias para mejoras, por favor cree un nuevo issue en este [repositorio de Github](https://github.com/imprvhub/nasa-apod-viewer/issues/new).
 
 #### Licencia:
 
