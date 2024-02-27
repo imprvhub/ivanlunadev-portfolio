@@ -72,6 +72,14 @@ python3 index.py
 
 - **No Frontend Framework:** In this project I learned that sometimes it is not necessary to depend on other front end frameworks. 
 
+### Feedback & Support:
+Your input matters, and I'm ready to help address any inquiries or feedback you may have. Your contributions are essential for refining the project and enhancing the overall user experience. Don't hesitate to get in touch with me:
+
+Feel free to share your insights, recommendations, or suggestions for continuous improvement. If you encounter any challenges or require assistance, please [create a new GitHub issue](https://github.com/imprvhub/bolturl-python/issues/new). Be sure to provide a detailed description of your issue to facilitate prompt and precise support.
+
+### License:
+For more information regarding this topic please read the following [User Agreement Section.](https://www.bolturl.site/user_agreements)
+
 ---
 <div class="flex justify-between">
       <button class="btn btn-primary" onclick="window.location.href='/';">Back to Home</button>
