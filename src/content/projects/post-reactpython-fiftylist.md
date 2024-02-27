@@ -81,6 +81,14 @@ pip install -r requirements.txt
    
 IMPORTANT: Open two separate windows in your IDE to run the fullstack locally. Execute the commands to have both projects running simultaneously for them to work seamlessly.
 
+#### Feedback & Support:
+Your input matters, and I'm ready to help address any inquiries or feedback you may have. Your contributions are essential for refining the project and enhancing the overall user experience. Don't hesitate to get in touch with me:
+
+Feel free to share your insights, recommendations, or suggestions for continuous improvement. If you encounter any challenges or require assistance, please [create a new GitHub issue](https://github.com/imprvhub/fiftylist-react/issues/new). Be sure to provide a detailed description of your issue to facilitate prompt and precise support.
+
+#### License:
+For more information regarding this topic please read the following [Terms and Conditions.](https://fiftylist.vercel.app/html/termsandconditions.html)
+
 #### Conclusion:
 
 Although the functionality of exporting song data to Todoist may seem unnecessary, my main focus was to achieve effective integration between various programming languages and ensure efficient feedback with the Python backend. Additionally, I saw this opportunity as a way to learn about new APIs.
@@ -88,15 +96,6 @@ Although the functionality of exporting song data to Todoist may seem unnecessar
 ##### Future Plans: 
 
 In the future, just as currently the export works for Todoist. I would also like to add an 'Export to Notion' new feature.
-
-#### Feedback & Support:
-Your input matters, and I'm ready to help address any inquiries or feedback you may have. Your contributions are essential for refining the project and enhancing the overall user experience. Don't hesitate to get in touch with me:
-
-Feel free to share your insights, recommendations, or suggestions for continuous improvement. If you encounter any challenges or require assistance, please [create a new GitHub issue](https://github.com/imprvhub/fiftylist-react/issues/new). Be sure to provide a detailed description of your issue to facilitate prompt and precise support.
-
-#### License:
-For more information regarding this topic please read the following [Terms and Conditions Section.](https://fiftylist.vercel.app/html/termsandconditions.html)
-
 
 ---
 <div class="flex justify-between">
