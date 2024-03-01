@@ -2,6 +2,14 @@
 
 Welcome to my software developer portfolio repository, meticulously crafted using Astro, TypeScript, SCSS, and JavaScript. This website serves as a showcase for my creative projects, professional journey, and expertise as Software Developer. All presented in a user-friendly and visually appealing manner.
 
+## Demo
+
+Visit the site: [ivanluna.dev](https://ivanluna.dev)
+
+## Preview
+
+![Preview](public/images/previews/preview.png "Preview")
+
 ## Key Features
 
 **Technologies Used:**
