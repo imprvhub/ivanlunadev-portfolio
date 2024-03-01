@@ -13,7 +13,7 @@ draft: false
 This project is a music automation platform and showcases a seamless integration of React and Python. For detailed insights, please visit the [Fifty List React Github Repo](https://github.com/imprvhub/fiftylist-react/) and the [Fifty List Python Github Repo](https://github.com/imprvhub/fiftylist-python/).
 
 #### Live Demo:
-https://fiftylist.vercel.app/
+[fiftylist.vercel.app](https://fiftylist.vercel.app/)
 
 #### Key Features:
 

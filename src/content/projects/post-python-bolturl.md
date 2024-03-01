@@ -12,7 +12,7 @@ draft: false
 This Link Shortener web app showcases how Python can do anything. Using Python (Flask Framework) with MySQL (Planetscale). For detailed insights, please visit the [Github Repo](https://github.com/imprvhub/bolturl-python).
 
 #### Live Demo:
-https://bolturl.site
+[bolturl.site](https://bolturl.site)
 
 #### Key Features:
 -**Link Shortening:**

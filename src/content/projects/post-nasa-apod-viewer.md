@@ -12,6 +12,8 @@ draft: false
 
 A Python web application for fetching NASA's Astronomy Picture of the Day, shareable as APOD cards.
 
+#### Demo:
+
 Visit the live app: [apod-nasa-viewer.vercel.app](https://apod-nasa-viewer.vercel.app)
 
 #### About this project:
