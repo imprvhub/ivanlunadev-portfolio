@@ -1,7 +1,6 @@
 ---
 title: "User Agreement / Terms and Conditions / Privacy Policy"
 meta_title: "Iván Luna - Software Developer - User Agreement / Terms and Conditions / Privacy Policy"
-description: "this is meta description"
 draft: false
 ---
 

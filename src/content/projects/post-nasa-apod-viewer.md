@@ -1,7 +1,6 @@
 ---
 title: "🪐Nasa Apod Viewer - A Python web app for fetching NASA's Astronomy Picture of the Day, shareable as APOD cards. "
 meta_title: "Iván Luna - Software Developer - Nasa APOD Viewer"
-description: "this is meta description"
 date: 2024-02-25T05:00:00Z
 image: "/images/assets/nasa-apod-viewer.png"
 categories: ["Python","SQL","Development","Vercel Deployment"]

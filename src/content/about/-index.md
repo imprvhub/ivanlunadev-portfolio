@@ -1,7 +1,6 @@
 ---
 title: "About Me"
 meta_title: "Iván Luna - Software Developer - About"
-description: "this is meta description"
 image: "/images/avatars/avatar.png"
 draft: false
 ---
