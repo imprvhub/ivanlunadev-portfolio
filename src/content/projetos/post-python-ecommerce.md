@@ -13,7 +13,7 @@ draft: false
 Esta implementação destaca e fornece uma análise abrangente de dados de e-commerce de dois projetos Next.js diferentes. Utilizando Python (Framework Flask) com Gunicorn e Implantação Azure. Para insights detalhados, visite o [Repositório no Github](https://github.com/imprvhub/ecommerce-data-analysis/).
 
 #### Demonstração Ao Vivo:
-https://ecommerce-data-analysis.azurewebsites.net/
+[ecommerce-data-analysis.azurewebsites.net](https://ecommerce-data-analysis.azurewebsites.net/)
 
 #### Tutorial:
 <div style="text-align: center;">
