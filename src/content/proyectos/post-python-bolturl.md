@@ -13,6 +13,7 @@ draft: false
 Esta aplicación web de acortamiento de enlaces demuestra cómo Python puede hacer casi cualquier cosa. Utiliza Python (Flask) con MySQL (Planetscale). Para obtener información detallada, visite el [Repositorio en Github](https://github.com/imprvhub/bolturl-python).
 
 #### Demostración:
+
 [bolturl.site](https://bolturl.site)
 
 #### Características Clave:
