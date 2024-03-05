@@ -27,6 +27,7 @@ Este projeto é uma aplicação web Python construída com Flask. Busca a Imagem
 - Inclui uma opção de 'Embaralhar' que seleciona aleatoriamente para usuários que não estão certos sobre qual data explorar.
 - Apresenta uma seleção curada das melhores imagens APOD desde 1995 (o ano de início do APOD) até o presente através da seção 'Recomendações destacadas da NASA APOD por ano'.
 - Gera cartões APOD compartilháveis contendo a imagem, título e descrição recuperados.
+- **Integração com o YouTube (novo recurso):** Os usuários agora podem assistir a vídeos APOD diretamente na interface do aplicativo. Eles também podem compartilhar esses vídeos do YouTube como cartões APOD, expandindo a funcionalidade de compartilhamento do aplicativo. Com esse aprimoramento, os usuários podem facilmente divulgar suas descobertas astronômicas favoritas.
 
 #### Índice:
 
