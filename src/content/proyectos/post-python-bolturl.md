@@ -4,7 +4,7 @@ meta_title: "Iván Luna - Desarrollador de Software - BoltURL"
 description: ""
 date: 2024-01-20T05:00:00Z
 image: "/images/assets/bolt-url.png"
-categories: ["Python","SQL", "Soluciones", "Desarrollo", "Despliegue en Vercel"]
+categories: ["Python","Flask","SQL", "Soluciones", "Desarrollo", "Despliegue en Vercel"]
 tags: ["bolt-url", "flask"]
 draft: false
 ---
