@@ -3,7 +3,7 @@ title: "⚡️BoltURL - A Python [Flask] Link Shortener Web App. "
 meta_title: "Iván Luna - Software Developer - BoltURL"
 date: 2024-01-20T05:00:00Z
 image: "/images/assets/bolt-url.png"
-categories: ["Python","SQL","Solutions","Development","Vercel Deployment"]
+categories: ["Python","Flask","SQL","Solutions","Development","Vercel Deployment"]
 tags: ["bolt-url","flask"]
 draft: false
 ---
