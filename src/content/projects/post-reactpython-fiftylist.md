@@ -18,17 +18,14 @@ This project is a music automation platform and showcases a seamless integration
 
 #### Key Features:
 
-##### Frontend (React.js)
+### Frontend (React.js)
 - Spotify Integration: Fetches your top 50 tracks from Spotify within a chosen timeframe (1, 6 months, or all-time classics).
-- Playlist Creation: Automatically generates a new playlist on your Spotify account with these tracks.
-- Recommendation Lists Creation: Based on your top 50 listened songs, our recommendation engine suggests an additional 20 songs to add to your playlists.
 
-##### Backend (Python)
-- Flask-Powered: Acts as a middleware that interfaces between React and Todoist.
-- Task Management: Organizes track details into tasks on Todoist, including artist names, song titles, album names, release dates, and genres.
+### Backend (Python)
+- Flask-Powered: Acts as a middleware that interfaces with React.
+- Fifty Card: Organizes retrieved tracks dynamically into a static brand new website in order to provide sharing functionality to social media or for accessing later, including artist names, song titles, album names, release dates, and genres.
 
-#### About the Project:
-
+## About the Project
 FiftyList is an exploratory project diving deep into the collaboration of different programming languages and APIs. It is designed to:
 - Demonstrate Seamless Communication: Showcases smooth communication between the frontend and backend using API calls.
 - Emphasize Language Synergy: Highlights the synergy between React's frontend prowess and Python's backend efficiency.
@@ -52,7 +49,7 @@ npm install
 4. Replace the environment variables (`REACT_APP_SCOPES`, `REACT_APP_REDIRECT_URI`, `REACT_APP_CLIENT_SECRET`, `REACT_APP_CLIENT_ID`) with your own. You can generate these variables from Spotify Developer Dashboard.
 5. Replace the variable defined at the beginning of the code in `App.js`:
    `const redirectUri = 'https://fiftylist.vercel.app/callback';` with -> `const redirectUri = "http://localhost:3000/callback";`
-   Update the URLs in the variables of the `exportTodoist` function from `'https://fiftylistbackend.vercel.app/todoist'` to `'http://localhost:5000/todoist'` if your Python backend is using a different 
+   Update the URLs in the variables of the `exportShare` function from `'https://fiftylistbackend.vercel.app/share'` to `'http://localhost:5000/share'` if your Python backend is using a different 
    port.
 6. Run the following command from your terminal IDE; this should start the frontend on the designated port. 
 ```bash
@@ -76,8 +73,8 @@ cd /your/folder/directory/fiftylist-python
 ```bash
 pip install -r requirements.txt
 ```
-3. Replace the variable defined at the beginning of the todoist.py code: `cors = CORS(app, resources={r"/todoist": {"origins": "https://fiftylist-frontend.vercel.app/"}})` with ->  `cors = CORS(app, resources={r"/todoist": {"origins": "http://localhost:3000/"}})` (or the port you designated for your frontend).
-4. Run `python3 todoist.py`.
+3. Replace the variable defined at the beginning of the share.py code: `cors = CORS(app, resources={r"/share": {"origins": "https://fiftylist-frontend.vercel.app/"}})` with ->  `cors = CORS(app, resources={r"/share": {"origins": "http://localhost:3000/"}})` (or the port you designated for your frontend).
+4. Run `python3 share.py`.
    
 IMPORTANT: Open two separate windows in your IDE to run the fullstack locally. Execute the commands to have both projects running simultaneously for them to work seamlessly.
 
@@ -88,14 +85,6 @@ Feel free to share your insights, recommendations, or suggestions for continuous
 
 #### License:
 For more information regarding this topic please read the following [Terms and Conditions.](https://fiftylist.vercel.app/html/termsandconditions.html)
-
-#### Conclusion:
-
-Although the functionality of exporting song data to Todoist may seem unnecessary, my main focus was to achieve effective integration between various programming languages and ensure efficient feedback with the Python backend. Additionally, I saw this opportunity as a way to learn about new APIs.
-
-##### Future Plans: 
-
-In the future, just as currently the export works for Todoist. I would also like to add an 'Export to Notion' new feature.
 
 ---
 <div class="flex justify-between">
