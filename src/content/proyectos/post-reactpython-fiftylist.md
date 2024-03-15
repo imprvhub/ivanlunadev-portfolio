@@ -11,6 +11,8 @@ draft: false
 
 #### Bienvenid@s a [Fifty List - Obteniendo tus 50 mejores canciones.](https://fiftylist.vercel.app/)
 
+IMPORTANTE: Este proyecto se encuentra en mantenimiento.
+
 Este proyecto es una plataforma de automatización musical y muestra una integración perfecta de React y Python. Para obtener información detallada, visite el [Repositorio de Fifty List React en Github](https://github.com/imprvhub/fiftylist-react/) y el [Repositorio de Fifty List Python en Github](https://github.com/imprvhub/fiftylist-python/).
 
 #### Demostración:
@@ -19,21 +21,19 @@ Este proyecto es una plataforma de automatización musical y muestra una integra
 
 #### Características Clave:
 
-##### Frontend (React.js)
-- Integración con Spotify: Obtiene tus 50 mejores canciones de Spotify en un período elegido (1 mes, 6 meses o clásicos de todos los tiempos).
-- Creación de Listas de Reproducción: Genera automáticamente una nueva lista de reproducción en su cuenta de Spotify con estas 50 canciones.
-- Creación de Listas de Recomendaciones: Basado en tus 50 canciones más escuchadas, nuestro motor de recomendaciones sugiere 20 canciones adicionales para agregar a tus listas de reproducción.
+### Frontend (React.js)
+- Integración de Spotify: recupera tus 50 pistas principales de Spotify dentro de un período de tiempo elegido (1, 6 meses o clásicos de todos los tiempos).
 
-##### Backend (Python)
-- Potenciado por Flask: Actúa como un intermediario que interactúa entre React y Todoist.
-- Gestión de Tareas: Organiza detalles de las canciones en tareas en Todoist, incluyendo nombres de artistas, títulos de canciones, nombres de álbumes, fechas de lanzamiento y géneros.
+### Backend (Python)
+- Flask Framework: actúa como un middleware que interactúa con React.
+- Fifty Card: organiza las pistas recuperadas dinámicamente en un nuevo sitio web estático para brindar funcionalidad para compartir en las redes sociales o para acceder más tarde, incluye nombres de artistas, títulos de canciones, nombres de álbumes, fechas de lanzamiento y géneros.
 
-#### Acerca del Proyecto:
+## Sobre el proyecto
 
-Fifty List es un proyecto exploratorio que profundiza en la colaboración de diferentes lenguajes de programación y API. Está diseñado para:
-- Demostrar Comunicación: Muestra una comunicación fluida entre el frontend y el backend mediante llamadas a distintas API.
-- Enfatizar la Sinergia de Lenguajes: Destaca la sinergia entre el frontend de React y el backend de Python.
-- Desafío de Presentación de Datos: Asegura que los datos complejos se representen de manera amigable para el usuario y se transmitan eficazmente.
+FiftyList es un proyecto exploratorio que profundiza en la colaboración de diferentes lenguajes de programación y API. Está diseñado para:
+- Demostrar una comunicación fluida: muestra una comunicación fluida entre el frontend y el backend mediante llamadas API.
+- Enfatizar la sinergia del lenguaje: destaca la sinergia entre la destreza del frontend de React y la eficiencia del backend de Python.
+- Desafío de presentación de datos: garantiza que los datos complejos se representen en un formato fácil de usar y se transmitan de manera efectiva entre sistemas.
 
 #### Instalación y Uso:
 
@@ -53,7 +53,7 @@ npm install
 4. Reemplace las variables de entorno (`REACT_APP_SCOPES`, `REACT_APP_REDIRECT_URI`, `REACT_APP_CLIENT_SECRET`, `REACT_APP_CLIENT_ID`) con las suyas. Podrá generar estas variables desde el Panel de Desarrolladores de Spotify.
 5. Reemplace la variable definida al principio del código en `App.js`:
    `const redirectUri = 'https://fiftylist.vercel.app/callback';` con -> `const redirectUri = "http://localhost:3000/callback";`
-   Actualice las URL en las variables de la función `exportTodoist` de `'https://fiftylistbackend.vercel.app/todoist'` a `'http://localhost:5000/todoist'` si su backend de Python está utilizando un puerto diferente.
+   Actualice las URL en las variables de la función `exportShare` de `'https://fiftylistbackend.vercel.app/share'` a `'http://localhost:5000/share'` si su backend de Python está utilizando un puerto diferente.
 6. Ejecute el siguiente comando desde tu terminal IDE; esto debería iniciar el frontend en el puerto designado.
 ```bash
 npm start
@@ -76,8 +76,8 @@ cd /your/folder/directory/fiftylist-python
 ```bash
 pip install -r requirements.txt
 ```
-3. Reemplace la variable definida al principio del código de todoist.py: `cors = CORS(app, resources={r"/todoist": {"origins": "https://fiftylist-frontend.vercel.app/"}})` con ->  `cors = CORS(app, resources={r"/todoist": {"origins": "http://localhost:3000/"}})` (o el puerto que hayas designado para tu frontend).
-4. Ejecute `python3 todoist.py`.
+3. Reemplace la variable definida al principio del código de share.py: `cors = CORS(app, resources={r"/share": {"origins": "https://fiftylist-frontend.vercel.app/"}})` con ->  `cors = CORS(app, resources={r"/share": {"origins": "http://localhost:3000/"}})` (o el puerto que hayas designado para tu frontend).
+4. Ejecute `python3 share.py`.
    
 IMPORTANTE: Abra ambos proyectos en su IDE para ejecutar el fullstack localmente. Ejecute los comandos para que ambos proyectos funcionen simultáneamente sin problemas.
 
@@ -89,14 +89,6 @@ No dude en compartir sus conocimientos, recomendaciones o sugerencias para la me
 
 #### Licencia:
 Para obtener más información sobre este tema, lea los [Términos y condiciones](https://fiftylist.vercel.app/html/termsandconditions.html) de este proyecto.
-
-#### Conclusión:
-
-Si bien la funcionalidad para exportar datos de canciones a Todoist puede parecer innecesaria, mi enfoque principal fue lograr una integración efectiva entre múltiples lenguajes de programación y garantizar un feedback eficiente con el backend de Python. Además, vi esta oportunidad como una forma de aprender sobre nuevas API.
-
-##### Planes Futuros:
-
-En el futuro, al igual que actualmente la exportación funciona para Todoist, también me gustaría agregar una exportación a Notion.
 
 ---
 <div class="flex justify-between">
