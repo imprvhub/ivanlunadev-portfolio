@@ -18,14 +18,14 @@ This project is a music automation platform and showcases a seamless integration
 
 #### Key Features:
 
-### Frontend (React.js)
+##### Frontend (React.js)
 - Spotify Integration: Fetches your top 50 tracks from Spotify within a chosen timeframe (1, 6 months, or all-time classics).
 
-### Backend (Python)
+##### Backend (Python)
 - Flask-Powered: Acts as a middleware that interfaces with React.
 - Fifty Card: Organizes retrieved tracks dynamically into a static brand new website in order to provide sharing functionality to social media or for accessing later, including artist names, song titles, album names, release dates, and genres.
 
-## About the Project
+#### About the Project
 FiftyList is an exploratory project diving deep into the collaboration of different programming languages and APIs. It is designed to:
 - Demonstrate Seamless Communication: Showcases smooth communication between the frontend and backend using API calls.
 - Emphasize Language Synergy: Highlights the synergy between React's frontend prowess and Python's backend efficiency.
