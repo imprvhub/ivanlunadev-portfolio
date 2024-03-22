@@ -1,5 +1,5 @@
 ---
-title: "🎧 Fifty List - A React/Python Music Automation Platform."
+title: "🎧 Fifty List v2- A React/Python Music Automation Platform."
 meta_title: "Iván Luna - Software Developer - Fifty List"
 date: 2024-01-07T05:00:00Z
 image: "/images/assets/fifty-list.png"
@@ -8,9 +8,9 @@ tags: ["fifty-list","flask","react"]
 draft: false
 ---
 
-#### Welcome to [Fifty List - Fetching Your Top 50 Jams.](https://fiftylist.vercel.app/)
+#### Welcome to [Fifty List v2- Fetching Your Top 50 Jams.](https://fiftylist.vercel.app/)
 
-This project is a music automation platform and showcases a seamless integration of React and Python. For detailed insights, please visit the [Fifty List React Github Repo](https://github.com/imprvhub/fiftylist-react/) and the [Fifty List Python Github Repo](https://github.com/imprvhub/fiftylist-python/).
+This project is a music automation platform and showcases a seamless integration of React and Python. For detailed insights, please visit the [Fifty List React Github Repo](https://github.com/imprvhub/fiftylist-react-v2/) and the [Fifty List Python Github Repo](https://github.com/imprvhub/fiftylist-python-v2/).
 
 #### Live Demo:
 
@@ -36,11 +36,11 @@ FiftyList is an exploratory project diving deep into the collaboration of differ
 ##### For Frontend Installation:
 1. Clone this project.
  ```bash
-git clone https://github.com/imprvhub/fiftylist-react.git
+git clone https://github.com/imprvhub/fiftylist-react-v2.git
 ```
 2. Navigate to the project directory (in your terminal IDE).
 ```bash
-cd /your/folder/directory/fiftylist-react
+cd /your/folder/directory/fiftylist-react-v2
 ```
 3. Run the following command to install all required dependecies.
 ```bash
@@ -60,14 +60,14 @@ npm start
 ##### Prerequisites:
 [**Python 3.11**](https://www.python.org/downloads/release/python-3110/)
 
-1. Clone the project. ( https://github.com/imprvhub/fiftylist-python )
+1. Clone the project. ( https://github.com/imprvhub/fiftylist-python-v2 )
  ```bash
-git clone https://github.com/imprvhub/fiftylist-python.git
+git clone https://github.com/imprvhub/fiftylist-python-v2.git
 ```
 
 1.2 Navigate to the project directory (in your terminal IDE).
 ```bash
-cd /your/folder/directory/fiftylist-python
+cd /your/folder/directory/fiftylist-python-v2
 ```
 2. Run the following command to install all required dependecies.
 ```bash
@@ -81,7 +81,7 @@ IMPORTANT: Open two separate windows in your IDE to run the fullstack locally. E
 #### Feedback & Support:
 Your input matters, and I'm ready to help address any inquiries or feedback you may have. Your contributions are essential for refining the project and enhancing the overall user experience. Don't hesitate to get in touch with me:
 
-Feel free to share your insights, recommendations, or suggestions for continuous improvement. If you encounter any challenges or require assistance, please [create a new GitHub issue](https://github.com/imprvhub/fiftylist-react/issues/new). Be sure to provide a detailed description of your issue to facilitate prompt and precise support.
+Feel free to share your insights, recommendations, or suggestions for continuous improvement. If you encounter any challenges or require assistance, please [create a new GitHub issue](https://github.com/imprvhub/fiftylist-react-v2/issues/new). Be sure to provide a detailed description of your issue to facilitate prompt and precise support.
 
 #### License:
 For more information regarding this topic please read the following [Terms and Conditions.](https://fiftylist.vercel.app/html/termsandconditions.html)
