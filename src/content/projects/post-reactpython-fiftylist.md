@@ -20,6 +20,8 @@ This project is a music automation platform and showcases a seamless integration
 
 ##### Frontend (React.js)
 - Spotify Integration: Fetches your top 50 tracks from Spotify within a chosen timeframe (1, 6 months, or all-time classics).
+- Export To Playlist (Results): Automatically generates a new playlist on your Spotify account with these 50 tracks.
+- Export To Playlist (Recommendations): Based on your top 50 listened songs, our recommendation engine suggests an additional 20 songs to add to your playlists.
 
 ##### Backend (Python)
 - Flask-Powered: Acts as a middleware that interfaces with React.
