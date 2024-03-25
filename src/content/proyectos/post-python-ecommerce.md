@@ -18,7 +18,7 @@ Esta implementación muestra y proporciona un análisis integral de datos de com
 
 #### Tutorial:
 <div style="text-align: center;">
-  <iframe width="100%" height="600" src="https://youtu.be/kJ6O4pHK_rc" frameborder="0" allowfullscreen style="margin: auto;"></iframe>
+  <iframe width="100%" height="600" src="https://www.youtube.com/watch?v=kJ6O4pHK_rc&start=0" frameborder="0" allowfullscreen style="margin: auto;"></iframe>
 </div>
 
 #### Características Clave:
