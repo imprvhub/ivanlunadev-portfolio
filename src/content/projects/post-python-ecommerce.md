@@ -17,7 +17,7 @@ This implementation showcases and provides a comprehensive analysis of e-commerc
 
 #### Tutorial:
 <div style="text-align: center;">
-  <iframe width="100%" height="600" src="https://www.youtube.com/embed/jNLWl_Nu3KE" frameborder="0" allowfullscreen style="margin: auto;"></iframe>
+  <iframe width="100%" height="600" src="https://youtu.be/kJ6O4pHK_rc" frameborder="0" allowfullscreen style="margin: auto;"></iframe>
 </div>
 
 #### Key Features:
