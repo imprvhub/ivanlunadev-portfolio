@@ -18,7 +18,7 @@ Esta implementação destaca e fornece uma análise abrangente de dados de e-com
 
 #### Tutorial:
 <div style="text-align: center;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/kJ6O4pHK_rc" frameborder="0" allowfullscreen style="margin: auto;"></iframe>
+  <iframe width="100%" height="600" src="https://www.youtube.com/embed/kJ6O4pHK_rc" frameborder="0" allowfullscreen style="margin: auto;"></iframe>
 </div>
 
 
