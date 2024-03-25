@@ -10,9 +10,6 @@ draft: false
 ---
 
 #### Bienvenid@s a [Fifty List v2 - Obteniendo tus 50 mejores canciones.](https://fiftylist.vercel.app/)
-
-IMPORTANTE: Este proyecto se encuentra en mantenimiento.
-
 Este proyecto es una plataforma de automatización musical y muestra una integración perfecta de React y Python. Para obtener información detallada, visite el [Repositorio de Fifty List React en Github](https://github.com/imprvhub/fiftylist-react-v2/) y el [Repositorio de Fifty List Python en Github](https://github.com/imprvhub/fiftylist-python-v2/).
 
 #### Demostración:
@@ -23,6 +20,9 @@ Este proyecto es una plataforma de automatización musical y muestra una integra
 
 ##### Frontend (React.js)
 - Integración de Spotify: recupera tus 50 pistas principales de Spotify dentro de un período de tiempo elegido (1, 6 meses o clásicos de todos los tiempos).
+- Exportar a Playlist (Resultados): Genera automáticamente una nueva lista de reproducción en su cuenta de Spotify con estas 50 pistas.
+- Exportar a Playlist (recomendaciones): según sus 50 canciones más escuchadas, nuestro motor de recomendaciones sugiere 20 canciones adicionales para agregar a sus listas de reproducción.
+
 
 ##### Backend (Python)
 - Flask Framework: actúa como un middleware que interactúa con React.
