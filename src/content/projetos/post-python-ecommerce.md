@@ -18,8 +18,9 @@ Esta implementação destaca e fornece uma análise abrangente de dados de e-com
 
 #### Tutorial:
 <div style="text-align: center;">
-  <iframe width="100%" height="600" src="https://www.youtube.com/watch?v=kJ6O4pHK_rc&start=0" frameborder="0" allowfullscreen style="margin: auto;"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/kJ6O4pHK_rc" frameborder="0" allowfullscreen style="margin: auto;"></iframe>
 </div>
+
 
 #### Principais Recursos:
 1. <ins>**Obtenha Dados como um Super Admin:**<ins>
