@@ -21,6 +21,8 @@ Este projeto é uma plataforma de automação musical e apresenta uma integraç�
 
 ##### Front-end (React.js)
 - Integração com Spotify: busca suas 50 melhores faixas do Spotify dentro de um período escolhido (1, 6 meses ou clássicos de todos os tempos).
+- Exportar para Playlist (Resultados): Gera automaticamente uma nova playlist em sua conta Spotify com essas 50 faixas.
+- Exportar para lista de reprodução (recomendações): com base nas 50 músicas mais ouvidas, nosso mecanismo de recomendação sugere 20 músicas adicionais para adicionar às suas listas de reprodução.
 
 ##### Back-end (Python)
 - Flask-Powered: atua como um middleware que faz interface com o React.
