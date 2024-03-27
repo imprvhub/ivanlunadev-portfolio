@@ -1,16 +1,16 @@
-# [Iván Luna - Software Developer](https://ivanluna.dev/) -  Portfolio Repository.
+## Welcome to the [Iván Luna Software Developer](https://ivanluna.dev/) Portfolio Repository.
 
 Welcome to my software developer portfolio repository, meticulously crafted using Astro, TypeScript, SCSS, and JavaScript. This website serves as a showcase for my creative projects, professional journey, and expertise as Software Developer. All presented in a user-friendly and visually appealing manner.
 
-## Demo
+### Demo
 
-Visit the site: [ivanluna.dev](https://ivanluna.dev)
+Visit the live app: [ivanluna.dev](https://ivanluna.dev)
 
-## Preview
+### Preview
 
 ![Preview](public/images/previews/preview.png "Preview")
 
-## Key Features
+### Key Features
 
 **Technologies Used:**
 
@@ -29,22 +29,22 @@ Visit the site: [ivanluna.dev](https://ivanluna.dev)
 - Search Functionality: The search feature is also enabled, providing an intuitive search engine that facilitates user queries.
 - Contact Form: Allows users to submit inquiries or messages via a contact form. Form submissions are processed securely using a Netlify function, ensuring reliable email delivery.
 
-## Installation and Usage
+### Installation and Usage
 
-### 1. Clone the project:
+#### 1. Clone the project:
 Clone the source code or download the repository on your local computer by clicking the **Code** button.
 
 ``` bash
 git clone https://github.com/imprvhub/ivanlunadev-portfolio.git
 ```
 
-### 3. Install Required Dependencies:
+#### 3. Install Required Dependencies:
 
 ``` bash
 npm install
 ```
 
-### 4. Run the Application
+#### 4. Run the Application
 From your IDE terminal navigate to the root of the project and execute the following command:
 ``` bash
 npm run dev
@@ -54,7 +54,7 @@ Then it should be accessible at:
 http://localhost:4321
 ```
 
-## Identified Issues & Pending Tasks
+### Identified Issues & Pending Tasks
 This section presents a summary of known issues and bugs, along with pending tasks.
 
 **Identified Issues**
@@ -66,10 +66,10 @@ This section presents a summary of known issues and bugs, along with pending tas
 
 - Fix the responsive behavior of the nav-menu when transitioning from mobile to desktop using an intersection observer.
 
-## Feedback & Support
+### Feedback & Support
 Your input matters, and I'm ready to help address any inquiries or feedback you may have. Your contributions are essential for refining the project and enhancing the overall user experience. Don't hesitate to get in touch with me:
 
 Feel free to share your insights, recommendations, or suggestions for continuous improvement. If you encounter any challenges or require assistance, please [create a new GitHub issue](https://github.com/imprvhub/ivanlunadev-portfolio/issues/new). Be sure to provide a detailed description of your issue to facilitate prompt and precise support.
 
-## License
+### License
 For more information regarding this topic please read the following [User Agreement Section.](https://ivanluna.dev/user-agreement/)
