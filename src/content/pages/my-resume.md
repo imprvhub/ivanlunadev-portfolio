@@ -186,11 +186,13 @@ NOTE: Actively seeking new job opportunities.
 
 ### Relevant Projects:
 
-- BoltURL: A Python Link Shortener Web App - [Demo](https://ivanluna.dev/projects/post-python-bolturl).
-
 - Fifty List: A React/Python Music Automation Platform - [Demo](https://ivanluna.dev/projects/post-reactpython-fiftylist)
 
+- Nasa Apod Viewer - A Python web app for fetching NASA's Astronomy Picture of the Day, shareable as APOD cards - [Demo](https://ivanluna.dev/projects/post-nasa-apod-viewer/)
+
 - E-commerce Data Analysis: Perform in depth analysis from two Next.js projects using Python - [Demo](https://ivanluna.dev/projects/post-python-ecommerce).
+
+- BoltURL: A Python Link Shortener Web App - [Demo](https://ivanluna.dev/projects/post-python-bolturl).
 
 ### Languages:
 - Spanish: Proficiency Level (Native)
