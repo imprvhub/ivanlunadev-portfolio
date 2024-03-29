@@ -5,11 +5,8 @@ description: ""
 draft: false
 ---
 
----
+>Actively seeking new job opportunities.
 
-<Notice type="note">Actively seeking new job opportunities.</Notice>
-
----
 
 <div style="text-align: center;">
   <h2>Iván Luna - Desenvolvedor de Software</h2>
