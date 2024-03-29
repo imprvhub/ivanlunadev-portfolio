@@ -5,9 +5,6 @@ description: ""
 draft: false
 ---
 
->Actively seeking new job opportunities.
-
-
 <div style="text-align: center;">
   <h2>Iván Luna - Desenvolvedor de Software</h2>
 </div>
@@ -18,8 +15,26 @@ draft: false
 - **Localização:** Buenos Aires, Argentina
 - **E-mail:** [contact@ivanluna.dev](mailto:contact@ivanluna.dev)
 
+<br>
+
 ### Perfil Profissional:
+
 Localizado em Buenos Aires. Eu sou um **desenvolvedor de backend** com um foco técnico em **Python** desde outubro de 2020. Minha carreira de programação começou como um interesse complementar durante meus estudos de psicologia, evoluindo para um papel central em minha vida. Ganhei uma experiência valiosa trabalhando com várias **plataformas de nuvem, como AWS, GCP e até Azure**. Também trabalhei com tecnologias como **Vanilla JS, React.js, Node.js e mais**. Atualmente, me dedico a dominar novas estruturas e explorar conceitos avançados de **ambientes em nuvem e ai**. Meu compromisso com a inovação e a dedicação me posiciona como um profissional orientado a resultados.
+```
+Buscando ativamente novas oportunidades de emprego.
+```
+
+<br>
+
+### Habilidades
+
+<div align="center">  
+
+  <img src="https://skillicons.dev/icons?i=python,flask,sklearn,django,nodejs,react,astro,vue,mysql,gcp,azure,vercel,netlify,git,html,js,css,docker&perline=6" alt="My Skills">
+
+</div>
+
+<br>
 
 ### Experiência Profissional:
 
@@ -31,6 +46,8 @@ Localizado em Buenos Aires. Eu sou um **desenvolvedor de backend** com um foco t
 ##### Desenvolvedor de Software na Fiverr - Posição Anterior
 - **Novembro de 2020 - Outubro de 2023**
 - Programação orientada a objetos (OOP), Desenvolvimento Backend, Git, Aprendizado de Máquina, SQL, HTML, GUI, Golang, DevOps, Python, Java, Bancos de Dados, Inglês.
+
+<br>
 
 ### Educação:
 
@@ -45,6 +62,8 @@ Localizado em Buenos Aires. Eu sou um **desenvolvedor de backend** com um foco t
 
 ##### Universidade John F. Kennedy - Licenciatura em Psicologia
 - **Março de 2010 - Novembro de 2014**
+
+<br>
 
 ### Certificações:
 <b>
@@ -166,13 +185,19 @@ Localizado em Buenos Aires. Eu sou um **desenvolvedor de backend** com um foco t
 </details>
 <b>
 
+<br>
+
 ### Projetos Relevantes:
 
-- BoltURL: Uma aplicação web para encurtar links (Python) - [Demo](https://ivanluna.dev/projetos/post-python-bolturl).
+- Fifty List: Uma plataforma de automação musical (React/Python) - [Demo](https://br.ivanluna.dev/projetos/post-reactpython-fiftylist)
 
-- Fifty List: Uma plataforma de automação musical (React/Python) - [Demo](https://ivanluna.dev/projetos/post-reactpython-fiftylist)
+- E-commerce Data Analysis: Realiza uma análise de dados a partir de dois projetos Next.js (Python) - [Demo](https://br.ivanluna.dev/projetos/post-python-ecommerce).
 
-- E-commerce Data Analysis: Realiza uma análise de dados a partir de dois projetos Next.js (Python) - [Demo](https://ivanluna.dev/projetos/post-python-ecommerce).
+- Nasa APOD Viewer: Um aplicativo da web baseado em Python para buscar a imagem de astronomia da NASA do dia, compartilhável como cartões APOD. - [Demo](https://br.ivanluna.dev/projetos/post-nasa-apod-viewer/).
+
+- BoltURL: Uma aplicação web para encurtar links (Python) - [Demo](https://br.ivanluna.dev/projetos/post-python-bolturl).
+
+<br>
 
 ### Idiomas:
 - Espanhol: Nativo
@@ -194,9 +219,8 @@ function downloadPDF(pdfPath, fileName) {
 }
 </script>
 
-
----
 <div style="text-align: center;">
+  <br>
   <h4>Vamos trabalhar juntos!</h4>
   <p>Vamos agendar uma entrevista ou discutir ideias para futuros projetos.</p>
     <div class="flex justify-between">
