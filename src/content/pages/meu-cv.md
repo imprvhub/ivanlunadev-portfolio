@@ -25,16 +25,6 @@ Localizado em Buenos Aires. Eu sou um **desenvolvedor de backend** com um foco t
 
 <br>
 
-### Habilidades
-
-<div align="center">  
-
-  <img src="https://skillicons.dev/icons?i=python,flask,django,nodejs,react,astro,vue,mysql,postgres,gcp,azure,vercel,netlify,git,html,js,css,docker&perline=6" alt="My Skills">
-
-</div>
-
-<br>
-
 ### Experiência Profissional:
 
 ##### Desenvolvedor de Software - Atualmente
@@ -61,6 +51,16 @@ Localizado em Buenos Aires. Eu sou um **desenvolvedor de backend** com um foco t
 
 ##### Universidade John F. Kennedy - Licenciatura em Psicologia
 - **Março de 2010 - Novembro de 2014**
+
+<br>
+
+### Habilidades
+
+<div align="center">  
+
+  <img src="https://skillicons.dev/icons?i=python,flask,django,nodejs,react,astro,vue,mysql,postgres,gcp,azure,vercel,netlify,git,html,js,css,docker&perline=6" alt="My Skills">
+
+</div>
 
 <br>
 
