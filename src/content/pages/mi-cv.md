@@ -25,16 +25,6 @@ Soy un **desarrollador Backend** viviendo en Buenos Aires, con un enfoque técni
 
 <br>
 
-### Habilidades:
-
-<div align="center">  
-
-  <img src="https://skillicons.dev/icons?i=python,flask,django,nodejs,react,astro,vue,mysql,postgres,gcp,azure,vercel,netlify,git,html,js,css,docker&perline=6" alt="My Skills">
-
-</div>
-
-<br>
-
 ### Experiencia Laboral:
 
 ##### Desarrollador de Software - Actualidad
@@ -61,6 +51,16 @@ Soy un **desarrollador Backend** viviendo en Buenos Aires, con un enfoque técni
 
 ##### Universidad John F. Kennedy - Licenciatura en Psicología
 - **Marzo 2010 - Noviembre 2014**
+
+<br>
+
+### Habilidades:
+
+<div align="center">  
+
+  <img src="https://skillicons.dev/icons?i=python,flask,django,nodejs,react,astro,vue,mysql,postgres,gcp,azure,vercel,netlify,git,html,js,css,docker&perline=6" alt="My Skills">
+
+</div>
 
 <br>
 
