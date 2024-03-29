@@ -15,8 +15,25 @@ draft: false
 - **Ubicación:** Buenos Aires, Argentina
 - **Correo Electrónico:** [contact@ivanluna.dev](mailto:contact@ivanluna.dev)
 
+<br>
+
 ### Perfil Profesional:
-Soy un **desarrollador Backend** viviendo en Buenos Aires, con un enfoque técnico en **Python** (cuatro años de experiencia), también he trabajado con tecnologías como Vanilla Javascript, Vue.js, React.js, Vite.js, Nuxt.js y Node.js. Mi trayectoria en programación comenzó como un interés complementario durante mis estudios de Psicología, evolucionando hacia un papel central en mi vida. Actualmente, me dedico a dominar nuevos marcos de trabajo y explorar conceptos avanzados en aprendizaje automático y ciencia de datos. En mi búsqueda activa de oportunidades laborales, mi compromiso con la innovación y la dedicación me posiciona como un profesional orientado a resultados. Abierto a desafíos nuevos.
+Soy un **desarrollador Backend** viviendo en Buenos Aires, con un enfoque técnico en **Python** desde Octubre del 2020. Mi trayectoria en programación comenzó como un interés complementario durante mis estudios de Psicología, evolucionando hacia un papel central en mi vida. Obtuve experiencias valiosas trabajando con varias **plataformas de servicios de la nube como AWS, GCP e incluso Azure**. También trabajé con tecnologías como **Vanilla JS, React.js, Node.js y más**. Actualmente, me dedico a aprender nuevos frameworks y explorar conceptos avanzados de **cloud enviroments e IA**. Mi compromiso con la innovación y la dedicación me posiciona como un profesional orientado a resultados.
+  ```bash
+NOTA: Actualmente buscando activamente nuevas oportunidades de empleo.
+```
+
+<br>
+
+### Habilidades
+
+<div align="center">  
+
+  <img src="https://skillicons.dev/icons?i=python,flask,django,nodejs,react,astro,vue,mysql,postgres,gcp,azure,vercel,netlify,git,html,js,css,docker&perline=6" alt="My Skills">
+
+</div>
+
+<br>
 
 ### Experiencia Laboral:
 
@@ -42,6 +59,8 @@ Soy un **desarrollador Backend** viviendo en Buenos Aires, con un enfoque técni
 
 ##### Universidad John F. Kennedy - Licenciatura en Psicología
 - **Marzo 2010 - Noviembre 2014**
+
+<br>
 
 ### Certificaciones:
 <b>
@@ -163,13 +182,17 @@ Soy un **desarrollador Backend** viviendo en Buenos Aires, con un enfoque técni
 </details>
 <b>
 
+<br>
+
 ### Proyectos Relevantes:
 
-- BoltURL: Una aplicación web para acortar enlaces (Python) - [Demo](https://ivanluna.dev/proyectos/post-python-bolturl).
+- Fifty List: Una plataforma de automatización musical (React/Python) - [Demo](https://es.ivanluna.dev/proyectos/post-reactpython-fiftylist)
 
-- Fifty List: Una plataforma de automatización musical (React/Python) - [Demo](https://ivanluna.dev/proyectos/post-reactpython-fiftylist)
+- Nasa APOD Viewer: una web app hecha en Python para buscar la imagen de astronomíca del dia de la NASA, y compartirla como tarjeta APOD. -[demo](https://es.ivanluna.dev/proyectos/post-nasa-apod-viewer/).
 
-- E-commerce Data Analysis: Realiza un análisis de datos desde dos proyectos Next.js (Python) - [Demo](https://ivanluna.dev/proyectos/post-python-ecommerce).
+- E-commerce Data Analysis: Realiza un análisis de datos desde dos proyectos Next.js (Python) - [Demo](https://es.ivanluna.dev/proyectos/post-python-ecommerce).
+
+- BoltURL: Una aplicación web para acortar enlaces (Python) - [Demo](https://es.ivanluna.dev/proyectos/post-python-bolturl).
 
 ### Idiomas:
 - Español: Nativo
@@ -191,9 +214,8 @@ function downloadPDF(pdfPath, fileName) {
 }
 </script>
 
-
----
 <div style="text-align: center;">
+  <br>
   <h4>¡Trabajemos juntos!</h4>
   <p>Programemos una entrevista o pensemos en ideas para futuros proyectos.</p>
     <div class="flex justify-between">
