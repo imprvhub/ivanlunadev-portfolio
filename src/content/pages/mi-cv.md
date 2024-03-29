@@ -25,7 +25,7 @@ NOTA: Actualmente buscando activamente nuevas oportunidades de empleo.
 
 <br>
 
-### Habilidades
+### Habilidades:
 
 <div align="center">  
 
