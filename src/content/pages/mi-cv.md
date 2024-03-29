@@ -46,6 +46,8 @@ NOTA: Actualmente buscando activamente nuevas oportunidades de empleo.
 - **Noviembre 2020 - Octubre 2023**
 - Programación orientada a objetos (OOP), Desarrollo Backend, Git, Aprendizaje Automático, SQL, HTML, GUI, Golang, DevOps, Python, Java, Bases de Datos, Inglés.
 
+<br>
+
 ### Educación:
 
 ##### Academia JetBrains - Desarrollador Fullstack
