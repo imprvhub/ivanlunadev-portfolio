@@ -191,9 +191,9 @@ Observação: Buscando ativamente novas oportunidades de emprego.
 
 - Fifty List: Uma plataforma de automação musical (React/Python) - [Demo](https://br.ivanluna.dev/projetos/post-reactpython-fiftylist)
 
-- E-commerce Data Analysis: Realiza uma análise de dados a partir de dois projetos Next.js (Python) - [Demo](https://br.ivanluna.dev/projetos/post-python-ecommerce).
-
 - Nasa APOD Viewer: Um aplicativo da web baseado em Python para buscar a imagem de astronomia da NASA do dia, compartilhável como cartões APOD. - [Demo](https://br.ivanluna.dev/projetos/post-nasa-apod-viewer/).
+
+- E-commerce Data Analysis: Realiza uma análise de dados a partir de dois projetos Next.js (Python) - [Demo](https://br.ivanluna.dev/projetos/post-python-ecommerce).
 
 - BoltURL: Uma aplicação web para encurtar links (Python) - [Demo](https://br.ivanluna.dev/projetos/post-python-bolturl).
 
