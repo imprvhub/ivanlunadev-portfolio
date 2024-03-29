@@ -36,6 +36,16 @@ Based in Buenos Aires. I am a **Backend developer** with a technical focus on **
 - **November 2020 - October 2023**
 - Object-oriented programming (OOP), Backend Development, Git, Machine Learning, SQL, HTML, GUI, Golang, DevOps, Python, Java, Databases, English.
 
+### Skills:
+
+<div align="center">  
+
+  <img src="https://skillicons.dev/icons?i=python,flask,django,nodejs,react,astro,vue,mysql,postgres,gcp,azure,vercel,netlify,git,html,js,css,docker&perline=6" alt="My Skills">
+
+</div>
+
+<br>
+
 ### Education:
 
 ##### JetBrains Academy - Fullstack Developer
@@ -49,16 +59,6 @@ Based in Buenos Aires. I am a **Backend developer** with a technical focus on **
 
 ##### University John F. Kennedy - Psychology Degree
 - **March 2010 - November 2014**
-
-<br>
-
-### Skills:
-
-<div align="center">  
-
-  <img src="https://skillicons.dev/icons?i=python,flask,django,nodejs,react,astro,vue,mysql,postgres,gcp,azure,vercel,netlify,git,html,js,css,docker&perline=6" alt="My Skills">
-
-</div>
 
 <br>
 
