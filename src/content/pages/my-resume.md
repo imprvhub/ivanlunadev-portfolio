@@ -25,16 +25,6 @@ Based in Buenos Aires. I am a **Backend developer** with a technical focus on **
 
 <br>
 
-### Skills:
-
-<div align="center">  
-
-  <img src="https://skillicons.dev/icons?i=python,flask,django,nodejs,react,astro,vue,mysql,postgres,gcp,azure,vercel,netlify,git,html,js,css,docker&perline=6" alt="My Skills">
-
-</div>
-
-<br>
-
 ### Work Experience:
 
 ##### Software Developer - Currently
@@ -59,6 +49,16 @@ Based in Buenos Aires. I am a **Backend developer** with a technical focus on **
 
 ##### University John F. Kennedy - Psychology Degree
 - **March 2010 - November 2014**
+
+<br>
+
+### Skills:
+
+<div align="center">  
+
+  <img src="https://skillicons.dev/icons?i=python,flask,django,nodejs,react,astro,vue,mysql,postgres,gcp,azure,vercel,netlify,git,html,js,css,docker&perline=6" alt="My Skills">
+
+</div>
 
 <br>
 
