@@ -15,8 +15,25 @@ draft: false
 - **Location:** Buenos Aires, Argentina
 - **Email:** [contact@ivanluna.dev](mailto:contact@ivanluna.dev)
 
+<br>
+
 ### Professional Profile:
-I am a **Backend developer** based in Buenos Aires, with a technical focus on Python (four years of experience), I have also worked with technologies such as Vanilla Javascript, Vue.js, React.js, Vite.js, Nuxt.js and Node.js. My programming journey began as a complementary interest during my Psychology studies, evolving into a central role in my life. Currently, I am dedicated to mastering new frameworks and exploring advanced concepts in machine learning and data science. In my active pursuit of job opportunities, my commitment to innovation and dedication positions me as a results-oriented professional.
+Based in Buenos Aires. I am a **Backend developer** with a technical focus on **Python** since October, 2020. My programming career began as a complementary interest during my Psychology studies, evolving into a central role in my life. I have gained valuable experience working with various **cloud platforms such as AWS, GCP and even Azure**. I have also worked with technologies such as **Vanilla JS, React.js, Node.js, and more**. Currently, I am dedicated to mastering new frameworks and exploring advanced concepts of **Cloud environments and AI**. My commitment to innovation and dedication positions me as a results-oriented professional.
+  ```bash
+NOTE: Actively seeking new job opportunities.
+```
+
+<br>
+
+### Skills:
+
+<div align="center">  
+
+  <img src="https://skillicons.dev/icons?i=python,flask,django,nodejs,react,astro,vue,mysql,postgres,gcp,azure,vercel,netlify,git,html,js,css,docker&perline=6" alt="My Skills">
+
+</div>
+
+<br>
 
 ### Work Experience:
 
@@ -42,6 +59,8 @@ I am a **Backend developer** based in Buenos Aires, with a technical focus on Py
 
 ##### University John F. Kennedy - Psychology Degree
 - **March 2010 - November 2014**
+
+<br>
 
 ### Certifications:
 <b>
@@ -163,6 +182,8 @@ I am a **Backend developer** based in Buenos Aires, with a technical focus on Py
 </details>
 <b>
 
+<br>
+
 ### Relevant Projects:
 
 - BoltURL: A Python Link Shortener Web App - [Demo](https://ivanluna.dev/projects/post-python-bolturl).
@@ -191,9 +212,8 @@ function downloadPDF(pdfPath, fileName) {
 }
 </script>
 
-
----
 <div style="text-align: center;">
+  <br>
   <h4>Ready to work together?</h4>
   <p>Let's schedule an interview or brainstorm ideas for future projects!</p>
     <div class="flex justify-between">
