@@ -194,6 +194,8 @@ NOTA: Actualmente buscando activamente nuevas oportunidades de empleo.
 
 - BoltURL: Una aplicación web para acortar enlaces (Python) - [Demo](https://es.ivanluna.dev/proyectos/post-python-bolturl).
 
+<br>
+
 ### Idiomas:
 - Español: Nativo
 - Inglés: [Nivel de Competencia C2](https://www.efset.org/cert/d4vAsK)
