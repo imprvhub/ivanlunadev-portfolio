@@ -1,5 +1,5 @@
 ---
-title: "🎧 Fifty List v2 - Uma Plataforma de Automação Musical React/Python."
+title: "🎧 Fifty List v2 [React y Python] - Plataforma de automação musical FullStack usando a API Spotify."
 meta_title: "Iván Luna - Desenvolvedor de Software - Fifty List"
 description: ""
 date: 2024-01-07T05:00:00Z
@@ -9,7 +9,7 @@ categories: ["React.js","Python","Flask","Desenvolvimento Fullstack","Google Clo
 
 #### Bem-vind@s ao [Fifty List v2 - Buscando Suas 50 Melhores Músicas.](https://fiftylist.vercel.app/)
 
-Este projeto é uma plataforma de automação musical e apresenta uma integração perfeita de React e Python. Para obter informações detalhadas, visite o [Repositório Fifty List React no Github](https://github.com/imprvhub/fiftylist-react-v2/) e o [Repositório Fifty List Python no Github](https://github.com/imprvhub/fiftylist-python-v2/).
+Este projeto é uma plataforma fullstack de automação musical e apresenta uma integração perfeita de React e Python. Para obter informações detalhadas, visite o [Repositório Fifty List React no Github](https://github.com/imprvhub/fiftylist-react-v2/) e o [Repositório Fifty List Python no Github](https://github.com/imprvhub/fiftylist-python-v2/).
 
 #### Demonstração Ao Vivo:
 
