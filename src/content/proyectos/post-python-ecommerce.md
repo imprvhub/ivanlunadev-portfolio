@@ -4,8 +4,8 @@ meta_title: "Iván Luna - Desarrollador de Software - E-commerce Data Analysis"
 description: ""
 date: 2024-01-03T05:00:00Z
 image: "/images/assets/ecommerce-data-analysis.png"
-categories: ["Python","Flask","Next.js","Data Analysis","SQL", "Soluciones", "Implementaciones", "Despliegue en Azure"]
-tags: ["ecommerce-data-analysis", "flask", "gunicorn"]
+categories: ["Python","Flask","Next.js","GUnicorn", "Data Analysis","MySQL","Planetscale", "Soluciones", "Implementaciones", "Desarrollo Fullstack", "Despliegue en Azure"]
+tags: ["ecommerce-data-analysis"]
 draft: false
 ---
 
