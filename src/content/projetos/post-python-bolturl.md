@@ -12,9 +12,7 @@ draft: false
 ### Bem-vind@s ao Projeto [Bolt URL!](https://bolturl.site/).
 Esta aplicação web de encurtamento de links mostra como o Python pode fazer de tudo. Utilizando Python (Framework Flask) com MySQL (Planetscale). Para insights detalhados, visite o [Repositório no Github](https://github.com/imprvhub/bolturl-python).
 
-#### Demonstração Ao Vivo:
-
-[bolturl.site](https://bolturl.site)
+#### Demonstração Ao Vivo: [bolturl.site](https://bolturl.site)
 
 #### Principais Recursos:
 - **Encurtamento de Links:**

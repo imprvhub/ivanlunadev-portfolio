@@ -11,9 +11,7 @@ categories: ["React.js","Python","Flask","Desenvolvimento Fullstack","Google Clo
 
 Este projeto é uma plataforma fullstack de automação musical e apresenta uma integração perfeita de React e Python. Para obter informações detalhadas, visite o [Repositório Fifty List React no Github](https://github.com/imprvhub/fiftylist-react-v2/) e o [Repositório Fifty List Python no Github](https://github.com/imprvhub/fiftylist-python-v2/).
 
-#### Demonstração Ao Vivo:
-
-[fiftylist.vercel.app](https://fiftylist.vercel.app/)
+#### Demonstração Ao Vivo: [fiftylist.vercel.app](https://fiftylist.vercel.app/)
 
 #### Principais Recursos:
 
