@@ -8,7 +8,6 @@ tags: ["bolt-url"]
 draft: false
 ---
 
-### Welcome to the [Bolt URL!](https://bolturl.site/) Project.
 This Link Shortener web app showcases how Python can do anything. Using Python (Flask Framework) with MySQL (Planetscale). For detailed insights, please visit the [Github Repo](https://github.com/imprvhub/bolturl-python).
 
 #### Live Demo: [bolturl.site](https://bolturl.site)

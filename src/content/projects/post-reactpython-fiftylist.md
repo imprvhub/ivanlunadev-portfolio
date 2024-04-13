@@ -8,8 +8,6 @@ tags: ["fifty-list"]
 draft: false
 ---
 
-#### Welcome to [Fifty List v2- Fetching Your Top 50 Jams.](https://fiftylist.vercel.app/)
-
 This project is a fullstack music automation platform and showcases a seamless integration of React and Python. For detailed insights, please visit the [Fifty List React Github Repo](https://github.com/imprvhub/fiftylist-react-v2/) and the [Fifty List Python Github Repo](https://github.com/imprvhub/fiftylist-python-v2/).
 
 #### Live Demo: [fiftylist.vercel.app](https://fiftylist.vercel.app/)
