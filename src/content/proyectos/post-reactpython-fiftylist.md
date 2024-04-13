@@ -5,7 +5,7 @@ description: "Esta es la descripción meta"
 date: 2024-01-07T05:00:00Z
 image: "/images/assets/fifty-list.png"
 categories: ["React.js", "Python","Flask", "Desarrollo Fullstack", "Google Cloud Storage", "PostgreSQL", "Supabase","Despliegue en Vercel"]
-tags: ["fifty-list", "flask", "react"]
+tags: ["fifty-list"]
 draft: false
 ---
 
