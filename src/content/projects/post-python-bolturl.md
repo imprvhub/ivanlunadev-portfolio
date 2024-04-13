@@ -1,19 +1,17 @@
 ---
-title: "⚡️BoltURL - A Python [Flask] Link Shortener Web App. "
+title: "⚡️BoltURL [Python - Flask]"
 meta_title: "Iván Luna - Software Developer - BoltURL"
 date: 2024-01-20T05:00:00Z
 image: "/images/assets/bolt-url.png"
-categories: ["Python","Flask","SQL","Solutions","Development","Vercel Deployment"]
-tags: ["bolt-url","flask"]
+categories: ["Python","Flask","PostgreSQL","Supabase","Solutions","Backend Development","Vercel Deployment"]
+tags: ["bolt-url"]
 draft: false
 ---
 
 ### Welcome to the [Bolt URL!](https://bolturl.site/) Project.
 This Link Shortener web app showcases how Python can do anything. Using Python (Flask Framework) with MySQL (Planetscale). For detailed insights, please visit the [Github Repo](https://github.com/imprvhub/bolturl-python).
 
-#### Live Demo:
-
-[bolturl.site](https://bolturl.site)
+#### Live Demo: [bolturl.site](https://bolturl.site)
 
 #### Key Features:
 -**Link Shortening:**

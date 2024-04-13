@@ -1,10 +1,10 @@
 ---
-title: "🪐Nasa Apod Viewer - A Python web app for fetching NASA's Astronomy Picture of the Day, shareable as APOD cards. "
+title: "🪐Nasa Apod Viewer [Python - Flask]"
 meta_title: "Iván Luna - Software Developer - Nasa APOD Viewer"
 date: 2024-02-25T05:00:00Z
 image: "/images/assets/nasa-apod-viewer.png"
-categories: ["Python","Flask", "SQL","Development","Vercel Deployment"]
-tags: ["nasa-apod-viewer","flask"]
+categories: ["Python","Flask", "PostgreSQL", "Supabase","Backend Development","Vercel Deployment"]
+tags: ["nasa-apod-viewer"]
 draft: false
 ---
 
@@ -12,9 +12,7 @@ draft: false
 
 A Python web application for fetching NASA's Astronomy Picture of the Day, shareable as APOD cards.
 
-#### Live Demo:
-
-[apod-nasa-viewer.vercel.app](https://apod-nasa-viewer.vercel.app)
+#### Live Demo: [apod-nasa-viewer.vercel.app](https://apod-nasa-viewer.vercel.app)
 
 #### About this project:
 

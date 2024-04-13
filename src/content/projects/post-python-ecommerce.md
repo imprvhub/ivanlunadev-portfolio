@@ -1,19 +1,17 @@
 ---
-title: "📈 E-commerce Data Analysis (Python)."
+title: "📈 E-commerce Data Analysis [Next.js - Python]"
 meta_title: "Iván Luna - Software Developer - Ecommerce Data Analysis"
 date: 2024-01-03T05:00:00Z
 image: "/images/assets/ecommerce-data-analysis.png"
-categories: ["Python","Flask","Next.js","Data Analysis","SQL","Solutions","Implementations","Azure Deployment"]
-tags: ["e-commerce data analysis","flask","gunicorn"]
+categories: ["Python","Flask","Next.js","Data Analysis","MySQL","Planetscale","Solutions","Implementations","Full Stack Development","Azure Deployment"]
+tags: ["e-commerce data analysis"]
 draft: false
 ---
 
 ### Welcome to the [E-commerce Data Analysis](https://ecommerce-data-analysis.azurewebsites.net/) Project.
 This implementation showcases and provides a comprehensive analysis of e-commerce data from two different Next.js projects. Using Python (Flask Framework) with GUnicorn and Azure Deployment. For detailed insights, please visit the [Github Repo](https://github.com/imprvhub/ecommerce-data-analysis/).
 
-#### Live Demo:
-
-[ecommerce-data-analysis.azurewebsites.net](https://ecommerce-data-analysis.azurewebsites.net/)
+#### Live Demo: [ecommerce-data-analysis.azurewebsites.net](https://ecommerce-data-analysis.azurewebsites.net/)
 
 #### Tutorial:
 

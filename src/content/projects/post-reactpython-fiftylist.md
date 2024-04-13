@@ -1,20 +1,18 @@
 ---
-title: "🎧 Fifty List v2- A React/Python Music Automation Platform."
+title: "🎧 Fifty List v2 [React.js-Python]"
 meta_title: "Iván Luna - Software Developer - Fifty List"
 date: 2024-01-07T05:00:00Z
 image: "/images/assets/fifty-list.png"
-categories: ["React.js","Python","API RESTful","Development","Vercel Deployment"]
-tags: ["fifty-list","flask","react"]
+categories: ["React.js","Python","Flask","Full Stack Development","PostgreSQL","Google Cloud Storage","Supabase", "Vercel Deployment"]
+tags: ["fifty-list"]
 draft: false
 ---
 
 #### Welcome to [Fifty List v2- Fetching Your Top 50 Jams.](https://fiftylist.vercel.app/)
 
-This project is a music automation platform and showcases a seamless integration of React and Python. For detailed insights, please visit the [Fifty List React Github Repo](https://github.com/imprvhub/fiftylist-react-v2/) and the [Fifty List Python Github Repo](https://github.com/imprvhub/fiftylist-python-v2/).
+This project is a fullstack music automation platform and showcases a seamless integration of React and Python. For detailed insights, please visit the [Fifty List React Github Repo](https://github.com/imprvhub/fiftylist-react-v2/) and the [Fifty List Python Github Repo](https://github.com/imprvhub/fiftylist-python-v2/).
 
-#### Live Demo:
-
-[fiftylist.vercel.app](https://fiftylist.vercel.app/)
+#### Live Demo: [fiftylist.vercel.app](https://fiftylist.vercel.app/)
 
 #### Key Features:
 
