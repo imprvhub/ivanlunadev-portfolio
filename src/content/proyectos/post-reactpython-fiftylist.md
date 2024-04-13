@@ -9,7 +9,6 @@ tags: ["fifty-list"]
 draft: false
 ---
 
-#### Bienvenid@s a [Fifty List v2 - Obteniendo tus 50 mejores canciones.](https://fiftylist.vercel.app/)
 Este proyecto es una plataforma fullstack de automatización musical y muestra una integración perfecta de React y Python. Para obtener información detallada, visite el [Repositorio de Fifty List React en Github](https://github.com/imprvhub/fiftylist-react-v2/) y el [Repositorio de Fifty List Python en Github](https://github.com/imprvhub/fiftylist-python-v2/).
 
 #### Demostración: [fiftylist.vercel.app](https://fiftylist.vercel.app/)
