@@ -8,8 +8,6 @@ tags: ["nasa-apod-viewer"]
 draft: false
 ---
 
-### Bem-vindo ao Projeto [Nasa Apod Viewer](https://apod-nasa-viewer.vercel.app/).
-
 Uma aplicação web Python para buscar a Imagem Astronômica do Dia da NASA, compartilhável como cartões APOD.
 
 #### Demonstração Ao Vivo: [apod-nasa-viewer.vercel.app](https://apod-nasa-viewer.vercel.app)

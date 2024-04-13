@@ -7,8 +7,6 @@ image: "/images/assets/fifty-list.png"
 categories: ["React.js","Python","Flask","Desenvolvimento Fullstack","Google Cloud Storage","PostgreSQL", "Supabase", "Implantação Vercel"]
 ---
 
-#### Bem-vind@s ao [Fifty List v2 - Buscando Suas 50 Melhores Músicas.](https://fiftylist.vercel.app/)
-
 Este projeto é uma plataforma fullstack de automação musical e apresenta uma integração perfeita de React e Python. Para obter informações detalhadas, visite o [Repositório Fifty List React no Github](https://github.com/imprvhub/fiftylist-react-v2/) e o [Repositório Fifty List Python no Github](https://github.com/imprvhub/fiftylist-python-v2/).
 
 #### Demonstração Ao Vivo: [fiftylist.vercel.app](https://fiftylist.vercel.app/)
