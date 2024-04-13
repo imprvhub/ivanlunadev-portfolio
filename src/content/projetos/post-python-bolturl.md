@@ -1,5 +1,5 @@
 ---
-title: "⚡️BoltURL - Uma Aplicação Web para Encurtar Links em Python [Flask]."
+title: "⚡️BoltURL - [Python Flask]"
 meta_title: "Iván Luna - Desenvolvedor de Software - BoltURL"
 description: "esta é uma meta descrição"
 date: 2024-01-20T05:00:00Z
