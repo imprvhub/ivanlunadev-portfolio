@@ -4,9 +4,7 @@ meta_title: "Iván Luna - Desenvolvedor de Software - Fifty List"
 description: ""
 date: 2024-01-07T05:00:00Z
 image: "/images/assets/fifty-list.png"
-categories: ["React.js","Python","API RESTful","Desenvolvimento","Implantação Vercel"]
-tags: ["fifty-list","flask","react"]
-draft: false
+categories: ["React.js","Python","Flask","Desenvolvimento Fullstack","Google Cloud Storage","PostgreSQL", "Supabase", "Implantação Vercel"]
 ---
 
 #### Bem-vind@s ao [Fifty List v2 - Buscando Suas 50 Melhores Músicas.](https://fiftylist.vercel.app/)
