@@ -12,9 +12,7 @@ draft: false
 
 Una aplicación web Python para obtener la Imagen Astronómica del Día de la NASA, con la funcionalidad de generar tarjetas APOD y compartirlas.
 
-#### Demostración:
-
-[apod-nasa-viewer.vercel.app](https://apod-nasa-viewer.vercel.app)
+#### Demostración: [apod-nasa-viewer.vercel.app](https://apod-nasa-viewer.vercel.app)
 
 #### Acerca de este proyecto:
 
