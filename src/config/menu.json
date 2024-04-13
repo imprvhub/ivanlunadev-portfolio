@@ -14,19 +14,19 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Nasa Apod Viewer",
-          "url": "/projetos/post-nasa-apod-viewer"
-        },
-        {
-          "name": "BoltURL",
-          "url": "/projetos/post-python-bolturl"
-        },
-        {
-          "name": "Fifty List v2",
+          "name": "Fifty List v2 [React.js - Python]",
           "url": "/projetos/post-reactpython-fiftylist"
         },
         {
-          "name": "E-commerce Data Analysis",
+          "name": "Nasa Apod Viewer [Python - Flask]",
+          "url": "/projetos/post-nasa-apod-viewer"
+        },
+        {
+          "name": "BoltURL [Python - Flask]",
+          "url": "/projetos/post-python-bolturl"
+        },
+        {
+          "name": "E-commerce Data Analysis [Next.js - Python]",
           "url": "/projetos/post-python-ecommerce"
         },
         {
