@@ -1,5 +1,5 @@
 ---
-title: "🪐Nasa Apod Viewer - Una Web App de Python para obtener la Imagen Astronómica del Día (APOD) de la NASA, compartible como tarjeta APOD."
+title: "🪐Nasa Apod Viewer [Python - Flask]"
 meta_title: "Iván Luna - Desarrollador de Software - Nasa APOD Viewer"
 date: 2024-02-25T05:00:00Z
 image: "/images/assets/nasa-apod-viewer.png"

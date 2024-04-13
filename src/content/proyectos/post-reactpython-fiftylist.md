@@ -1,5 +1,5 @@
 ---
-title: "🎧 Fifty List v2 [React y Python] - Plataforma Fullstack de Automatización Musical utilizando la API de Spotify."
+title: "🎧 Fifty List v2 [React - Python]"
 meta_title: "Iván Luna - Desarrollador de Software - Fifty List"
 description: "Esta es la descripción meta"
 date: 2024-01-07T05:00:00Z

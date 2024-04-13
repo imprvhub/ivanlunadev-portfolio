@@ -1,5 +1,5 @@
 ---
-title: "📈 E-commerce Data Analysis (Python)."
+title: "📈 E-commerce Data Analysis [Python - Next.js]"
 meta_title: "Iván Luna - Desarrollador de Software - E-commerce Data Analysis"
 description: ""
 date: 2024-01-03T05:00:00Z
