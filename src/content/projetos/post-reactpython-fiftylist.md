@@ -7,9 +7,25 @@ image: "/images/assets/fifty-list.png"
 categories: ["React.js","Python","Flask","Desenvolvimento Fullstack","Google Cloud Storage","PostgreSQL", "Supabase", "Implantação Vercel"]
 ---
 
-Este projeto é uma plataforma fullstack de automação musical e apresenta uma integração perfeita de React e Python. Para obter informações detalhadas, visite o [Repositório Fifty List React no Github](https://github.com/imprvhub/fiftylist-react-v2/) e o [Repositório Fifty List Python no Github](https://github.com/imprvhub/fiftylist-python-v2/).
+Este projeto é uma plataforma fullstack de automação musical e apresenta uma integração perfeita de React e Python.
 
-#### Demonstração Ao Vivo: [fiftylist.vercel.app](https://fiftylist.vercel.app/)
+<br>
+<div style="display: flex; justify-content: center; flex-wrap: wrap; ">
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://fiftylist.vercel.app', '_blank');">Demonstração ao vivo</button>  
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://github.com/imprvhub/fiftylist-react-v2/', '_blank');">Código do Github React</button>
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://github.com/imprvhub/fiftylist-python-v2/', '_blank');">Código do Github Python</button>   
+</div>
+
+<style>
+@media screen and (max-width: 530px) {
+  .btn {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: calc(100% - 20px); 
+    max-width: 250px; 
+  }
+}
+</style>
 
 #### Principais Recursos:
 
@@ -85,7 +101,7 @@ Sinta-se à vontade para compartilhar seus insights, recomendações ou sugestõ
 #### Licença:
 Para mais informações sobre este tópico, leia os [Termos e Condições](https://fiftylist.vercel.app/html/termsandconditions.html) deste projeto.
 
----
+<br>
 <div class="flex justify-between">
       <button class="btn btn-primary" onclick="window.location.href='/';">Voltar ao Início</button>
       <button class="btn btn-primary" onclick="window.location.href='/projetos';">Voltar para Projetos</button>     

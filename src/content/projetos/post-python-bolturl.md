@@ -9,9 +9,30 @@ tags: ["bolt-url"]
 draft: false
 ---
 
-Esta aplicação web de encurtamento de links mostra como o Python pode fazer de tudo. Utilizando Python (Framework Flask) com MySQL (Planetscale). Para insights detalhados, visite o [Repositório no Github](https://github.com/imprvhub/bolturl-python).
+Esta aplicação web de encurtamento de links mostra como o Python pode fazer de tudo. Utilizando Python (Framework Flask) com PostgreSQL (Supabase). 
 
-#### Demonstração Ao Vivo: [bolturl.site](https://bolturl.site)
+<br>
+<div style="display: flex; justify-content: center;">
+  <div style="text-align: center;">
+    <p>For detailed insights:</p>
+  </div>
+</div>
+<div style="display: flex; justify-content: center; flex-wrap: wrap; ">
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://bolturl.site/', '_blank');">Demonstração ao vivo</button>  
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://github.com/imprvhub/bolturl-python/', '_blank');">Repositório no Github</button>   
+</div>
+
+<style>
+@media screen and (max-width: 530px) {
+  .btn {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: calc(100% - 20px); 
+    max-width: 250px; 
+  }
+}
+</style>
+
 
 #### Principais Recursos:
 - **Encurtamento de Links:**
@@ -78,7 +99,7 @@ Para obter mais informações sobre este tópico, leia a seguinte [Contrato do U
 
 - **Sem Framework Frontend:** Neste projeto, aprendi que às vezes não é necessário depender de outros frameworks frontend.
 
----
+<br>
 <div class="flex justify-between">
       <button class="btn btn-primary" onclick="window.location.href='/';">Voltar ao Início</button>
       <button class="btn btn-primary" onclick="window.location.href='/projetos';">Voltar para Projetos</button>     

@@ -8,13 +8,24 @@ tags: ["nasa-apod-viewer"]
 draft: false
 ---
 
-Uma aplicação web Python para buscar a Imagem Astronômica do Dia da NASA, compartilhável como cartões APOD.
+Este projeto é uma aplicação web Python construída com Flask. Busca a Imagem Astronômica do Dia (APOD) da API da NASA e fornece funcionalidades para visualizar e compartilhar as imagens como cartões APOD. 
 
-#### Demonstração Ao Vivo: [apod-nasa-viewer.vercel.app](https://apod-nasa-viewer.vercel.app)
+<br>
+<div style="display: flex; justify-content: center; flex-wrap: wrap; ">
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://apod-nasa-viewer.vercel.app', '_blank');">Demonstração ao vivo</button>  
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://github.com/imprvhub/nasa-apod-viewer/', '_blank');">Repositorio no Github</button>
+</div>
 
-#### Sobre o projeto:
-
-Este projeto é uma aplicação web Python construída com Flask. Busca a Imagem Astronômica do Dia (APOD) da API da NASA e fornece funcionalidades para visualizar e compartilhar as imagens como cartões APOD. Para mais informações você pode visitar o [repositório GitHub](https://github.com/imprvhub/nasa-apod-viewer).
+<style>
+@media screen and (max-width: 530px) {
+  .btn {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: calc(100% - 20px); 
+    max-width: 250px; 
+  }
+}
+</style>
 
 #### Recursos:
 
@@ -84,7 +95,7 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https
 
 - **Melhoria da Interação Frontend-Backend:** Obtive insights sobre como alcançar uma melhor interação entre os scripts frontend e os processos backend Python. Anteriormente, minha abordagem estava limitada a transmitir dados específicos e processá-los. No entanto, este projeto exigiu estabelecer uma troca contínua de dados entre o frontend e o backend devido aos numerosos scripts e interações dentro da aplicação web. Foi uma experiência de aprendizado valiosa.
 
----
+<br>
 <div class="flex justify-between">
       <button class="btn btn-primary" onclick="window.location.href='/';">Voltar para o Início</button>
       <button class="btn btn-primary" onclick="window.location.href='/projetos';">Voltar para Projetos</button>     
