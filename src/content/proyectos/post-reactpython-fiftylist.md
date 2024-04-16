@@ -5,13 +5,29 @@ description: "Esta es la descripción meta"
 date: 2024-01-07T05:00:00Z
 image: "/images/assets/fifty-list.png"
 categories: ["React.js", "Python","Flask", "Desarrollo Fullstack", "Google Cloud Storage", "PostgreSQL", "Supabase","Despliegue en Vercel"]
-tags: ["fifty-list"]
+tags: ["Other"]
 draft: false
 ---
 
-Este proyecto es una plataforma fullstack de automatización musical y muestra una integración perfecta de React y Python. Para obtener información detallada, visite el [Repositorio de Fifty List React en Github](https://github.com/imprvhub/fiftylist-react-v2/) y el [Repositorio de Fifty List Python en Github](https://github.com/imprvhub/fiftylist-python-v2/).
+Este proyecto es una plataforma fullstack de automatización musical y muestra una integración perfecta de React y Python. 
 
-#### Demostración: [fiftylist.vercel.app](https://fiftylist.vercel.app/)
+<br>
+<div style="display: flex; justify-content: center; flex-wrap: wrap; ">
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://fiftylist-es.vercel.app/', '_blank');">Demo</button>  
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://github.com/imprvhub/fiftylist-react-v2/', '_blank');">Github React (Repositorio)</button>
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://github.com/imprvhub/fiftylist-python-v2/', '_blank');">Github Python (Repositorio)</button>   
+</div>
+
+<style>
+@media screen and (max-width: 530px) {
+  .btn {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: calc(100% - 20px); 
+    max-width: 250px; 
+  }
+}
+</style>
 
 #### Características Clave:
 
@@ -87,7 +103,7 @@ No dude en compartir sus conocimientos, recomendaciones o sugerencias para la me
 #### Licencia:
 Para obtener más información sobre este tema, lea los [Términos y condiciones](https://fiftylist.vercel.app/html/termsandconditions.html) de este proyecto.
 
----
+<br>
 <div class="flex justify-between">
       <button class="btn btn-primary" onclick="window.location.href='/';">Volver al Inicio</button>
       <button class="btn btn-primary" onclick="window.location.href='/proyectos';">Volver a Proyectos</button>     

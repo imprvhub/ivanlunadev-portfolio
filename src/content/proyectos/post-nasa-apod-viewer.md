@@ -8,13 +8,31 @@ tags: ["nasa-apod-viewer"]
 draft: false
 ---
 
-Una aplicación web Python para obtener la Imagen Astronómica del Día de la NASA, con la funcionalidad de generar tarjetas APOD y compartirlas.
+Una aplicación web de Python para obtener las imágenes astrnómicas del día desde NASA y poder compartir la mismas como tarjetas APOD.
 
-#### Demostración: [apod-nasa-viewer.vercel.app](https://apod-nasa-viewer.vercel.app)
+<br>
+</div>
+<div style="display: flex; justify-content: center; flex-wrap: wrap; ">
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://apod-nasa-viewer.vercel.app/', '_blank');">Demo</button>  
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://github.com/imprvhub/nasa-apod-viewer/', '_blank');">Repositorio en Github</button>   
+</div>
+
+<style>
+@media screen and (max-width: 530px) {
+  .btn {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: calc(100% - 20px); 
+    max-width: 250px; 
+  }
+}
+</style>
+
 
 #### Acerca de este proyecto:
 
-Este proyecto es una aplicación web Python construida con Flask. Obtiene la Imagen Astronómica del Día (APOD) de la API de la NASA y proporciona funcionalidades para ver y compartir las imágenes como tarjetas APOD. Para más información puede visitar el [repositorio de Github](https://github.com/imprvhub/nasa-apod-viewer).
+Este proyecto es una aplicación web Python construida con Flask. Obtiene la Imagen Astronómica del Día (APOD) de la API de la NASA y proporciona funcionalidades para ver y compartir las imágenes como tarjetas APOD.
+
 
 #### Características:
 
@@ -85,7 +103,7 @@ Este proyecto está bajo la Licencia MIT. Consulte el archivo [LICENSE](https://
 
 - **Mejora de la Interacción Frontend-Backend:** Aprendí sobre una mejor interacción entre los scripts frontend y los procesos backend de Python. Anteriormente, mi enfoque estaba limitado a transmitir datos específicos y procesarlos. Sin embargo, este proyecto requirió establecer un intercambio continuo de datos entre el frontend y el backend debido a los numerosos scripts e interacciones dentro de la aplicación web. Fue una experiencia de aprendizaje valiosa.
 
----
+<br>
 <div class="flex justify-between">
       <button class="btn btn-primary" onclick="window.location.href='/';">Volver a Inicio</button>
       <button class="btn btn-primary" onclick="window.location.href='/proyectos';">Volver a Proyectos</button>     

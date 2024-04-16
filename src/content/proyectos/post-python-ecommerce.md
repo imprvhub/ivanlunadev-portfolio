@@ -9,11 +9,26 @@ tags: ["ecommerce-data-analysis"]
 draft: false
 ---
 
-Esta implementación muestra y proporciona un análisis integral de datos de comercio electrónico de dos proyectos diferentes de Next.js. Utiliza Python (Framework Flask) con GUnicorn e implementación en Azure. Para obtener información detallada, visite el [Repositorio en Github](https://github.com/imprvhub/ecommerce-data-analysis/).
+Esta implementación muestra y proporciona un análisis integral de datos de comercio electrónico de dos proyectos diferentes de Next.js. Utiliza Python (Framework Flask) con GUnicorn e implementación en Azure. 
 
-#### Demostración: [ecommerce-data-analysis.azurewebsites.net](https://ecommerce-data-analysis.azurewebsites.net/)
+<br>
+<div style="display: flex; justify-content: center; flex-wrap: wrap; ">
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://ecommerce-data-analysis.azurewebsites.net/', '_blank');">Demo</button>  
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://github.com/imprvhub/ecommerce-data-analysis/', '_blank');">Repositorio en Github</button>   
+</div>
 
-#### Tutorial:
+<style>
+@media screen and (max-width: 530px) {
+  .btn {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: calc(100% - 20px); 
+    max-width: 250px; 
+  }
+}
+</style>
+
+#### Cómo Funciona?:
 <div style="text-align: center;">
   <iframe width="100%" height="600" src="https://www.youtube.com/embed/kJ6O4pHK_rc" frameborder="0" allowfullscreen style="margin: auto;"></iframe>
 </div>
@@ -95,7 +110,7 @@ Para obtener más información sobre este tema, lea el siguiente [Acuerdo de usu
 
 - **Agradecimientos Especiales a Code With Antonio:** Expreso mi gratitud por inspirar con proyectos fundamentales y hacer posible esta implementación.
 
----
+<br>
 <div class="flex justify-between">
       <button class="btn btn-primary" onclick="window.location.href='/';">Volver al Inicio</button>
       <button class="btn btn-primary" onclick="window.location.href='/proyectos';">Volver a Proyectos</button>     
