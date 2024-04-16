@@ -10,11 +10,27 @@ draft: false
 
 A Python web application for fetching NASA's Astronomy Picture of the Day, shareable as APOD cards.
 
-#### Live Demo: [apod-nasa-viewer.vercel.app](https://apod-nasa-viewer.vercel.app)
+<br>
+</div>
+<div style="display: flex; justify-content: center; flex-wrap: wrap; ">
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://apod-nasa-viewer.vercel.app/', '_blank');">Demo</button>  
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://github.com/imprvhub/nasa-apod-viewer/', '_blank');">Repositorio en Github</button>   
+</div>
+
+<style>
+@media screen and (max-width: 530px) {
+  .btn {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: calc(100% - 20px); 
+    max-width: 250px; 
+  }
+}
+</style>
 
 #### About this project:
 
-This project is a Python web application built with Flask. It fetches NASA's Astronomy Picture of the Day (APOD) from the NASA API and provides functionalities to view and share the images as APOD cards. For more information you can visit the [Github repository](https://github.com/imprvhub/nasa-apod-viewer).
+This project is a Python web application built with Flask. It fetches NASA's Astronomy Picture of the Day (APOD) from the NASA API and provides functionalities to view and share the images as APOD cards.
 
 #### Features:
 
@@ -85,7 +101,7 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 
 - **Enhanced Frontend-Backend Interaction:** I gained insights into achieving improved interaction between frontend scripts and Python backend processes. Previously, my approach was limited to transmitting specific data and processing it. However, this project necessitated establishing a continuous exchange of data between the frontend and backend due to the numerous scripts and interactions within the web application. It was a valuable learning experience.
 
----
+<br>
 <div class="flex justify-between">
       <button class="btn btn-primary" onclick="window.location.href='/';">Back to Home</button>
       <button class="btn btn-primary" onclick="window.location.href='/projects';">Back to Projects</button>     

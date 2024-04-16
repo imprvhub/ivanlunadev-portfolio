@@ -8,11 +8,31 @@ tags: ["e-commerce data analysis"]
 draft: false
 ---
 
-This implementation showcases and provides a comprehensive analysis of e-commerce data from two different Next.js projects. Using Python (Flask Framework) with GUnicorn and Azure Deployment. For detailed insights, please visit the [Github Repo](https://github.com/imprvhub/ecommerce-data-analysis/).
+This implementation showcases and provides a comprehensive analysis of e-commerce data from two different Next.js projects. Using Python (Flask Framework) with GUnicorn and Azure Deployment.
 
-#### Live Demo: [ecommerce-data-analysis.azurewebsites.net](https://ecommerce-data-analysis.azurewebsites.net/)
+<div style="display: flex; justify-content: center;">
+  <div style="text-align: center;">
+    <p>For detailed insights:</p>
+  </div>
+</div>
+<div style="display: flex; justify-content: center; flex-wrap: wrap; ">
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://ecommerce-data-analysis.azurewebsites.net/', '_blank');">Live Demo</button>  
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://github.com/imprvhub/ecommerce-data-analysis/', '_blank');">Github Code</button>   
+</div>
 
-#### Tutorial:
+<style>
+@media screen and (max-width: 530px) {
+  .btn {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: calc(100% - 20px); 
+    max-width: 250px; 
+  }
+}
+</style>
+
+
+#### How it works?:
 
 <div style="text-align: center;">
   <iframe width="100%" height="600" src="https://www.youtube.com/embed/kJ6O4pHK_rc" frameborder="0" allowfullscreen style="margin: auto;"></iframe>
@@ -94,7 +114,7 @@ For more information regarding this topic please read the following [User Agreem
 
 - **Special Thanks to Code With Antonio:** Expressing my gratitude for inspiring with foundational projects and making this implementation possible.
 
----
+<br>
 <div class="flex justify-between">
       <button class="btn btn-primary" onclick="window.location.href='/';">Back to Home</button>
       <button class="btn btn-primary" onclick="window.location.href='/projects';">Back to Projects</button>     

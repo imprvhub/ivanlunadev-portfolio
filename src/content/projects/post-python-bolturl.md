@@ -8,9 +8,28 @@ tags: ["bolt-url"]
 draft: false
 ---
 
-This Link Shortener web app showcases how Python can do anything. Using Python (Flask Framework) with MySQL (Planetscale). For detailed insights, please visit the [Github Repo](https://github.com/imprvhub/bolturl-python).
+This Link Shortener web app showcases how Python can do anything. Using Python (Flask Framework) with PostgreSQL (Supabase). 
 
-#### Live Demo: [bolturl.site](https://bolturl.site)
+<div style="display: flex; justify-content: center;">
+  <div style="text-align: center;">
+    <p>For detailed insights:</p>
+  </div>
+</div>
+<div style="display: flex; justify-content: center; flex-wrap: wrap; ">
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://bolturl.site/', '_blank');">Live Demo</button>  
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://github.com/imprvhub/bolturl-python/', '_blank');">Github Code</button>   
+</div>
+
+<style>
+@media screen and (max-width: 530px) {
+  .btn {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: calc(100% - 20px); 
+    max-width: 250px; 
+  }
+}
+</style>
 
 #### Key Features:
 -**Link Shortening:**
@@ -78,7 +97,7 @@ For more information regarding this topic please read the following [User Agreem
 
 - **No Frontend Framework:** In this project I learned that sometimes it is not necessary to depend on other front end frameworks. 
 
----
+<br>
 <div class="flex justify-between">
       <button class="btn btn-primary" onclick="window.location.href='/';">Back to Home</button>
       <button class="btn btn-primary" onclick="window.location.href='/projects';">Back to Projects</button>     
