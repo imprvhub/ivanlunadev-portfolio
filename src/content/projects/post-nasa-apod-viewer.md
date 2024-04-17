@@ -22,7 +22,6 @@ A Python web application for fetching NASA's Astronomy Picture of the Day, share
   .btn {
     margin-right: 0;
     margin-bottom: 10px;
-    width: calc(100% - 20px); 
     max-width: 250px; 
   }
 }

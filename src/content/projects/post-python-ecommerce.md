@@ -25,7 +25,6 @@ This implementation showcases and provides a comprehensive analysis of e-commerc
   .btn {
     margin-right: 0;
     margin-bottom: 10px;
-    width: calc(100% - 20px); 
     max-width: 250px; 
   }
 }

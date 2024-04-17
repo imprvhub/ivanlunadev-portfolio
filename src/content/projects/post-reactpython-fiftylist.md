@@ -24,7 +24,6 @@ This project is a fullstack music automation platform and showcases a seamless i
   .btn {
     margin-right: 0;
     margin-bottom: 10px;
-    width: calc(100% - 20px); 
     max-width: 250px; 
   }
 }
