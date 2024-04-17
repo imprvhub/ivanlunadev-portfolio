@@ -27,7 +27,6 @@ Esta aplicación web de acortamiento de enlaces demuestra cómo Python puede hac
   .btn {
     margin-right: 0;
     margin-bottom: 10px;
-    width: calc(100% - 20px); 
     max-width: 250px; 
   }
 }

@@ -23,7 +23,6 @@ Este proyecto es una plataforma fullstack de automatización musical y muestra u
   .btn {
     margin-right: 0;
     margin-bottom: 10px;
-    width: calc(100% - 20px); 
     max-width: 250px; 
   }
 }

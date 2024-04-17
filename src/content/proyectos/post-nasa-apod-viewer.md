@@ -22,7 +22,6 @@ Una aplicación web de Python para obtener las imágenes astrnómicas del día d
   .btn {
     margin-right: 0;
     margin-bottom: 10px;
-    width: calc(100% - 20px); 
     max-width: 250px; 
   }
 }
