@@ -21,7 +21,6 @@ Este projeto é uma aplicação web Python construída com Flask. Busca a Imagem
   .btn {
     margin-right: 0;
     margin-bottom: 10px;
-    width: calc(100% - 20px); 
     max-width: 250px; 
   }
 }

@@ -22,7 +22,6 @@ Esta implementação destaca e fornece uma análise abrangente de dados de e-com
   .btn {
     margin-right: 0;
     margin-bottom: 10px;
-    width: calc(100% - 20px); 
     max-width: 250px; 
   }
 }

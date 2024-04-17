@@ -27,7 +27,6 @@ Esta aplicação web de encurtamento de links mostra como o Python pode fazer de
   .btn {
     margin-right: 0;
     margin-bottom: 10px;
-    width: calc(100% - 20px); 
     max-width: 250px; 
   }
 }
