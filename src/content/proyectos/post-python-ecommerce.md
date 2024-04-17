@@ -22,11 +22,11 @@ Esta implementación muestra y proporciona un análisis integral de datos de com
   .btn {
     margin-right: 0;
     margin-bottom: 10px;
-    width: calc(100% - 20px); 
     max-width: 250px; 
   }
 }
 </style>
+<br>
 
 #### Cómo Funciona?:
 <div style="text-align: center;">
