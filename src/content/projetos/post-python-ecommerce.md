@@ -26,6 +26,7 @@ Esta implementação destaca e fornece uma análise abrangente de dados de e-com
   }
 }
 </style>
+<br>
 
 #### Como funciona?:
 <div style="text-align: center;">
