@@ -109,12 +109,12 @@ const SearchLayout = ({ searchList }: Props) => {
                 alt="no-search-found"
               />
               <h1 className="h2 mb-4">
-                {inputVal.length < 1 ? "Search Anything Here" : "No Search Found!"}
+                {inputVal.length < 1 ? "Pesquise qualquer coisa aqui" : "Nenhuma pesquisa encontrada!"}
               </h1>
               <p>
                 {inputVal.length < 1
-                  ? "Search anything by title, category, or tag. For example: 'Python'."
-                  : "We couldn't find what you searched for. Try searching again."}
+                  ? "Pesquise qualquer coisa por título, categoria ou tag. Por exemplo: 'Python'."
+                  : "Não conseguimos encontrar o que você pesquisou. Tente pesquisar novamente."}
               </p>
             </div>
           ) : (
