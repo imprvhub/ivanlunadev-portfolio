@@ -16,12 +16,11 @@ features:
     image: "/images/assets/service-1.png"
     content: ""
     bulletpoints:
-      - "+4 years of experience in back-end development using Python."
-      - "Versatile with frameworks: Expertise in Flask-RESTful, Django REST, as well as libraries like NumPy, Scikit-learn, TensorFlow, and others."
-      - "Frontend Capabilities: Skilled in Vanilla JavaScript, React, Astro, Next, Vue, Vite."
-      - "+3 years of experience as a Freelance Developer on Fiverr."
-      - "Current Focus on Machine Learning and Data Science: Mastery of new frameworks and exploration of advanced concepts."
-
+      - "Currently learning programming since October 2020."
+      - "Versatile with frameworks: Expertise in Flask-RESTful, Django REST and others."
+      - "Frontend Capabilities: using Vanilla JS, React.js, Node.js, Vue.js, Next.js and Astro.js, always with an emphasis on integrating these  technologies into Python-based backend solutions."
+      - "Involved in projects utilizing cloud platforms like AWS, GCP, and Azure."
+      - "Ready to transition into my first professional role in development and contribute to innovative projects."
 
     button:
       enable: false
