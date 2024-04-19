@@ -21,7 +21,7 @@
     "search": true,
     "sticky_header": true,
     "theme_switcher": true,
-    "default_theme": "dark",
+    "default_theme": "light",
     "pagination": 4,
     "summary_length": 300,
     "projetos_folder": "projetos"
