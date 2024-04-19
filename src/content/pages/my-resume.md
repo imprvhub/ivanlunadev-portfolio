@@ -32,15 +32,12 @@ Eager to transition into my first professional role in development, I'm ready to
 - Self-employed
 - Object-oriented programming (OOP), Front-end development, Backend Development (Node.js), Flet, Astro, Vanilla Javascript, Vue.js, React.js, Vite.js, Nuxt.js, Flask, Python, Databases, Data analysis.
 
-##### Software Developer at Fiverr - Previous Position
-- **November 2020 - October 2023**
-- Object-oriented programming (OOP), Backend Development, Git, Machine Learning, SQL, HTML, GUI, Golang, DevOps, Python, Java, Databases, English.
 
 ### Skills:
 
 <div align="center">  
 
-  <img src="https://skillicons.dev/icons?i=python,flask,django,nodejs,react,astro,vue,mysql,postgres,gcp,azure,vercel,netlify,git,html,js,css,docker&perline=6" alt="My Skills">
+  <img src="/images/assets/stack.png" alt="My Skills">
 
 </div>
 
