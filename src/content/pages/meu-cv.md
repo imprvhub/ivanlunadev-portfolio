@@ -32,17 +32,13 @@ Ansioso para fazer a transição para o meu primeiro papel profissional no desen
 - Trabalho independente
 - Programação orientada a objetos (OOP), desenvolvimento Front-end, Desenvolvimento Backend (Node.js), Flet, Astro, Vanilla Javascript, Vue.js, React.js, Vite.js, Nuxt.js, Flask, Python, Bancos de Dados, Análise de Dados.
 
-##### Desenvolvedor de Software na Fiverr - Posição Anterior
-- **Novembro de 2020 - Outubro de 2023**
-- Programação orientada a objetos (OOP), Desenvolvimento Backend, Git, Aprendizado de Máquina, SQL, HTML, GUI, Golang, DevOps, Python, Java, Bancos de Dados, Inglês.
-
 <br>
 
 ### Habilidades
 
 <div align="center">  
 
-  <img src="https://skillicons.dev/icons?i=python,flask,django,nodejs,react,astro,vue,mysql,postgres,gcp,azure,vercel,netlify,git,html,js,css,docker&perline=6" alt="My Skills">
+  <img src="/images/assets/stack.png" alt="My Skills">
 
 </div>
 
