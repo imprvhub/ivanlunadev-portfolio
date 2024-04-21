@@ -13,8 +13,8 @@ A Python web application for fetching NASA's Astronomy Picture of the Day, share
 <br>
 </div>
 <div style="display: flex; justify-content: center; flex-wrap: wrap; ">
-  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://apod-nasa-viewer.vercel.app/', '_blank');">Demo</button>  
-  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://github.com/imprvhub/nasa-apod-viewer/', '_blank');">Repositorio en Github</button>   
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://apod-nasa-viewer.vercel.app/', '_blank');">Live Demo</button>  
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://github.com/imprvhub/nasa-apod-viewer/', '_blank');">Github Code</button>   
 </div>
 
 <style>
