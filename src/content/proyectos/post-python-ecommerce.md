@@ -13,7 +13,7 @@ Esta implementación muestra y proporciona un análisis integral de datos de com
 
 <br>
 <div style="display: flex; justify-content: center; flex-wrap: wrap; ">
-  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://ecommerce-data-analysis.azurewebsites.net/', '_blank');">Demo</button>  
+  <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://ecommerce-data-analysis.vercel.app/', '_blank');">Demo</button>  
   <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://github.com/imprvhub/ecommerce-data-analysis/', '_blank');">Repositorio en Github</button>   
 </div>
 
@@ -26,6 +26,13 @@ Esta implementación muestra y proporciona un análisis integral de datos de com
   }
 }
 </style>
+<br>
+
+##### Actualización: 24 de abril de 2024
+
+- **Migración de Azure a Vercel**: Mejora de la Experiencia del Usuario (UE) al cambiar la infraestructura de implementación de Azure a Vercel. Esta migración aborda preocupaciones de rendimiento anteriores al aprovechar la plataforma optimizada de Vercel, lo que resulta en operaciones más eficientes y una mayor confiabilidad del sistema.
+<br>
+
 <br>
 
 #### Cómo Funciona?:
@@ -59,7 +66,7 @@ Esta implementación muestra y proporciona un análisis integral de datos de com
 ##### 1. Clonar los Proyectos de 'Code With Antonio'. 
 Para que esta implementación funcione correctamente, debes clonar y configurar primero los proyectos [ecommerce-admin](https://github.com/antonioerdeljac/next13-ecommerce-admin) y luego [ecommerce-store](https://github.com/antonioerdeljac/next13-ecommerce-store) de 'Code With Antonio'. Para obtener un tutorial detallado, visita: [Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL, 2023](https://www.youtube.com/watch?v=5miHyP6lExg).
 
-DESCARGO DE RESPONSABILIDAD: Asegúrate de crear una tienda funcional desde ecommerce-admin con productos que se puedan ver en el lado del cliente de ecommerce-store. Ten en cuenta que los pagos realizados en la demostración son simulados y utilizan datos genéricos, siguiendo las prácticas recomendadas de [Stripe Docs](https://stripe.com/docs/testing ). Si ya has configurado la gestión de pagos según tu región, entonces omite la simulación. Se recomienda no omitir este paso a menos que usted tenga la seguridad y la responsabilidad de los movimientos o transacciones que usted vaya a generar. Este proyecto es meramente demostrativo para mostrar cómo funciona una implementación en Python. Procure utilizar este proyecto con conciencia y responsabilidad. Para obtener más información: [Haz clic aquí](https://ecommerce-data-analysis.azurewebsites.net/user_agreements.html).
+DESCARGO DE RESPONSABILIDAD: Asegúrate de crear una tienda funcional desde ecommerce-admin con productos que se puedan ver en el lado del cliente de ecommerce-store. Ten en cuenta que los pagos realizados en la demostración son simulados y utilizan datos genéricos, siguiendo las prácticas recomendadas de [Stripe Docs](https://stripe.com/docs/testing ). Si ya has configurado la gestión de pagos según tu región, entonces omite la simulación. Se recomienda no omitir este paso a menos que usted tenga la seguridad y la responsabilidad de los movimientos o transacciones que usted vaya a generar. Este proyecto es meramente demostrativo para mostrar cómo funciona una implementación en Python. Procure utilizar este proyecto con conciencia y responsabilidad. Para obtener más información: [Haz clic aquí](https://ecommerce-data-analysis.vercel.app/user_agreements.html).
 
 ##### 2. Clonar el repositorio de la implementación
 ```bash
@@ -86,7 +93,7 @@ Su opinión es importante y estoy listo para ayudarlo a abordar cualquier consul
 No dude en compartir sus conocimientos, recomendaciones o sugerencias para la mejora continua. Si encuentra algún desafío o necesita ayuda, [cree un nuevo problema de GitHub](https://github.com/imprvhub/ecommerce-data-analysis/issues/new). Asegúrese de proporcionar una descripción detallada de su problema para facilitar una asistencia rápida y precisa.
 
 #### Licencia:
-Para obtener más información sobre este tema, lea el siguiente [Acuerdo de usuario](https://ecommerce-data-analysis.azurewebsites.net/user_agreements.html).
+Para obtener más información sobre este tema, lea el siguiente [Acuerdo de usuario](https://ecommerce-data-analysis.vercel.app/user_agreements.html).
 
 #### Conclusión:
 
