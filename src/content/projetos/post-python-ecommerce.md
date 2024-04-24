@@ -66,7 +66,7 @@ Esta implementação destaca e fornece uma análise abrangente de dados de e-com
 ##### 1. Clone os Projetos 'Code With Antonio'. 
 Para que esta implementação funcione corretamente, você deve clonar e configurar o [ecommerce-admin](https://github.com/antonioerdeljac/next13-ecommerce-admin) (em primeiro lugar) e depois os projetos [ecommerce-store](https://github.com/antonioerdeljac/next13-ecommerce-store) de 'Code With Antonio'. Para um tutorial detalhado, visite: [Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL, 2023](https://www.youtube.com/watch?v=5miHyP6lExg).
 
-AVISO LEGAL: Certifique-se de criar uma loja funcional no ecommerce-admin com produtos que possam ser visualizados no ecommerce-store do lado do cliente. Lembre-se de que os pagamentos feitos na demonstração são simulados e usam dados genéricos, seguindo as práticas recomendadas da [Stripe Docs](https://stripe.com/docs/testing ). Se você já configurou a gestão de pagamentos de acordo com sua região, então pule a simulação. É recomendável não pular esta etapa, a menos que você tenha certeza e assuma a responsabilidade pelas respectivas movimentações ou transações que você gera. Este projeto é puramente demonstrativo para mostrar como funciona uma implementação Python. Não somos responsáveis por mal-entendidos ou má gestão. Para mais informações: [Clique aqui](https://ecommerce-data-analysis.vercel.app/user_agreements.html).
+AVISO LEGAL: Certifique-se de criar uma loja funcional no ecommerce-admin com produtos que possam ser visualizados no ecommerce-store do lado do cliente. Lembre-se de que os pagamentos feitos na demonstração são simulados e usam dados genéricos, seguindo as práticas recomendadas da [Stripe Docs](https://stripe.com/docs/testing ). Se você já configurou a gestão de pagamentos de acordo com sua região, então pule a simulação. É recomendável não pular esta etapa, a menos que você tenha certeza e assuma a responsabilidade pelas respectivas movimentações ou transações que você gera. Este projeto é puramente demonstrativo para mostrar como funciona uma implementação Python. Não somos responsáveis por mal-entendidos ou má gestão. Para mais informações: [Clique aqui](https://ecommerce-data-analysis.vercel.app).
 
 ##### 2. Clone o repositório de implementação
 ```bash
@@ -93,7 +93,7 @@ Sua opinião é importante e estou pronto para ajudar a responder a quaisquer d�
 Sinta-se à vontade para compartilhar seus insights, recomendações ou sugestões para melhoria contínua. Se você encontrar algum desafio ou precisar de ajuda, [crie um novo problema no GitHub](https://github.com/imprvhub/ecommerce-data-analysis/issues/new). Certifique-se de fornecer uma descrição detalhada do seu problema para facilitar um suporte rápido e preciso.
 
 #### Licença:
-Para obter mais informações sobre este tópico, leia o seguinte [Contrato do Usuário](https://ecommerce-data-analysis.vercel.app/user_agreements.html).
+Para obter mais informações sobre este tópico, leia o seguinte [Contrato do Usuário](https://ecommerce-data-analysis.vercel.app).
 
 #### Conclusão:
 
