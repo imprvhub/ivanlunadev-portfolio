@@ -32,7 +32,7 @@ This implementation showcases and provides a comprehensive analysis of e-commerc
 
 ##### Update: April 24, 2024
 
-- **Migration from Azure to Vercel**: Significantly improved User Experience (UE) by transitioning the deployment infrastructure from Azure to Vercel. This strategic migration addresses performance concerns encountered with the previous Azure deployment. Leveraging Vercel's optimized platform ensures smoother and more efficient operations, enhancing overall system reliability and responsiveness.
+- **Migration from Azure to Vercel**: Significantly improved User Experience (UE) by transitioning the deployment infrastructure from Azure to Vercel. This strategic migration addresses performance concerns encountered with the previous Azure deployment. Leveraging Vercel's optimized platform ensures smoother and more efficient operations, enhancing overall system reliability and responsiveness. [More Information.](https://github.com/imprvhub/ecommerce-data-analysis/releases/tag/v4.0.0)
 <br>
 
 #### How it works?:
