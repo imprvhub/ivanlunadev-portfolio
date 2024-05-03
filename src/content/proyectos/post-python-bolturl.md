@@ -12,11 +12,6 @@ draft: false
 Esta aplicación web de acortamiento de enlaces demuestra cómo Python puede hacer casi cualquier cosa. Utiliza Python (Flask) con PostgreSQL (Supabase).
 
 <br>
-<div style="display: flex; justify-content: center;">
-  <div style="text-align: center;">
-    <p>For detailed insights:</p>
-  </div>
-</div>
 <div style="display: flex; justify-content: center; flex-wrap: wrap; ">
   <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://bolturl.site/', '_blank');">Demo</button>  
   <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://github.com/imprvhub/bolturl-python/', '_blank');">Repositorio en Github</button>   

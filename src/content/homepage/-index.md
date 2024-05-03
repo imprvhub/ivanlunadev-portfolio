@@ -27,14 +27,14 @@ features:
       label: ""
       link: ""
 
-  - title: "Aspectos Destacados y Logros"
+  - title: "Logros Destacados"
     image: "/images/assets/service-2.png"
     content: ""
     bulletpoints:
       - "[***<ins>Más de 16 certificados<ins>***](https://www.linkedin.com/in/ivanluna-dev/details/certifications/) de Jet Brains Academy."
       - "[***<ins>Certificación C2 Proficiente<ins>***](https://www.efset.org/cert/d4vAsK) en EF International Language Centers."
       - "Compromiso con la Innovación: Enfocado en proyectos innovadores que reflejen mi creatividad y dedicación."
-      - "Profesional Orientado a Resultados: Profesional orientado a resultados comprobados, ofreciendo soluciones efectivas."
+      - "Orientado a Resultados: orientado a resultados comprobados, ofreciendo soluciones efectivas."
       - "Exploración Continua: En búsqueda de nuevas oportunidades para desafiar mis habilidades y crecer profesionalmente."
     button:
       enable: false

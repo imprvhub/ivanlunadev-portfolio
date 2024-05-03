@@ -9,7 +9,7 @@ tags: ["Other"]
 draft: false
 ---
 
-Este proyecto es una plataforma fullstack de automatización musical y muestra una integración perfecta de React y Python. 
+Este proyecto es una plataforma fullstack de automatización musical y muestra una integración de React y Python. 
 
 <br>
 <div style="display: flex; justify-content: center; flex-wrap: wrap; ">
