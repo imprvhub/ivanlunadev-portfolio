@@ -10,11 +10,7 @@ draft: false
 
 This implementation showcases and provides a comprehensive analysis of e-commerce data from two different Next.js projects. Using Python (Flask Framework) with GUnicorn and Azure Deployment.
 
-<div style="display: flex; justify-content: center;">
-  <div style="text-align: center;">
-    <p>For detailed insights:</p>
-  </div>
-</div>
+<br>
 <div style="display: flex; justify-content: center; flex-wrap: wrap; ">
   <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://ecommerce-data-analysis.vercel.app/', '_blank');">Live Demo</button>  
   <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://github.com/imprvhub/ecommerce-data-analysis/', '_blank');">Github Code</button>   
