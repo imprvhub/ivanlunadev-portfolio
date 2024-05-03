@@ -27,7 +27,7 @@ features:
       label: ""
       link: ""
 
-  - title: "Logros Destacados"
+  - title: "Logros y Atributos Destacados"
     image: "/images/assets/service-2.png"
     content: ""
     bulletpoints:
