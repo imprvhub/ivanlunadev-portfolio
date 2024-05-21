@@ -107,7 +107,7 @@ SUPABASE_ANON_KEY=<Digite a chave anônima para o seu banco de dados, por exempl
   ```bash
   yarn dev
   ```
-  O projeto deve estar acessível em, por exemplo, 'http://localhost: 3000'
+  O projeto deve estar acessível em, por exemplo, 'http://localhost:3000'
 
 <hr>
 
