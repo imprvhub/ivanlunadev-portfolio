@@ -14,6 +14,10 @@
       "hasChildren": true,
       "children": [
         {
+          "name": "Cinemathe [Vue.js - Django Rest Framework]",
+          "url": "/proyectos/post-cinemathe"
+        },
+        {
           "name": "Fifty List v2 [React.js - Python]",
           "url": "/proyectos/post-reactpython-fiftylist"
         },
@@ -24,10 +28,6 @@
         {
           "name": "BoltURL [Python - Flask]",
           "url": "/proyectos/post-python-bolturl"
-        },
-        {
-          "name": "E-commerce Data Analysis [Next.js - Python]",
-          "url": "/proyectos/post-python-ecommerce"
         },
         {
           "name": "_______"
