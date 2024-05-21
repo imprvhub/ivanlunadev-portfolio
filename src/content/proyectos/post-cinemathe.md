@@ -63,7 +63,7 @@ Una aplicación fullstack desarrollada con Vue.js y Django Rest Framework (DRF).
 <div style="display: flex; justify-content: space-between;">
   <div style="flex: 1; margin-right: 10px;">
     <h4 style="font-size: 18px; max-width: 400px;">Opciones de Proveedores:</h4>
-    <p style="max-width: 400px;">Con múltiples opciones de proveedores disponibles para cada película y serie de televisión, Cinemathe informa a los usuarios sobre las plataformas de transmisión donde pueden acceder a contenido específicox.</p>
+    <p style="max-width: 400px;">Con múltiples opciones de proveedores disponibles para cada película y serie de televisión, Cinemathe informa a los usuarios sobre las plataformas de transmisión donde pueden acceder a contenido específico.</p>
     <div>
       <img src="/images/assets/guide4.gif" alt="Guía GIF" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;">
     </div>
@@ -97,18 +97,18 @@ yarn install
 3. Antes de ejecutar el proyecto, usted necesita configurar sus variables de entorno en un archivo '.env'.
 
 ```bash
-FRONTEND_URL=<URL donde su frontend se va a lojar, por ej: 'http://localhost:3000' o su dominio personalizado>
-API_KEY=<Aquí irá la api key de TMDB>
+FRONTEND_URL=<URL donde su frontend se va a alojar, por ej: 'http://localhost:3000' o su dominio personalizado>
+API_KEY=<Ingrese la api key de TMDB>
 SUPABASE_URL=<Ingrese una URL de su database, por ej, la Supabase database URL>
 SUPABASE_ANON_KEY=<Ingrese la anonymous key de su database, por ej. su Supabase anonymous key>    
 ```
   Por defecto, la base de datos de DRF está configurada para Supabase. De todos modos usted puede usar otra base de datos si lo prefiere. Simplemente reemplace 'DATABASE_URL' y 'DATABASE_ANON_KEY' con las variables de entorno necesarias para la configuración de su base de datos.
 
 4. Ejecute el proyecto:
-  ```bash
-  yarn dev
-  ```
-  The project should be accesible at, e.g., 'http://localhost:3000'
+```bash
+yarn dev
+```
+El proyecto ahora deberia ser accesible, por ej., en 'http://localhost:3000'
 
 <hr>
 
@@ -140,7 +140,7 @@ DB_HOST=<Ingrese el host de su base de datos, e.g., localhost>
 DB_PORT=<Ingrese el puerto de su base de datos.>
 ```
 
-4. Applique las migraciones:
+4. Aplique las migraciones:
 ```bash
 python manage.py collectstatic
 ```
@@ -164,17 +164,17 @@ La inspiración base de este proyecto es derivada del repositorio [TasteJS](http
 
 Los datos de las películas y series de TV son proporcionadas por [TMDB](https://www.themoviedb.org/), mientras que la información de proveedores de streaming y plataformas son obtenidas desde [JustWatch](https://www.justwatch.com/).
 
-Para más detalles, por favor lea los [Terms and Conditions](https://cinemathe.space/terms/).
+Para más detalles, por favor lea los [Términos y Condiciones](https://cinemathe.space/terms/).
 
 #### Conclusión:
 
 ##### Logros:
-- **Integración Sinérgica:** Integré con éxito Vue.js y Django Rest Framework, dos tecnologías muy rara vez combinadas, lo que representó un desafío intrigante para mí. A pesar de mi experiencia previa con este framework, combinarlo con Vue.js requirió de mucha cautela y adaptabilidad para solucionar los problemas de compatibilidad.
+- **Integración Sinérgica:** Integré con éxito Vue.js y Django Rest Framework, dos tecnologías muy rara vez combinadas, lo que representó un desafío intrigante para mí. A pesar de mi experiencia previa con este framework, combinarlo con Vue.js requirió de mucha cautela y adaptabilidad para lograr una sinergía entre estos dos frameworks.
 
-- **Integración Simplificada de UX/UI y Gestión de Datos:** Con éxito, enfrenté y resolví los desafíos relacionados con el diseño de UX/UI. Esto incluyó la gestión de una amplia gama de componentes globales y dinámicos, la integración de API, la transferencia fluida de datos entre frameworks y la implementación de una experiencia de usuario y autenticación sin problemas. A pesar de las dificultades iniciales, el esfuerzo constante y las mejoras graduales actuaron como el impulso necesario para aprender de estos obstáculos.
+- **Integración Simplificada de UX/UI y Gestión de Datos:** Con éxito, enfrenté y resolví los desafíos relacionados con el diseño de UX/UI. Esto incluyó la gestión de una amplia gama de componentes globales y dinámicos, la integración de API, la transferencia fluida de datos entre frameworks y la implementación de una experiencia de usuario y por supuesto la autenticación y registro de usuarios. A pesar de las dificultades iniciales, el esfuerzo constante y las mejoras graduales fueron el motor que impulsó lo necesario para aprender de estos obstáculos.
 
 ##### Aprendizajes:
-- **Mejoras a Través de la Perseverancia:** Este proyecto me permitió adentrarme aún más en el mundo de Vue.js. Tan solo hace tres meses, enfrentarme a la implementación de Vue.js me resultaba desalentador debido a su complejidad. Sin embargo, gracias al esfuerzo diario y constante, así como a mi perseverancia, no solo logré comprender la lógica subyacente necesaria, sino que también superé mis expectativas iniciales. Esta experiencia no solo me motivó a explorar nuevas posibilidades, sino que también me impulsó a implementar características que anteriormente consideraba fuera de mi alcance, especialmente en el ámbito del frontend.
+- **Mejoras a Través de la Perseverancia:** Este proyecto me permitió adentrarme aún más en el mundo de Vue.js. Tan solo hace tres meses, abordar esta implementación de Vue.js me resultaba desalentador debido a su complejidad. Sin embargo, gracias al esfuerzo diario y constante, así como a mi perseverancia, no solo logré comprender la lógica subyacente necesaria, sino que también superé mis expectativas iniciales. Esta experiencia no solo me motivó a explorar nuevas posibilidades, sino que también me impulsó a implementar características que anteriormente consideraba fuera de mi alcance, especialmente en el ámbito del frontend.
 Este proyecto consolidó mi perseverancia y mi compromiso con el aprendizaje continuo. La dedicación constante a este proyecto no solo fortaleció mi confianza, sino que también expandió significativamente mi conjunto de habilidades. Desde el inicio del proceso de planificación hasta la conclusión exitosa del proyecto, este recorrido destaca cómo la perseverancia y el esfuerzo dedicado pueden transformar tanto el crecimiento personal como el profesional.
 
 <br>
