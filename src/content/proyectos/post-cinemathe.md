@@ -45,7 +45,7 @@ Una aplicación fullstack desarrollada con Vue.js y Django Rest Framework (DRF).
 <div style="display: flex; justify-content: space-between;">
   <div style="flex: 1; margin-left: 10px;">
     <h4 style="font-size: 18px; max-width: 400px;">Compartir en Redes Sociales:</h4>
-    <p style="max-width: 400px;">Cinemathe permite a los usuarios compartir sus películas y series de televisión favoritas sin complicaciones en varias plataformas de redes sociales, fomentando la participación y ampliando la comunidad.</p>
+    <p style="max-width: 400px;">Cinemathe ahora permite a los usuarios compartir sus películas y series de TV favoritas en varias redes sociales mediante un modal personalizado e intuitivo.</p>
     <div>
       <img src="/images/assets/guide3.gif" alt="Guía GIF" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;">
     </div>
@@ -63,7 +63,7 @@ Una aplicación fullstack desarrollada con Vue.js y Django Rest Framework (DRF).
 <div style="display: flex; justify-content: space-between;">
   <div style="flex: 1; margin-right: 10px;">
     <h4 style="font-size: 18px; max-width: 400px;">Opciones de Proveedores:</h4>
-    <p style="max-width: 400px;">Con múltiples opciones de proveedores disponibles para cada película y serie de televisión, Cinemathe informa a los usuarios sobre las plataformas de transmisión donde pueden acceder a contenido específico.</p>
+    <p style="max-width: 400px;">Con múltiples proveedores disponibles para cada película y serie de TV, los usuarios ahora podrán visualizar las plataformas de transmisión donde pueden acceder a cada contenido específico.</p>
     <div>
       <img src="/images/assets/guide4.gif" alt="Guía GIF" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;">
     </div>
@@ -71,7 +71,7 @@ Una aplicación fullstack desarrollada con Vue.js y Django Rest Framework (DRF).
 
   <div style="flex: 1; margin-right: 10px;">
     <h4 style="font-size: 18px; max-width: 400px;">Explorando por Categorías:</h4>
-    <p style="max-width: 400px;">Introduciendo carruseles intuitivos para diferentes categorías de películas y series de televisión, Cinemathe eleva la experiencia de navegación y simplifica el descubrimiento de contenido para los usuarios.</p>
+    <p style="max-width: 400px;">Nuevos carruseles intuitivos para diferentes categorías de películas y series de televisión, Cinemathe eleva la experiencia de navegación y simplifica el descubrimiento de contenido para los usuarios.</p>
     <div>
       <img src="/images/assets/guide6.png" alt="Guía PNG" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;">
     </div>
