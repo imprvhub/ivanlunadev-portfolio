@@ -3,7 +3,7 @@ title: "📈 E-commerce Data Analysis [Next.js - Python]"
 meta_title: "Iván Luna - Software Developer - Ecommerce Data Analysis"
 date: 2024-01-03T05:00:00Z
 image: "/images/assets/ecommerce-data-analysis.png"
-categories: ["Python","Flask","Next.js","Data Analysis","MySQL","Planetscale","Solutions","Implementations","Full Stack Development","Azure Deployment"]
+categories: ["Python","Flask","Next.js","Data Analysis","MySQL","Planetscale","Solutions","Implementations","Fullstack Development","Azure Deployment"]
 tags: ["e-commerce data analysis"]
 draft: false
 ---

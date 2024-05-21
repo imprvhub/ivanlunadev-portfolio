@@ -3,7 +3,7 @@ title: "🎧 Fifty List v2 [React.js-Python]"
 meta_title: "Iván Luna - Software Developer - Fifty List"
 date: 2024-01-07T05:00:00Z
 image: "/images/assets/fifty-list.png"
-categories: ["React.js","Python","Flask","Full Stack Development","PostgreSQL","Google Cloud Storage","Supabase", "Vercel Deployment"]
+categories: ["React.js","Python","Flask","Fullstack Development","PostgreSQL","Google Cloud Storage","Supabase", "Vercel Deployment"]
 tags: ["fifty-list"]
 draft: false
 ---
