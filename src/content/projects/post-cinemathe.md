@@ -45,7 +45,7 @@ A full-stack web app developed with Vue.js and Django Rest Framework (DRF), simp
 <div style="display: flex; justify-content: space-between;">
   <div style="flex: 1; margin-left: 10px;">
     <h4 style="font-size: 18px; max-width: 400px;">Effortless Social Media Sharing:</h4>
-    <p style="max-width: 400px;">Cinemathe empowers users to share their favorite movies and TV series effortlessly across various social media platforms, fostering engagement and expanding the community.</p>
+    <p style="max-width: 400px;">Cinemathe empowers users to share their favorite movies and TV series effortlessly across various social media platforms.</p>
     <div>
       <img src="/images/assets/guide3.gif" alt="Guide GIF" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;">
     </div>
@@ -53,7 +53,7 @@ A full-stack web app developed with Vue.js and Django Rest Framework (DRF), simp
 
   <div style="flex: 1; margin-left: 10px;">
     <h4 style="font-size: 18px; max-width: 400px;">Community-driven User Reviews:</h4>
-    <p style="max-width: 400px;">Users can explore insightful reviews for specific movies and TV shows, facilitating community engagement and providing valuable feedback from fellow users.</p>
+    <p style="max-width: 400px;">Users can explore insightful reviews for specific movies and TV shows, providing valuable feedback from fellow users.</p>
     <div>
       <img src="/images/assets/guide5.png" alt="Guide GIF" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;">
     </div>
@@ -63,14 +63,14 @@ A full-stack web app developed with Vue.js and Django Rest Framework (DRF), simp
 <div style="display: flex; justify-content: space-between;">
   <div style="flex: 1; margin-right: 10px;">
     <h4 style="font-size: 18px; max-width: 400px;">Extensive Provider Options:</h4>
-    <p style="max-width: 400px;">With multiple provider options available for each movie and TV show, Cinemathe informs users about the streaming platforms where they can access specific content.</p>
+    <p style="max-width: 400px;">With multiple provider options available for each movie and TV show, users can know about the streaming platforms where they can access specific content.</p>
     <div>
       <img src="/images/assets/guide4.gif" alt="Guide GIF" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;">
     </div>
   </div>
 
   <div style="flex: 1; margin-right: 10px;">
-    <h4 style="font-size: 18px; max-width: 400px;">Enhanced Content Discovery with New Carousels:</h4>
+    <h4 style="font-size: 18px; max-width: 400px;">Discover by Categories:</h4>
     <p style="max-width: 400px;">Introducing intuitive carousels for different movie and TV series categories, Cinemathe elevates the browsing experience and simplifies content discovery for users.</p>
     <div>
       <img src="/images/assets/guide6.png" alt="Guide PNG" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;">
