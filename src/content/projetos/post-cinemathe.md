@@ -172,9 +172,10 @@ Para mais detalhes, consulte estes [Termos e Condições](https://cinemathe.spac
 
 - **Integração Simplificada de UX/UI e Gerenciamento de Dados:** Consegui lidar com as complexidades do design UX/UI, abrangendo o gerenciamento de diversos componentes globais e dinâmicos, integração de API, transmissão de dados sem problemas entre frameworks e experiência e autenticação de usuário robustas. Apesar das complexidades iniciais, esforço diligente e melhorias incrementais pavimentaram o caminho para uma navegação habilidosa por esses desafios.
 
-##### Aprendizados:
-- **Mestre Definitivo Através da Persistência:** Este projeto aprofundou meu entendimento do Vue.js. Três meses atrás, a implementação do Vue.js parecia assustadora devido à complexidade. No entanto, esforço diário consistente e perseverança não apenas estabeleceram a lógica necessária, mas também superaram as expectativas iniciais. Esta experiência inspirou exploração e implementação de recursos anteriormente considerados além das minhas capacidades, principalmente no frontend.
-- **Superando Desafios e Ganho de Confiança:** Este projeto reforçou a persistência e a aprendizagem contínua. Enfrentar desafios de frente e trabalhar consistentemente no projeto impulsionou a confiança e expandiu o conjunto de habilidades. Desde a apreensão inicial até a execução confiante, esta jornada destaca o poder transformador da perseverança e dedicação na conquista do crescimento pessoal e profissional.
+##### Aprendizagens:
+- **Melhorias Através da Perseverança:** Este projeto me permitiu mergulhar ainda mais no mundo do Vue.js. Apenas três meses atrás, enfrentar a implementação do Vue.js parecia assustador devido à sua complexidade. No entanto, graças ao esforço diário e constante, assim como à minha perseverança, não só consegui entender a lógica subjacente necessária, mas também superei minhas expectativas iniciais. Esta experiência não só me motivou a explorar novas possibilidades, mas também me impulsionou a implementar funcionalidades que anteriormente considerava fora do meu alcance, especialmente no âmbito do frontend.
+Este projeto consolidou minha perseverança e meu compromisso com o aprendizado contínuo. A dedicação constante a este projeto não só fortaleceu minha confiança, mas também expandiu significativamente meu conjunto de habilidades. Desde o início do processo de planejamento até a conclusão bem-sucedida do projeto, esta jornada destaca como a perseverança e o esforço dedicado podem transformar tanto o crescimento pessoal quanto o profissional.
+
 
 <br>
 <div class="flex justify-between">
