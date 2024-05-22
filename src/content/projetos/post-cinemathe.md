@@ -157,6 +157,20 @@ python manage.py runserver
 #### Feedback:
 Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões para melhorias, por favor, crie um novo problema no [repositório do GitHub](https://github.com/imprvhub/cinemathe/issues/new).
 
+##### Correções Pendentes para v1.1.1:
+- **Bug ao Adicionar Primeiro Favorito para Novos Usuários:** Este problema ocorre no primeiro clique ao adicionar um favorito para uma conta recém-criada. O primeiro clique não é reconhecido porque o componente falha em atualizar o estado ao mapear '0' objetos no JSON. No entanto, no segundo clique, o botão 'Adicionar aos Favoritos' funciona corretamente, e este problema nunca ocorre novamente para esse usuário. Apenas acontece no primeiro clique para a adição do primeiro favorito. Uma investigação adicional é necessária nas funções Vue.js responsáveis por esse comportamento.
+
+- **Bug de Preenchimento Automático na Página de Login:** O preenchimento automático em dispositivos móveis às vezes causa uma redireção para a página raiz. A configuração do formulário precisa ser ajustada para evitar essa redireção e permitir que os usuários continuem com o fluxo de autenticação.
+
+- **Consistência na Pontuação de Avaliação:** Refatore as pontuações de avaliação para filmes e programas de TV no carrossel principal para duas casas decimais.
+
+- **Melhorias de Estilo:** -Rever e padronizar tamanhos de fonte, estilos e pesos em todos os componentes para garantir uma aparência consistente e coesa em toda a aplicação.
+-Rever o efeito de hover nos menus de perfil do usuário; o border-radius do botão está causando o desalinhamento do efeito de hover.
+
+- **UI Responsiva:** -Ajustar o layout do modal do avatar para caber dentro do elemento pai.
+-Alinhar corretamente o texto do parágrafo no modal de confirmação após o registro do usuário.
+-Modificar a largura do modal de compartilhamento para telas maiores que 800px para melhorar a responsividade.
+
 #### Atribuições
 
 A inspiração fundamental para este projeto é derivada do repositório [TasteJS](https://github.com/tastejs/nuxt-movies), e estendo minha gratidão pelo seu trabalho pioneiro.
