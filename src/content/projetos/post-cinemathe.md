@@ -157,10 +157,14 @@ python manage.py runserver
 #### Feedback:
 Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões para melhorias, por favor, crie um novo problema no [repositório do GitHub](https://github.com/imprvhub/cinemathe/issues/new).
 
-##### Correções Pendentes para v1.1.1:
+##### Correções Pendentes para v1.1.2:
 - **Bug ao Adicionar Primeiro Favorito para Novos Usuários:** Este problema ocorre no primeiro clique ao adicionar um favorito para uma conta recém-criada. O primeiro clique não é reconhecido porque o componente falha em atualizar o estado ao mapear '0' objetos no JSON. No entanto, no segundo clique, o botão 'Adicionar aos Favoritos' funciona corretamente, e este problema nunca ocorre novamente para esse usuário. Apenas acontece no primeiro clique para a adição do primeiro favorito. Uma investigação adicional é necessária nas funções Vue.js responsáveis por esse comportamento.
 
 - **Bug de Preenchimento Automático na Página de Login:** O preenchimento automático em dispositivos móveis às vezes causa uma redireção para a página raiz. A configuração do formulário precisa ser ajustada para evitar essa redireção e permitir que os usuários continuem com o fluxo de autenticação.
+
+- **Botão de login como botão de carregamento**: O botão de login será um 'botão de carregamento' para que, quando os usuários clicarem nele, um carregador seja exibido até que o processo de autenticação seja concluído.
+
+- **Representação em grade de filmes e programas de TV no perfil**: atualmente, há duas paginações separadas para filmes e programas de TV no perfil. No futuro, essas paginações serão substituídas por uma opção de filtragem que permite aos usuários filtrar por ‘Todos – Filmes – Programas de TV’, resultando em uma única paginação.
 
 - **Consistência na Pontuação de Avaliação:** Refatore as pontuações de avaliação para filmes e programas de TV no carrossel principal para duas casas decimais.
 
