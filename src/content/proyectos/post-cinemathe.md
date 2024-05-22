@@ -158,6 +158,25 @@ python manage.py runserver
 #### Feedback:
 ¡Su opinión es importante! Si usted tiene alguna sugerencia para mejoras, cree un nuevo issue en el [Repositorio de Github](https://github.com/imprvhub/cinemathe/issues/new).
 
+##### Fixes Pendientes para v1.1.1:
+- **Bug al Agregar el Primer Favorito para Nuevos Usuarios:**
+  Este problema surge en el primer clic al agregar un favorito para una cuenta recién creada. El primer clic no se registra porque el componente no actualiza el estado al mapear '0' objetos en el JSON. Sin embargo, en el segundo clic, el botón 'Agregar a Favoritos' funciona correctamente y este problema no vuelve a ocurrir para ese usuario. Este inconveniente solo se presenta en el primer clic para la adición del primer favorito. Se requiere abordar este problema analizando cada función del componente para establecer una solución efectiva.
+
+- **Autocompletado en la Página de Inicio de Sesión:**
+  El autocompletado en dispositivos móviles a veces provoca una redirección a la página principal. Se debe revisar la configuración del formulario para evitar esta redirección y permitir que los usuarios continúen con el flujo de autenticación.
+
+- **Consistencia en los Puntajes de Cada Calificación:**
+  Refactorizar los puntajes de calificación para películas y programas de televisión en los carruseles de la página principal a dos decimales.
+
+- **Mejoras de Estilo:**
+  - Revisar y estandarizar tamaños de fuente y estilos en todos los componentes para garantizar una apariencia consistente y cohesionada en toda la aplicación.
+  - Revisar el efecto de hover en los menús de perfil de usuario; el border-radius del botón está causando que el efecto de hover se desalinee.
+
+- **UI Responsiva:**
+  - Ajustar el diseño del modal del avatar para que quepa dentro de la sección en la página de 'ajustes'.
+  - Alinear correctamente el texto del párrafo en el modal de confirmación después del registro del usuario.
+  - Modificar el ancho del modal de 'compartir' para pantallas más grandes que 800px de ancho para mejorar la responsividad.
+
 #### Atribuciones:
 
 La inspiración base de este proyecto es derivada del repositorio [TasteJS](https://github.com/tastejs/nuxt-movies). 
