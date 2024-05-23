@@ -8,7 +8,7 @@ tags: ["cinemathe"]
 draft: false
 ---
 
-Uma aplicação web full-stack desenvolvida com Vue.js e Django Rest Framework (DRF) que simplifica as escolhas de entretenimento. Ele fornece autenticação contínua para salvar favoritos, informações técnicas detalhadas para filmes e séries de TV com análises incluídas e compartilhamento de conteúdo em mídias sociais.
+Uma aplicação web full-stack desenvolvida com Vue.js e Django Rest Framework que simplifica as escolhas de entretenimento. Ele fornece autenticação contínua para salvar favoritos, informações técnicas detalhadas para filmes e séries de TV com análises incluídas e compartilhamento de conteúdo em mídias sociais.
 
 <br>
 </div>

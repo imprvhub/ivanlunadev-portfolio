@@ -19,7 +19,7 @@ draft: false
 
 ### Perfil Profissional:
 
-Localizado em Buenos Aires. eu me especializo no **desenvolvimento de backend** e **fullstack**, com um foco técnico em **Python** desde outubro de 2020, quando comecei a aprender a programar. Minha experiência no desenvolvimento de front-end inclui trabalhar com **Vanilla JS, React.js e Node.js**, sempre com foco na integração dessas tecnologias em soluções de back-end baseadas em Python. Além disso, meus projetos envolveram abordagens utilizando plataformas em nuvem como **AWS, GCP e Azure**.
+Localizado em Buenos Aires. eu me especializo no **desenvolvimento de backend** e **fullstack**, com um foco técnico em **Python** desde outubro de 2020, quando comecei com esse aprendizado. Minha experiência no desenvolvimento de front-end inclui trabalhar com **Vanilla JS, React.js e Node.js**, sempre com foco na integração dessas tecnologias em soluções de back-end baseadas em Python. Além disso, meus projetos envolveram abordagens utilizando plataformas em nuvem como **AWS, GCP e Azure**.
 Ansioso para fazer a transição para o meu primeiro papel profissional no desenvolvimento, estou pronto para contribuir para projetos inovadores e alavancar minha experiência!
 
 
@@ -30,7 +30,7 @@ Ansioso para fazer a transição para o meu primeiro papel profissional no desen
 ##### Desenvolvedor de Software - Atualmente
 - **Novembro de 2023 - Presente**
 - Trabalho independente
-- Programação orientada a objetos (OOP), desenvolvimento Front-end, Desenvolvimento Backend (Node.js), Flet, Astro, Vanilla Javascript, Vue.js, React.js, Vite.js, Nuxt.js, Flask, Python, Bancos de Dados, Análise de Dados.
+- Desenvolvimento Backend, Desenvolvimento Fullstack, Python, Flask, Django Rest Framework, Bancos de Dados, Análise de Dados, Vanilla JS, Node.js, React.js, Vue.js, Astro.js, Google Cloud Storage, Azure, AWS e muito mais.
 
 <br>
 
@@ -183,6 +183,8 @@ Ansioso para fazer a transição para o meu primeiro papel profissional no desen
 <br>
 
 ### Projetos Relevantes:
+
+- Cinemathe: um aplicativo da web baseado em Vue.js/Django Rest Framework que simplifica as escolhas de entretenimento. Ele fornece autenticação perfeita para salvar favoritos, informações técnicas detalhadas de filmes e séries de TV com análises incluídas e muito mais. - [Demo](https://br.ivanluna.dev/projetos/post-cinemathe)
 
 - Fifty List: Uma plataforma de automação musical (React/Python) - [Demo](https://br.ivanluna.dev/projetos/post-reactpython-fiftylist)
 
