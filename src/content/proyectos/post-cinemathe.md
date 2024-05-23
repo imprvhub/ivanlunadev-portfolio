@@ -8,7 +8,7 @@ tags: ["cinemathe"]
 draft: false
 ---
 
-Una aplicación fullstack desarrollada con Vue.js y Django Rest Framework (DRF). Ofrece una autenticación fluida para guardar favoritos, brinda información técnica detallada sobre películas y series de televisión, junto con reseñas integradas, y facilita compartir contenido en redes sociales.
+Una aplicación fullstack desarrollada con Vue.js y Django Rest Framework. Ofrece una autenticación fluida para guardar favoritos, brinda información técnica detallada sobre películas y series de televisión, junto con reseñas integradas, y facilita compartir contenido en redes sociales.
 
 <br>
 </div>

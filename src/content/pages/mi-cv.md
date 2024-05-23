@@ -15,25 +15,18 @@ draft: false
 - **Ubicación:** Buenos Aires, Argentina
 - **Correo Electrónico:** [contact@ivanluna.dev](mailto:contact@ivanluna.dev)
 
-<br>
-
 ### Perfil Profesional:
 
-Situado en Buenos Aires, me especializo en el **Backend** y **Fullstack Development**, con un enfoque principal en **Python** desde Octubre del 2020, cuando comencé a aprender a programar. Mi experiencia en el desarrollo frontend incluye trabajar con **Vanilla JS, React.js y Node.js**, siempre con un enfoque centrado en la integración de estas tecnologías en soluciones backend de Python. Además, mis proyectos han involucrado enfoques utilizando plataformas en la nube como **AWS, GCP y Azure**.
+Situado en Buenos Aires, me especializo en el **Backend** y **Fullstack Development**, con un enfoque técnico en **Python** desde Octubre del 2020, cuando comencé con este aprendizaje. Mi experiencia en el desarrollo frontend incluye trabajar con **Vanilla JS, React.js,Node.js, entre otros.** Siempre integrando éstas tecnologías en soluciones backend de Python. Además, en mis proyectos utilicé plataformas cloud como **AWS, GCP y Azure**.
 Preparado para mi primera experiencia profesional en el desarrollo, estoy listo para contribuir a proyectos innovadores y aplicar mis habilidades al máximo.
 
-
-<br>
 
 ### Experiencia Laboral:
 
 ##### Desarrollador de Software - Actualidad
 - **Noviembre 2023 - Presente**
 - Trabajo independiente
-- Programación orientada a objetos (OOP), desarrollo Front-end, Desarrollo Backend (Node.js), Flet, Astro, Vanilla Javascript, Vue.js, React.js, Vite.js, Nuxt.js, Flask, Python, Bases de Datos, Análisis de Datos.
-
-
-<br>
+- Desarrollo Backend, Desarrollo Fullstack, Python, Flask, Django Rest Framework, Bases de Datos, Análisis de Datos, Vanilla JS, Node.js, React.js, Vue.js, Astro.js, Google Cloud Storage, Azure, AWS y más.
 
 
 ### Habilidades:
@@ -44,7 +37,6 @@ Preparado para mi primera experiencia profesional en el desarrollo, estoy listo 
 
 </div>
 
-<br>
 
 ### Educación:
 
@@ -60,7 +52,6 @@ Preparado para mi primera experiencia profesional en el desarrollo, estoy listo 
 ##### Universidad John F. Kennedy - Licenciatura en Psicología
 - **Marzo 2010 - Noviembre 2014**
 
-<br>
 
 ### Certificaciones:
 <b>
@@ -182,19 +173,17 @@ Preparado para mi primera experiencia profesional en el desarrollo, estoy listo 
 </details>
 <b>
 
-<br>
-
 ### Proyectos Relevantes:
+
+- Cinemathe: Una aplicación fullstack desarrollada con Vue.js y Django Rest Framework. Brinda información técnica detallada sobre películas y series de televisión. Con autenticación, proveedores streaming y reseñas integradas. - [Demo](https://es.ivanluna.dev/proyectos/post-cinemathe)
 
 - Fifty List: Una plataforma de automatización musical (React/Python) - [Demo](https://es.ivanluna.dev/proyectos/post-reactpython-fiftylist)
 
-- Nasa APOD Viewer: una web app hecha en Python para buscar la imagen de astronomíca del dia de la NASA, y compartirla como tarjeta APOD. -[demo](https://es.ivanluna.dev/proyectos/post-nasa-apod-viewer/).
+- Nasa APOD Viewer: una web app hecha en Python para buscar la imagen de astronomíca del dia de la NASA, y compartirla como tarjeta APOD. - [Demo](https://es.ivanluna.dev/proyectos/post-nasa-apod-viewer/).
 
 - E-commerce Data Analysis: Realiza un análisis de datos desde dos proyectos Next.js (Python) - [Demo](https://es.ivanluna.dev/proyectos/post-python-ecommerce).
 
 - BoltURL: Una aplicación web para acortar enlaces (Python) - [Demo](https://es.ivanluna.dev/proyectos/post-python-bolturl).
-
-<br>
 
 ### Idiomas:
 - Español: Nativo
