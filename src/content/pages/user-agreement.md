@@ -32,7 +32,7 @@ Furthermore, in the event of any hacking attack, security breach, or unauthorize
 
 The online security landscape is challenging, and no system can claim complete immunity from risks. Feel confident that our primary goal is to safeguard the integrity of the web app and your experience with it. Your trust is of utmost importance, and we are committed to ensuring a secure environment for your use.
 
-It is essential for users to take precautions such as securing login credentials and using updated and secure devices and networks. In the unlikely event of any security incident, we will promptly investigate, take necessary actions, and keep you informed.
+It is essential for users to take precautions such as securing login Certificates and using updated and secure devices and networks. In the unlikely event of any security incident, we will promptly investigate, take necessary actions, and keep you informed.
 
 This disclaimer extends to any potential impact on user data, system integrity, or the overall performance of the website resulting from external malicious activities. Users are advised to use the website with awareness of potential security risks and take necessary measures to protect their data and devices.
 

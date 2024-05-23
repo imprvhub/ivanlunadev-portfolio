@@ -15,23 +15,17 @@ draft: false
 - **Location:** Buenos Aires, Argentina
 - **Email:** [contact@ivanluna.dev](mailto:contact@ivanluna.dev)
 
-<br>
-
 ### Professional Profile:
 
-Based in Buenos Aires, I specialize in **backend** and **fullstack development**, with a primary focus on **Python** since October 2020, when I began learning to program. My experience in frontend development includes working with **Vanilla JS, React.js, and Node.js**, always with a focus on integrating these technologies into Python-based backend solutions. Additionally, my projects have involved approaches utilizing cloud platforms like **AWS, GCP, and Azure**. 
+Based in Buenos Aires, I specialize in **backend** and **fullstack development**, with a technical focus on **Python** since October 2020, when I began learning to program. My experience in frontend development includes working with **Vanilla JS, React.js, Node.js, and more**. Always integrating these technologies into Python-based backend solutions. Additionally, my projects have involved approaches utilizing cloud platforms like **AWS, GCP, and Azure**. 
 Eager to transition into my first professional role in development, I'm ready to contribute to innovative projects and leverage my expertise!
-
-
-<br>
 
 ### Work Experience:
 
 ##### Software Developer - Currently
 - **November 2023 - Present**
 - Self-employed
-- Object-oriented programming (OOP), Front-end development, Backend Development (Node.js), Flet, Astro, Vanilla Javascript, Vue.js, React.js, Vite.js, Nuxt.js, Flask, Python, Databases, Data analysis.
-
+- Backend Development, Fullstack Development, Python, Flask, Django Rest Framework, Databases, Data Analysis, Vanilla JS, Node.js, React.js, Vue.js, Astro.js, Google Cloud Storage, Azure, AWS and more.
 
 ### Skills:
 
@@ -41,7 +35,6 @@ Eager to transition into my first professional role in development, I'm ready to
 
 </div>
 
-<br>
 
 ### Education:
 
@@ -57,8 +50,6 @@ Eager to transition into my first professional role in development, I'm ready to
 ##### University John F. Kennedy - Psychology Degree
 - **March 2010 - November 2014**
 
-<br>
-
 ### Certifications:
 <b>
 <details>
@@ -67,7 +58,7 @@ Eager to transition into my first professional role in development, I'm ready to
 - C2 Proficient:  
   - Issued by: EF International Language Centers  
   - Date of Issue: September 2023  
-  - [Credential](https://www.efset.org/cert/d4vAsK)
+  - [Certificate](https://www.efset.org/cert/d4vAsK)
 </details>
 
 <details>
@@ -76,22 +67,22 @@ Eager to transition into my first professional role in development, I'm ready to
 - Python Core:
   - Issued by: JetBrains Academy  
   - Date of Issue: August 2023  
-  - [Credential](https://hyperskill.org/certificates/51e65420-93f0-40b6-a65c-f7907d22b6af.pdf)
+  - [Certificate](https://hyperskill.org/certificates/51e65420-93f0-40b6-a65c-f7907d22b6af.pdf)
 
 - SQL With Python:  
   - Issued by: Hyperskill  
   - Date of Issue: August 2023  
-  - [Credential](https://hyperskill.org/certificates/fc57ab6c-889d-40ae-957e-3f74c3338ba2.pdf)
+  - [Certificate](https://hyperskill.org/certificates/fc57ab6c-889d-40ae-957e-3f74c3338ba2.pdf)
 
 - Introduction To Data Science:  
   - Issued by: Hyperskill  
   - Date of Issue: July 2023  
-  - [Credential](https://hyperskill.org/certificates/eab039fb-ab39-40ef-8bdf-272705c1d35d.pdf)
+  - [Certificate](https://hyperskill.org/certificates/eab039fb-ab39-40ef-8bdf-272705c1d35d.pdf)
 
 - Introduction To Python  
   - Issued by: Hyperskill  
   - Date of Issue: July 2023  
-  - [Credential](https://hyperskill.org/certificates/99da3922-3555-4b3a-b111-70a02e279d6f.pdf)
+  - [Certificate](https://hyperskill.org/certificates/99da3922-3555-4b3a-b111-70a02e279d6f.pdf)
 </details>
 
 <details>
@@ -100,32 +91,32 @@ Eager to transition into my first professional role in development, I'm ready to
 - Spring Security for Java Backend Developers  
   - Issued by: JetBrains Academy  
   - Date of Issue: September 2023  
-  - [Credential](https://hyperskill.org/certificates/ff20f638-acd5-4f75-8659-c7e21a08735a.pdf) 
+  - [Certificate](https://hyperskill.org/certificates/ff20f638-acd5-4f75-8659-c7e21a08735a.pdf) 
 
 - Java Backend Developer  
   - Issued by: JetBrains Academy  
   - Date of Issue: September 2023  
-  - [Credential](https://hyperskill.org/certificates/d430b05a-41d5-4371-9623-adf9206fa496.pdf)  
+  - [Certificate](https://hyperskill.org/certificates/d430b05a-41d5-4371-9623-adf9206fa496.pdf)  
 
 - Java Core  
   - Issued by: JetBrains Academy  
   - Date of Issue: September 2023  
-  - [Credential](https://hyperskill.org/certificates/5224398c-7dbc-4553-8447-0aced982ead1.pdf)  
+  - [Certificate](https://hyperskill.org/certificates/5224398c-7dbc-4553-8447-0aced982ead1.pdf)  
 
 - Java Desktop Application Developer  
   - Issued by: JetBrains Academy  
   - Date of Issue: September 2023  
-  - [Credential](https://hyperskill.org/certificates/22b5284d-5d34-4fc3-858f-b46a0a1738d9.pdf)
+  - [Certificate](https://hyperskill.org/certificates/22b5284d-5d34-4fc3-858f-b46a0a1738d9.pdf)
 
 - Java Developer  
   - Issued by: JetBrains Academy  
   - Date of Issue: September 2023  
-  - [Credential](https://hyperskill.org/certificates/577ca8b9-bd43-4fea-8983-ae6b3b4823d4.pdf) 
+  - [Certificate](https://hyperskill.org/certificates/577ca8b9-bd43-4fea-8983-ae6b3b4823d4.pdf) 
 
 - Introduction To Java  
   - Issued by: Hyperskill  
   - Date of Issue: July 2023  
-  - [Credential](https://hyperskill.org/certificates/7aa60db2-49fe-4e51-afa9-9556530f856c.pdf) 
+  - [Certificate](https://hyperskill.org/certificates/7aa60db2-49fe-4e51-afa9-9556530f856c.pdf) 
 </details>
 
 <details>
@@ -134,7 +125,7 @@ Eager to transition into my first professional role in development, I'm ready to
 - Introduction To Golang  
   - Issued by: JetBrains Academy  
   - Date of Issue: August 2023  
-  - [Credential](https://hyperskill.org/certificates/0b905758-d367-4ea9-9b57-d0f91f0606bf.pdf)
+  - [Certificate](https://hyperskill.org/certificates/0b905758-d367-4ea9-9b57-d0f91f0606bf.pdf)
 </details>
 
 <details>
@@ -143,7 +134,7 @@ Eager to transition into my first professional role in development, I'm ready to
 - Introduction To Javascript  
   - Issued by: Hyperskill  
   - Date of Issue: July 2023  
-  - [Credential](https://hyperskill.org/certificates/516dcb3e-e609-4c41-810a-2ed550794c82.pdf)
+  - [Certificate](https://hyperskill.org/certificates/516dcb3e-e609-4c41-810a-2ed550794c82.pdf)
 </details>
 
 <details>
@@ -152,12 +143,12 @@ Eager to transition into my first professional role in development, I'm ready to
 - Kotlin Core  
   - Issued by: JetBrains Academy  
   - Date of Issue: September 2023  
-  - [Credential](https://hyperskill.org/certificates/fee931c2-b7ba-4d78-a0ba-eea5f17e1568.pdf)
+  - [Certificate](https://hyperskill.org/certificates/fee931c2-b7ba-4d78-a0ba-eea5f17e1568.pdf)
 
 - Kotlin Developer  
   - Issued by: JetBrains Academy  
   - Date of Issue: September 2023  
-  - [Credential](https://hyperskill.org/certificates/0792f898-83d9-465c-a7ce-eb5df2736d15.pdf)  
+  - [Certificate](https://hyperskill.org/certificates/0792f898-83d9-465c-a7ce-eb5df2736d15.pdf)  
 </details>
 
 <details>
@@ -166,7 +157,7 @@ Eager to transition into my first professional role in development, I'm ready to
 - Introduction to SQL  
   - Issued by: Hyperskill  
   - Date of Issue: July 2023  
-  - [Credential](https://hyperskill.org/certificates/466808f5-58d6-4fa9-b73a-00b3e2d2d898.pdfjects)
+  - [Certificate](https://hyperskill.org/certificates/466808f5-58d6-4fa9-b73a-00b3e2d2d898.pdfjects)
 </details>
 
 <details>
@@ -175,13 +166,15 @@ Eager to transition into my first professional role in development, I'm ready to
 - Command Line and Unix Shell  
   - Issued by: Hyperskill  
   - Date of Issue: August 2023  
-  - [Credential](https://hyperskill.org/certificates/5d7dc626-255c-46d3-afc6-288aedf371e6.pdf)
+  - [Certificate](https://hyperskill.org/certificates/5d7dc626-255c-46d3-afc6-288aedf371e6.pdf)
 </details>
 <b>
 
 <br>
 
 ### Relevant Projects:
+
+- Cinemathe: A Vue.js/Django Rest Framework based-web app that simplifies entertainment choices. It provides detailed technical info for movies and TV series with reviews included, seamless authentication for saving favorites, streaming providers and much more. - [Demo](https://ivanluna.dev/projects/post-cinemathe)
 
 - Fifty List: A React/Python Music Automation Platform - [Demo](https://ivanluna.dev/projects/post-reactpython-fiftylist)
 
