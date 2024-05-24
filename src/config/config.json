@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Iván Luna - Desenvolvedor de software.",
-    "base_url": "https://ivanluna.dev",
+    "base_url": "https://br.ivanluna.dev",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicons/favicon.png",
