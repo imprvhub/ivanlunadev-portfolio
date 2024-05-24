@@ -174,7 +174,7 @@ Eager to transition into my first professional role in development, I'm ready to
 
 ### Relevant Projects:
 
-- Cinemathe: A Vue.js/Django Rest Framework based-web app that simplifies entertainment choices. It provides detailed technical info for movies and TV series with reviews included, seamless authentication for saving favorites, streaming providers and much more. - [Demo](https://ivanluna.dev/projects/post-cinemathe)
+- Cinemathe: A Vue.js/Django Rest Framework based-web app that provides detailed technical info for movies and TV series with reviews included, seamless authentication for saving favorites, streaming providers and much more. - [Demo](https://ivanluna.dev/projects/post-cinemathe)
 
 - Fifty List: A React/Python Music Automation Platform - [Demo](https://ivanluna.dev/projects/post-reactpython-fiftylist)
 
