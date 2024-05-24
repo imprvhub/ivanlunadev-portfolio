@@ -171,8 +171,8 @@ python manage.py runserver
 - **Representación de cuadrícula de películas y programas de televisión en el perfil**: 
   Actualmente, hay dos paginaciones separadas para películas y programas de televisión en el perfil. En el futuro, estas paginaciones serán reemplazadas por una opción de filtrado que permitirá a los usuarios filtrar por 'Todos - Películas - Programas de TV', lo que dará como resultado una paginación única.
 
-- **Consistencia en los Puntajes de Cada Calificación:**
-  Refactorizar los puntajes de calificación para películas y programas de televisión en los carruseles de la página principal a dos decimales.
+- ~~**Consistencia en los Puntajes de Cada Calificación:**
+  Refactorizar los puntajes de calificación para películas y programas de televisión en los carruseles de la página principal a dos decimales.~~ [Full changelog.](https://github.com/imprvhub/cinemathe/commit/f3251b04abb9a986559aa3f8db35a78431c6ead7)
 
 - **Mejoras de Estilo:**
   - Revisar y estandarizar tamaños de fuente y estilos en todos los componentes para garantizar una apariencia consistente y cohesionada en toda la aplicación.
