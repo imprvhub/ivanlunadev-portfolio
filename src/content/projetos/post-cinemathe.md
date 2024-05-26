@@ -166,14 +166,14 @@ Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões p
 
 - **Representação em grade de filmes e programas de TV no perfil**: atualmente, há duas paginações separadas para filmes e programas de TV no perfil. No futuro, essas paginações serão substituídas por uma opção de filtragem que permite aos usuários filtrar por ‘Todos – Filmes – Programas de TV’, resultando em uma única paginação.
 
-- ~~**Consistência na Pontuação de Avaliação:** Refatore as pontuações de avaliação para filmes e programas de TV no carrossel principal para duas casas decimais.~~ [Full changelog.](https://github.com/imprvhub/cinemathe/commit/f3251b04abb9a986559aa3f8db35a78431c6ead7)
+- ~~**Consistência na Pontuação de Avaliação:** Refatore as pontuações de avaliação para filmes e programas de TV no carrossel principal para duas casas decimais.~~ [Changelog completo.](https://github.com/imprvhub/cinemathe/commit/f3251b04abb9a986559aa3f8db35a78431c6ead7)
 
 - **Melhorias de Estilo:** -Rever e padronizar tamanhos de fonte, estilos e pesos em todos os componentes para garantir uma aparência consistente e coesa em toda a aplicação.
 -Rever o efeito de hover nos menus de perfil do usuário; o border-radius do botão está causando o desalinhamento do efeito de hover.
 
-- **UI Responsiva:** -Ajustar o layout do modal do avatar para caber dentro do elemento pai.
+- ~~**UI Responsiva:** -Ajustar o layout do modal do avatar para caber dentro do elemento pai.
 -Alinhar corretamente o texto do parágrafo no modal de confirmação após o registro do usuário.
--Modificar a largura do modal de compartilhamento para telas maiores que 800px para melhorar a responsividade.
+-Modificar a largura do modal de compartilhamento para telas maiores que 800px para melhorar a responsividade.~~ [Changelog completo.](https://github.com/imprvhub/cinemathe/commit/7669bcbdd2b2de83de2a8d1cdaa62450cb2f8938)
 
 #### Atribuições
 
