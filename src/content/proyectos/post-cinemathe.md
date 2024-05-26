@@ -172,16 +172,16 @@ python manage.py runserver
   Actualmente, hay dos paginaciones separadas para películas y programas de televisión en el perfil. En el futuro, estas paginaciones serán reemplazadas por una opción de filtrado que permitirá a los usuarios filtrar por 'Todos - Películas - Programas de TV', lo que dará como resultado una paginación única.
 
 - ~~**Consistencia en los Puntajes de Cada Calificación:**
-  Refactorizar los puntajes de calificación para películas y programas de televisión en los carruseles de la página principal a dos decimales.~~ [Full changelog.](https://github.com/imprvhub/cinemathe/commit/f3251b04abb9a986559aa3f8db35a78431c6ead7)
+  Refactorizar los puntajes de calificación para películas y programas de televisión en los carruseles de la página principal a dos decimales.~~ [Cambios aplicados.](https://github.com/imprvhub/cinemathe/commit/f3251b04abb9a986559aa3f8db35a78431c6ead7)
 
 - **Mejoras de Estilo:**
   - Revisar y estandarizar tamaños de fuente y estilos en todos los componentes para garantizar una apariencia consistente y cohesionada en toda la aplicación.
   - Revisar el efecto de hover en los menús de perfil de usuario; el border-radius del botón está causando que el efecto de hover se desalinee.
 
-- **UI Responsiva:**
+- ~~**UI Responsiva:**
   - Ajustar el diseño del modal del avatar para que quepa dentro de la sección en la página de 'ajustes'.
   - Alinear correctamente el texto del párrafo en el modal de confirmación después del registro del usuario.
-  - Modificar el ancho del modal de 'compartir' para pantallas más grandes que 800px de ancho para mejorar la responsividad.
+  - Modificar el ancho del modal de 'compartir' para pantallas más grandes que 800px de ancho para mejorar la responsividad.~~ [Cambios aplicados.](https://github.com/imprvhub/cinemathe/commit/7669bcbdd2b2de83de2a8d1cdaa62450cb2f8938)
 
 #### Atribuciones:
 
