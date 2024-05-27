@@ -162,7 +162,7 @@ Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões p
 
 - **Bug de Preenchimento Automático na Página de Login:** O preenchimento automático em dispositivos móveis às vezes causa uma redireção para a página raiz. A configuração do formulário precisa ser ajustada para evitar essa redireção e permitir que os usuários continuem com o fluxo de autenticação.
 
-- **Botão de login como botão de carregamento**: O botão de login será um 'botão de carregamento' para que, quando os usuários clicarem nele, um carregador seja exibido até que o processo de autenticação seja concluído.
+- ~~**Botão de login como botão de carregamento**: O botão de login será um 'botão de carregamento' para que, quando os usuários clicarem nele, um carregador seja exibido até que o processo de autenticação seja concluído.~~ [Changelog completo.](https://github.com/imprvhub/cinemathe/commit/ec387757026cc216a6efc275e1e49627657a8525)
 
 - **Representação em grade de filmes e programas de TV no perfil**: atualmente, há duas paginações separadas para filmes e programas de TV no perfil. No futuro, essas paginações serão substituídas por uma opção de filtragem que permite aos usuários filtrar por ‘Todos – Filmes – Programas de TV’, resultando em uma única paginação.
 
