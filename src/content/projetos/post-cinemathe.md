@@ -168,8 +168,8 @@ Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões p
 
 - ~~**Consistência na Pontuação de Avaliação:** Refatore as pontuações de avaliação para filmes e programas de TV no carrossel principal para duas casas decimais.~~ [Changelog completo.](https://github.com/imprvhub/cinemathe/commit/f3251b04abb9a986559aa3f8db35a78431c6ead7)
 
-- **Melhorias de Estilo:** -Rever e padronizar tamanhos de fonte, estilos e pesos em todos os componentes para garantir uma aparência consistente e coesa em toda a aplicação.
--Rever o efeito de hover nos menus de perfil do usuário; o border-radius do botão está causando o desalinhamento do efeito de hover.
+- ~~**Melhorias de Estilo:** -Rever e padronizar tamanhos de fonte, estilos e pesos em todos os componentes para garantir uma aparência consistente e coesa em toda a aplicação.
+-Rever o efeito de hover nos menus de perfil do usuário; o border-radius do botão está causando o desalinhamento do efeito de hover.~~ [Changelog completo.](https://github.com/imprvhub/cinemathe/commit/5b80d98079c67ca89a998f9c0d68d43d67396f83)
 
 - ~~**UI Responsiva:** -Ajustar o layout do modal do avatar para caber dentro do elemento pai.
 -Alinhar corretamente o texto do parágrafo no modal de confirmação após o registro do usuário.
