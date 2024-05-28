@@ -168,8 +168,8 @@ python manage.py runserver
 - ~~**Botón de inicio de sesión como botón de carga**: 
   El botón de inicio de sesión será un 'botón de carga' de modo que cuando los usuarios hagan clic en él, se mostrará un cargador hasta que se complete el proceso de autenticación.~~ [Cambios aplicados.](https://github.com/imprvhub/cinemathe/commit/ec387757026cc216a6efc275e1e49627657a8525)
 
-- **Representación de cuadrícula de películas y programas de televisión en el perfil**: 
-  Actualmente, hay dos paginaciones separadas para películas y programas de televisión en el perfil. En el futuro, estas paginaciones serán reemplazadas por una opción de filtrado que permitirá a los usuarios filtrar por 'Todos - Películas - Programas de TV', lo que dará como resultado una paginación única.
+- ~~**Representación de cuadrícula de películas y programas de televisión en el perfil**: 
+  Actualmente, hay dos paginaciones separadas para películas y programas de televisión en el perfil. En el futuro, estas paginaciones serán reemplazadas por una opción de filtrado que permitirá a los usuarios filtrar por 'Todos - Películas - Programas de TV', lo que dará como resultado una paginación única.~~ [Cambios aplicados.](https://github.com/imprvhub/cinemathe/commit/720f5edd9206400be32c7a20017022706f01ce39)
 
 - ~~**Consistencia en los Puntajes de Cada Calificación:**
   Refactorizar los puntajes de calificación para películas y programas de televisión en los carruseles de la página principal a dos decimales.~~ [Cambios aplicados.](https://github.com/imprvhub/cinemathe/commit/f3251b04abb9a986559aa3f8db35a78431c6ead7)
