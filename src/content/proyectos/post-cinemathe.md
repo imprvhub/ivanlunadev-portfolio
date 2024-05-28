@@ -174,9 +174,9 @@ python manage.py runserver
 - ~~**Consistencia en los Puntajes de Cada Calificación:**
   Refactorizar los puntajes de calificación para películas y programas de televisión en los carruseles de la página principal a dos decimales.~~ [Cambios aplicados.](https://github.com/imprvhub/cinemathe/commit/f3251b04abb9a986559aa3f8db35a78431c6ead7)
 
-- **Mejoras de Estilo:**
+- ~~**Mejoras de Estilo:**
   - Revisar y estandarizar tamaños de fuente y estilos en todos los componentes para garantizar una apariencia consistente y cohesionada en toda la aplicación.
-  - Revisar el efecto de hover en los menús de perfil de usuario; el border-radius del botón está causando que el efecto de hover se desalinee.
+  - Revisar el efecto de hover en los menús de perfil de usuario; el border-radius del botón está causando que el efecto de hover se desalinee.~~ [Cambios aplicados.](https://github.com/imprvhub/cinemathe/commit/5b80d98079c67ca89a998f9c0d68d43d67396f83)
 
 - ~~**UI Responsiva:**
   - Ajustar el diseño del modal del avatar para que quepa dentro de la sección en la página de 'ajustes'.
