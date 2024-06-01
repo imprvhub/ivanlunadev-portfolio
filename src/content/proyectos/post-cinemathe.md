@@ -162,8 +162,8 @@ python manage.py runserver
 - **Bug al Agregar el Primer Favorito para Nuevos Usuarios:**
   Este problema surge en el primer clic al agregar un favorito para una cuenta recién creada. El primer clic no se registra porque el componente no actualiza el estado al mapear '0' objetos en el JSON. Sin embargo, en el segundo clic, el botón 'Agregar a Favoritos' funciona correctamente y este problema no vuelve a ocurrir para ese usuario. Este inconveniente solo se presenta en el primer clic para la adición del primer favorito. Se requiere abordar este problema analizando cada función del componente para establecer una solución efectiva.
 
-- **Autocompletado en la Página de Inicio de Sesión:**
-  El autocompletado en dispositivos móviles a veces provoca una redirección a la página principal. Se debe revisar la configuración del formulario para evitar esta redirección y permitir que los usuarios continúen con el flujo de autenticación.
+- ~~**Autocompletado en la Página de Inicio de Sesión:**
+  El autocompletado en dispositivos móviles a veces provoca una redirección a la página principal. Se debe revisar la configuración del formulario para evitar esta redirección y permitir que los usuarios continúen con el flujo de autenticación.~~ [Cambios aplicados.](https://github.com/imprvhub/cinemathe/commit/3435ff615c32bffc3aac2b35aaa0f43bf9d090b6)
 
 - ~~**Botón de inicio de sesión como botón de carga**: 
   El botón de inicio de sesión será un 'botón de carga' de modo que cuando los usuarios hagan clic en él, se mostrará un cargador hasta que se complete el proceso de autenticación.~~ [Cambios aplicados.](https://github.com/imprvhub/cinemathe/commit/ec387757026cc216a6efc275e1e49627657a8525)
