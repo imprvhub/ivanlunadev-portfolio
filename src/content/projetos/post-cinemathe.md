@@ -157,7 +157,10 @@ python manage.py runserver
 #### Feedback:
 Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões para melhorias, por favor, crie um novo problema no [repositório do GitHub](https://github.com/imprvhub/cinemathe/issues/new).
 
-##### Correções Pendentes para v1.1.2:
+##### Novas funcionalidades e correções pendentes para a v1.2.2:
+
+- ~~**Nova funcionalidade:** Implementar funcionalidade de filtragem por gêneros e anos. Esta funcionalidade introduz a capacidade para que os usuários realizem buscas refinadas dentro de sua coleção de favoritos. Agora, os usuários podem filtrar entradas com base em gêneros específicos e delimitar os resultados por intervalos de décadas. Por exemplo, os usuários podem consultar seus favoritos para exibir filmes de ação adicionados entre os anos 1980 e 2000. A lógica de filtragem aproveita os campos genresForDb e yearStartForDb para garantir uma recuperação de dados precisa e eficiente.~~ [Changelog completo.](https://github.com/imprvhub/cinemathe/commit/bfc9e1f6c2c4bc8edd99776151ba548dcdc21c94)
+
 - **Bug ao Adicionar Primeiro Favorito para Novos Usuários:** Este problema ocorre no primeiro clique ao adicionar um favorito para uma conta recém-criada. O primeiro clique não é reconhecido porque o componente falha em atualizar o estado ao mapear '0' objetos no JSON. No entanto, no segundo clique, o botão 'Adicionar aos Favoritos' funciona corretamente, e este problema nunca ocorre novamente para esse usuário. Apenas acontece no primeiro clique para a adição do primeiro favorito. Uma investigação adicional é necessária nas funções Vue.js responsáveis por esse comportamento.
 
 - ~~**Bug de Preenchimento Automático na Página de Login:** O preenchimento automático em dispositivos móveis às vezes causa uma redireção para a página raiz. A configuração do formulário precisa ser ajustada para evitar essa redireção e permitir que os usuários continuem com o fluxo de autenticação.~~ [Changelog completo.](https://github.com/imprvhub/cinemathe/commit/3435ff615c32bffc3aac2b35aaa0f43bf9d090b6)
