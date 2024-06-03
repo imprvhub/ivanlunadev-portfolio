@@ -158,7 +158,11 @@ python manage.py runserver
 #### Feedback:
 ¡Su opinión es importante! Si usted tiene alguna sugerencia para mejoras, cree un nuevo issue en el [Repositorio de Github](https://github.com/imprvhub/cinemathe/issues/new).
 
-##### Correcciones Pendientes para v1.1.2:
+##### Nuevas funcionalidades y correcciones pendientes para la v1.2.2:
+
+- ~~**Nueva funcionalidad:**
+  Implementar funcionalidad de filtrado por géneros y años. Esta característica introduce la capacidad para que los usuarios realicen búsquedas refinadas dentro de su colección de favoritos. Ahora, los usuarios pueden filtrar entradas basadas en géneros específicos y delimitar los resultados por intervalos de décadas. Por ejemplo, los usuarios pueden consultar sus favoritos para mostrar películas de acción agregadas entre los años 1980 y 2000. La lógica de filtrado aprovecha los campos genresForDb y yearStartForDb para asegurar una recuperación de datos precisa y eficiente.~~ [Cambios aplicados.](https://github.com/imprvhub/cinemathe/commit/bfc9e1f6c2c4bc8edd99776151ba548dcdc21c94)
+
 - **Bug al Agregar el Primer Favorito para Nuevos Usuarios:**
   Este problema surge en el primer clic al agregar un favorito para una cuenta recién creada. El primer clic no se registra porque el componente no actualiza el estado al mapear '0' objetos en el JSON. Sin embargo, en el segundo clic, el botón 'Agregar a Favoritos' funciona correctamente y este problema no vuelve a ocurrir para ese usuario. Este inconveniente solo se presenta en el primer clic para la adición del primer favorito. Se requiere abordar este problema analizando cada función del componente para establecer una solución efectiva.
 
