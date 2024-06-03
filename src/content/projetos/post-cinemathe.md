@@ -29,6 +29,19 @@ Uma aplicação web full-stack desenvolvida com Vue.js e Django Rest Framework q
 
 #### Novidades:
 
+<div align="center">
+
+##### Anuncio de Lanzamiento: v1.2.2
+
+###### Fecha de Lanzamiento: 03 de Junio, 2024
+
+¡El lanzamiento de Cinemathe v1.2.2 ya está disponible! Esta versión incluye varias características nuevas, correcciones de errores y mejoras para mejorar la experiencia general del usuario. Para más detalles, por favor consulta las [Notas de la Versión v1.2.2](https://github.com/imprvhub/cinemathe/releases/tag/v1.2.2).
+
+</div>
+
+---
+
+
 - **Backend Python Integrado:** Cinemathe integra perfeitamente um backend Django Rest Framework para autenticação de usuário robusta, garantindo segurança aprimorada e controle de acesso através do Painel de Administração do Django.
 
 <div align="center">
