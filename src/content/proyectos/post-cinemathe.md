@@ -158,30 +158,6 @@ python manage.py runserver
 #### Feedback:
 ¡Su opinión es importante! Si usted tiene alguna sugerencia para mejoras, cree un nuevo issue en el [Repositorio de Github](https://github.com/imprvhub/cinemathe/issues/new).
 
-##### Nuevas funcionalidades y correcciones pendientes para la v1.2.2:
-
-- ~~**Nueva funcionalidad:**
-  Implementar funcionalidad de filtrado por géneros y años. Esta característica introduce la capacidad para que los usuarios realicen búsquedas refinadas dentro de su colección de favoritos. Ahora, los usuarios pueden filtrar entradas basadas en géneros específicos y delimitar los resultados por intervalos de décadas. Por ejemplo, los usuarios pueden consultar sus favoritos para mostrar películas de acción agregadas entre los años 1980 y 2000. La lógica de filtrado aprovecha los campos genresForDb y yearStartForDb para asegurar una recuperación de datos precisa y eficiente.~~ [Cambios aplicados.](https://github.com/imprvhub/cinemathe/commit/bfc9e1f6c2c4bc8edd99776151ba548dcdc21c94)
-
-- ~~**Bug al Agregar el Primer Favorito para Nuevos Usuarios:**
-  Este problema surge en el primer clic al agregar un favorito para una cuenta recién creada. El primer clic no se registra porque el componente no actualiza el estado al mapear '0' objetos en el JSON. Sin embargo, en el segundo clic, el botón 'Agregar a Favoritos' funciona correctamente y este problema no vuelve a ocurrir para ese usuario. Este inconveniente solo se presenta en el primer clic para la adición del primer favorito. Se requiere abordar este problema analizando cada función del componente para establecer una solución efectiva.~~ [Cambios aplicados.](https://github.com/imprvhub/cinemathe/commit/1a8ff1c52a0119ddc7468cc54effccdb933c21fc)
-
-- ~~**Autocompletado en la Página de Inicio de Sesión:**
-  El autocompletado en dispositivos móviles a veces provoca una redirección a la página principal. Se debe revisar la configuración del formulario para evitar esta redirección y permitir que los usuarios continúen con el flujo de autenticación.~~ [Cambios aplicados.](https://github.com/imprvhub/cinemathe/commit/3435ff615c32bffc3aac2b35aaa0f43bf9d090b6)
-
-- ~~**Botón de inicio de sesión como botón de carga**: 
-  El botón de inicio de sesión será un 'botón de carga' de modo que cuando los usuarios hagan clic en él, se mostrará un cargador hasta que se complete el proceso de autenticación.~~ [Cambios aplicados.](https://github.com/imprvhub/cinemathe/commit/ec387757026cc216a6efc275e1e49627657a8525)
-
-- ~~**Representación de cuadrícula de películas y programas de televisión en el perfil**: 
-  Actualmente, hay dos paginaciones separadas para películas y programas de televisión en el perfil. En el futuro, estas paginaciones serán reemplazadas por una opción de filtrado que permitirá a los usuarios filtrar por 'Todos - Películas - Programas de TV', lo que dará como resultado una paginación única.~~ [Cambios aplicados.](https://github.com/imprvhub/cinemathe/commit/720f5edd9206400be32c7a20017022706f01ce39)
-
-- ~~**Consistencia en los Puntajes de Cada Calificación:**
-  Refactorizar los puntajes de calificación para películas y programas de televisión en los carruseles de la página principal a dos decimales.~~ [Cambios aplicados.](https://github.com/imprvhub/cinemathe/commit/f3251b04abb9a986559aa3f8db35a78431c6ead7)
-
-- ~~**Mejoras de Estilo:** - Revisar y estandarizar tamaños de fuente y estilos en todos los componentes para garantizar una apariencia consistente y cohesionada en toda la aplicación.- Revisar el efecto de hover en los menús de perfil de usuario; el border-radius del botón está causando que el efecto de hover se desalinee.~~ [Cambios aplicados.](https://github.com/imprvhub/cinemathe/commit/5b80d98079c67ca89a998f9c0d68d43d67396f83)
-
-- ~~**UI Responsiva:** - Ajustar el diseño del modal del avatar para que quepa dentro de la sección en la página de 'ajustes'.- Alinear correctamente el texto del párrafo en el modal de confirmación después del registro del usuario.- Modificar el ancho del modal de 'compartir' para pantallas más grandes que 800px de ancho para mejorar la responsividad.~~ [Cambios aplicados.](https://github.com/imprvhub/cinemathe/commit/7669bcbdd2b2de83de2a8d1cdaa62450cb2f8938)
-
 #### Atribuciones:
 
 La inspiración base de este proyecto es derivada del repositorio [TasteJS](https://github.com/tastejs/nuxt-movies). 
