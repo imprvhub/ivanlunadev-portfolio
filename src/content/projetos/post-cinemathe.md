@@ -157,27 +157,6 @@ python manage.py runserver
 #### Feedback:
 Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões para melhorias, por favor, crie um novo problema no [repositório do GitHub](https://github.com/imprvhub/cinemathe/issues/new).
 
-##### Novas funcionalidades e correções pendentes para a v1.2.2:
-
-- ~~**Nova funcionalidade:** Implementar funcionalidade de filtragem por gêneros e anos. Esta funcionalidade introduz a capacidade para que os usuários realizem buscas refinadas dentro de sua coleção de favoritos. Agora, os usuários podem filtrar entradas com base em gêneros específicos e delimitar os resultados por intervalos de décadas. Por exemplo, os usuários podem consultar seus favoritos para exibir filmes de ação adicionados entre os anos 1980 e 2000. A lógica de filtragem aproveita os campos genresForDb e yearStartForDb para garantir uma recuperação de dados precisa e eficiente.~~ [Changelog completo.](https://github.com/imprvhub/cinemathe/commit/bfc9e1f6c2c4bc8edd99776151ba548dcdc21c94)
-
-- ~~**Bug ao Adicionar Primeiro Favorito para Novos Usuários:** Este problema ocorre no primeiro clique ao adicionar um favorito para uma conta recém-criada. O primeiro clique não é reconhecido porque o componente falha em atualizar o estado ao mapear '0' objetos no JSON. No entanto, no segundo clique, o botão 'Adicionar aos Favoritos' funciona corretamente, e este problema nunca ocorre novamente para esse usuário. Apenas acontece no primeiro clique para a adição do primeiro favorito. Uma investigação adicional é necessária nas funções Vue.js responsáveis por esse comportamento.~~ [Changelog completo.](https://github.com/imprvhub/cinemathe/commit/1a8ff1c52a0119ddc7468cc54effccdb933c21fc)
-
-- ~~**Bug de Preenchimento Automático na Página de Login:** O preenchimento automático em dispositivos móveis às vezes causa uma redireção para a página raiz. A configuração do formulário precisa ser ajustada para evitar essa redireção e permitir que os usuários continuem com o fluxo de autenticação.~~ [Changelog completo.](https://github.com/imprvhub/cinemathe/commit/3435ff615c32bffc3aac2b35aaa0f43bf9d090b6)
-
-- ~~**Botão de login como botão de carregamento**: O botão de login será um 'botão de carregamento' para que, quando os usuários clicarem nele, um carregador seja exibido até que o processo de autenticação seja concluído.~~ [Changelog completo.](https://github.com/imprvhub/cinemathe/commit/ec387757026cc216a6efc275e1e49627657a8525)
-
-- ~~**Representação em grade de filmes e programas de TV no perfil**: atualmente, há duas paginações separadas para filmes e programas de TV no perfil. No futuro, essas paginações serão substituídas por uma opção de filtragem que permite aos usuários filtrar por ‘Todos – Filmes – Programas de TV’, resultando em uma única paginação.~~ [Changelog completo.](https://github.com/imprvhub/cinemathe/commit/720f5edd9206400be32c7a20017022706f01ce39)
-
-- ~~**Consistência na Pontuação de Avaliação:** Refatore as pontuações de avaliação para filmes e programas de TV no carrossel principal para duas casas decimais.~~ [Changelog completo.](https://github.com/imprvhub/cinemathe/commit/f3251b04abb9a986559aa3f8db35a78431c6ead7)
-
-- ~~**Melhorias de Estilo:** -Rever e padronizar tamanhos de fonte, estilos e pesos em todos os componentes para garantir uma aparência consistente e coesa em toda a aplicação.
--Rever o efeito de hover nos menus de perfil do usuário; o border-radius do botão está causando o desalinhamento do efeito de hover.~~ [Changelog completo.](https://github.com/imprvhub/cinemathe/commit/5b80d98079c67ca89a998f9c0d68d43d67396f83)
-
-- ~~**UI Responsiva:** -Ajustar o layout do modal do avatar para caber dentro do elemento pai.
--Alinhar corretamente o texto do parágrafo no modal de confirmação após o registro do usuário.
--Modificar a largura do modal de compartilhamento para telas maiores que 800px para melhorar a responsividade.~~ [Changelog completo.](https://github.com/imprvhub/cinemathe/commit/7669bcbdd2b2de83de2a8d1cdaa62450cb2f8938)
-
 #### Atribuições
 
 A inspiração fundamental para este projeto é derivada do repositório [TasteJS](https://github.com/tastejs/nuxt-movies), e estendo minha gratidão pelo seu trabalho pioneiro.
