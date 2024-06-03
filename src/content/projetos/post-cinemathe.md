@@ -170,6 +170,27 @@ python manage.py runserver
 #### Feedback:
 Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões para melhorias, por favor, crie um novo problema no [repositório do GitHub](https://github.com/imprvhub/cinemathe/issues/new).
 
+##### Funcionalidades e Correções Planejadas para v1.3.0:
+
+- **Feat: Lembretes de Episódios de TV**  
+  Adicionar lembretes para novos episódios de programas de TV. Este recurso permitirá que os usuários recebam notificações sobre novos episódios de seus programas de TV favoritos, garantindo que nunca percam uma atualização.
+
+- **Feat: Filtros de Pesquisa Avançada**  
+  Implementar pesquisa avançada por ano, gênero e classificação. Este recurso melhorará a funcionalidade de pesquisa, permitindo que os usuários filtrem suas consultas de pesquisa com mais precisão. Os usuários poderão pesquisar por anos específicos, gêneros e classificações, facilitando encontrar exatamente o que estão procurando.
+
+- **Feat: Exclusão de Favoritos em Tempo Real**  
+  Exclusão ao vivo de favoritos na página de perfil. Os usuários poderão excluir seus favoritos em tempo real diretamente da sua página de perfil, proporcionando uma experiência mais fluida e interativa.
+
+- **Fix: Problema de Exibição do Nome no Perfil**  
+  Resolver um problema onde o nome do perfil não é exibido no primeiro lançamento. Esta correção garantirá que o nome do perfil seja exibido corretamente quando um usuário acessar seu perfil pela primeira vez.
+
+- **Fix: Responsividade do Menu de Favoritos**  
+  Melhorar a responsividade do menu da coleção de favoritos na página de perfil para resoluções maiores que 600px. Esta correção melhorará o layout e a usabilidade do menu de favoritos em telas maiores.
+
+- **Fix: Classificações com Estrelas no Perfil**  
+  Adicionar estrelas às classificações em profile/index.vue. Esta correção representará visualmente as classificações dos usuários com ícones de estrelas, proporcionando um sistema de classificação mais claro e intuitivo.
+
+
 #### Atribuições
 
 A inspiração fundamental para este projeto é derivada do repositório [TasteJS](https://github.com/tastejs/nuxt-movies), e estendo minha gratidão pelo seu trabalho pioneiro.
