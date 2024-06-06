@@ -42,6 +42,12 @@ FiftyList is an exploratory project diving deep into the collaboration of differ
 - Emphasize Language Synergy: Highlights the synergy between React's frontend prowess and Python's backend efficiency.
 - Data Presentation Challenge: Ensures that complex data is rendered in a user-friendly format and transmitted effectively between systems.
 
+#### How it works?:
+
+<div style="text-align: center;">
+  <iframe width="100%" height="600" src="https://www.youtube.com/embed/pMd4MVT5SDo?si=x4Mfx60U5bSqQH3a" frameborder="0" allowfullscreen style="margin: auto; border-radius: 12px;"></iframe>
+</div>
+
 #### Installation and Usage:
 
 ##### For Frontend Installation:
