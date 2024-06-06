@@ -47,6 +47,12 @@ FiftyList es un proyecto exploratorio que profundiza en la colaboración de dife
 - Enfatizar la sinergia del lenguaje: destaca la sinergia entre la destreza del frontend de React y la eficiencia del backend de Python.
 - Desafío de presentación de datos: garantiza que los datos complejos se representen en un formato fácil de usar y se transmitan de manera efectiva entre sistemas.
 
+#### Cómo funciona?:
+
+<div style="text-align: center;">
+  <iframe width="100%" height="600" src="https://www.youtube.com/embed/pMd4MVT5SDo?si=x4Mfx60U5bSqQH3a" frameborder="0" allowfullscreen style="margin: auto; border-radius: 12px;"></iframe>
+</div>
+
 #### Instalación y Uso:
 
 ##### Para la Instalación del Frontend:
