@@ -191,6 +191,9 @@ python manage.py runserver
 - **Fix: Calificaciones con Estrellas en el Perfil**  
   Añadir estrellas a las calificaciones en profile/index.vue. Esta corrección representará visualmente las calificaciones de los usuarios con íconos de estrellas, proporcionando un sistema de calificación más claro e intuitivo.
 
+- **Fix: Mover el Selector de Idioma a la parte superior**
+  Mueve el Selector de Idioma del pie de página a la parte superior de la página. Este cambio lo hará más visible para todos los usuarios y mejorará la experiencia en la aplicación.
+
 
 #### Atribuciones:
 
