@@ -176,7 +176,7 @@ Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões p
   Adicionar lembretes para novos episódios de programas de TV. Este recurso permitirá que os usuários recebam notificações sobre novos episódios de seus programas de TV favoritos, garantindo que nunca percam uma atualização.
 
 - **Feat: Filtros de Pesquisa Avançada**  
-  Implementar pesquisa avançada por ano, gênero e classificação. Este recurso melhorará a funcionalidade de pesquisa, permitindo que os usuários filtrem suas consultas de pesquisa com mais precisão. Os usuários poderão pesquisar por anos específicos, gêneros e classificações, facilitando encontrar exatamente o que estão procurando.
+  Implementar pesquisa avançada por ano, gênero e classificação. Este recurso melhorará a funcionalidade de pesquisa, permitindo que os usuários filtrem suas consultas de pesquisa com mais precisão. Os usuários poderão pesquisar por anos específicos, gêneros e classificações, facilitando encontrar exatamente o que estão procurando. [Changelog.](https://github.com/imprvhub/cinemathe/commit/ec436b5c5772836a3332506ffb0804b479061ab9)
 
 - **Feat: Exclusão de Favoritos em Tempo Real**  
   Exclusão ao vivo de favoritos na página de perfil. Os usuários poderão excluir seus favoritos em tempo real diretamente da sua página de perfil, proporcionando uma experiência mais fluida e interativa.
