@@ -177,7 +177,7 @@ python manage.py runserver
   Añadir recordatorios para nuevos episodios de programas de televisión. Esta característica permitirá a los usuarios recibir notificaciones sobre nuevos episodios de sus programas de TV favoritos, asegurándose de que nunca se pierdan una actualización.
 
 - **Feat: Filtros de Búsqueda Avanzada**  
-  Implementar búsqueda avanzada por año, género y calificación. Esta característica mejorará la funcionalidad de búsqueda, permitiendo a los usuarios filtrar sus consultas de búsqueda de manera más precisa. Los usuarios podrán buscar por años específicos, géneros y calificaciones, facilitando encontrar exactamente lo que están buscando.
+  Implementar búsqueda avanzada por año, género y calificación. Esta característica mejorará la funcionalidad de búsqueda, permitiendo a los usuarios filtrar sus consultas de búsqueda de manera más precisa. Los usuarios podrán buscar por años específicos, géneros y calificaciones, facilitando encontrar exactamente lo que están buscando. [Changelog.](https://github.com/imprvhub/cinemathe/commit/ec436b5c5772836a3332506ffb0804b479061ab9)
 
 - **Feat: Eliminación de Favoritos en Tiempo Real**  
   Eliminación en vivo de favoritos desde la página de perfil. Los usuarios podrán eliminar sus favoritos en tiempo real directamente desde su página de perfil, proporcionando una experiencia más fluida e interactiva.
