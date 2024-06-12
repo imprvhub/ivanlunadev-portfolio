@@ -62,11 +62,15 @@ Iván Luna or ivanluna.dev shall not be liable for any direct, indirect, inciden
 
 #### 8. Privacy Policy
 
-By using our website, you agree to the use of cookies. Our Cookies Policy provides details on what cookies are, how we use them, the involvement of third-party partners, your cookie choices, and additional information. Cookies are small text pieces sent to your web browser from a visited website. They are stored in your browser, enabling the website or third-parties to recognize you, simplifying your subsequent visits and enhancing the website's utility.
+By using our website, you agree to the use of cookies and tracking technologies, such as Google Analytics, for SEO and performance purposes. If you do not agree, please discontinue your use of the website.
 
-During your use of the website, we may place various cookie files in your web browser, serving the purposes of enabling specific website functions and providing analytics to enhance user experience. We employ both session and persistent cookies for essential and analytics purposes.
+Our Cookies Policy provides comprehensive details about what cookies are, how we use them, the involvement of third-party partners, your cookie choices, and additional information. Cookies are small text files sent to your web browser from a visited website. They are stored in your browser, allowing the website or third parties to recognize you, simplify your subsequent visits, and enhance the website's functionality.
 
-In addition to our own, we may utilize third-party cookies for reporting website usage statistics, delivering advertisements, etc. If you wish to delete or refuse cookies, consult your browser's help pages. Note that such actions may limit features, preference storage, and page display. For popular browsers such as Google Chrome, Internet Explorer, Mozilla Firefox, and Safari, specific instructions can be found on their respective support pages. Explore allaboutcookies.org and networkadvertising.org Initiative for comprehensive insights.
+During your use of the website, we may place various cookie files in your web browser. These cookies serve the purposes of enabling specific website functions and providing analytics to enhance user experience. We utilize both session and persistent cookies for essential and analytics purposes.
+
+In addition to our own cookies, we may use third-party cookies for reporting website usage statistics, delivering advertisements, and other purposes. If you wish to delete or refuse cookies, please consult your browser's help pages. Note that such actions may limit features, preference storage, and page display.
+
+For popular browsers such as Google Chrome, Internet Explorer, Mozilla Firefox, and Safari, you can find specific instructions on their respective support pages. For comprehensive insights, explore websites like allaboutcookies.org and the networkadvertising.org initiative.
 
 #### 9. Contact
 
