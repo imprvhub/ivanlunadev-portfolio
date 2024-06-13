@@ -191,7 +191,7 @@ Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões p
   Adicionar estrelas às classificações em profile/index.vue. Esta correção representará visualmente as classificações dos usuários com ícones de estrelas, proporcionando um sistema de classificação mais claro e intuitivo.
 
 - **Fix: Mover o Seletor de Idioma para o Topo**
-  Mova o Seletor de Idioma do rodapé para a parte superior da página. Essa mudança o tornará mais visível para todos os usuários e melhorará a experiência do usuário.
+  Mova o Seletor de Idioma do rodapé para a parte superior da página. Essa mudança o tornará mais visível para todos os usuários e melhorará a experiência do usuário. [Changelog.](https://github.com/imprvhub/cinemathe/commit/46450650d3b44c72ded83d559abe0f09b2765049)
 
 
 
