@@ -192,7 +192,7 @@ python manage.py runserver
   Añadir estrellas a las calificaciones en profile/index.vue. Esta corrección representará visualmente las calificaciones de los usuarios con íconos de estrellas, proporcionando un sistema de calificación más claro e intuitivo.
 
 - **Fix: Mover el Selector de Idioma a la parte superior**
-  Mueve el Selector de Idioma del pie de página a la parte superior de la página. Este cambio lo hará más visible para todos los usuarios y mejorará la experiencia en la aplicación.
+  Mueve el Selector de Idioma del pie de página a la parte superior de la página. Este cambio lo hará más visible para todos los usuarios y mejorará la experiencia en la aplicación. [Changelog.](https://github.com/imprvhub/cinemathe/commit/46450650d3b44c72ded83d559abe0f09b2765049)
 
 
 #### Atribuciones:
