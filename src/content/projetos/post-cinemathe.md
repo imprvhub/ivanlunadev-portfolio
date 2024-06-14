@@ -172,6 +172,9 @@ Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões p
 
 ##### Funcionalidades e Correções Planejadas para v1.3.0:
 
+-**Feat: Implementar Reestruturação Global para Melhorar a Experiência do Usuário.**
+  Esta reestruturação tem como objetivo melhorar fundamentalmente a interação do usuário com a plataforma ao introduzir uma barra de navegação global coesa com recursos-chave como uma função de pesquisa, painel de usuário personalizado, seletor de idioma e um botão de retorno conveniente. Essas modificações são projetadas para simplificar a navegação e melhorar a usabilidade geral, resultando em uma experiência do usuário mais intuitiva e eficiente em toda a plataforma. [Changelog.](https://github.com/imprvhub/cinemathe/commit/91e680d02d28b3b8f5739c0db650c704a796a031)
+
 - **Feat: Lembretes de Episódios de TV**  
   Adicionar lembretes para novos episódios de programas de TV. Este recurso permitirá que os usuários recebam notificações sobre novos episódios de seus programas de TV favoritos, garantindo que nunca percam uma atualização.
 
