@@ -173,6 +173,9 @@ python manage.py runserver
 
 ##### Funcionalidades y Correcciones Planeadas para v1.3.0:
 
+-**Feat: Implementar Reestructuración Global para Mejorar la Experiencia del Usuario.**
+  Esta reestructuración tiene como objetivo mejorar fundamentalmente la interacción del usuario con la plataforma al introducir una barra de navegación global cohesiva con características clave como una función de búsqueda, panel de usuario personalizado, selector de idioma y un botón de retroceso conveniente. Estas modificaciones están diseñadas para simplificar la navegación y mejorar la usabilidad general, lo que conduce a una experiencia de usuario más intuitiva y eficiente en toda la plataforma. [Changelog.](https://github.com/imprvhub/cinemathe/commit/91e680d02d28b3b8f5739c0db650c704a796a031)
+
 - **Feat: Recordatorios de Episodios de TV**  
   Añadir recordatorios para nuevos episodios de programas de televisión. Esta característica permitirá a los usuarios recibir notificaciones sobre nuevos episodios de sus programas de TV favoritos, asegurándose de que nunca se pierdan una actualización.
 
