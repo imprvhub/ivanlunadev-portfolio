@@ -182,7 +182,7 @@ Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões p
   Implementar pesquisa avançada por ano, gênero e classificação. Este recurso melhorará a funcionalidade de pesquisa, permitindo que os usuários filtrem suas consultas de pesquisa com mais precisão. Os usuários poderão pesquisar por anos específicos, gêneros e classificações, facilitando encontrar exatamente o que estão procurando. [Changelog.](https://github.com/imprvhub/cinemathe/commit/ec436b5c5772836a3332506ffb0804b479061ab9)
 
 - **Feat: Exclusão de Favoritos em Tempo Real**  
-  Exclusão ao vivo de favoritos na página de perfil. Os usuários poderão excluir seus favoritos em tempo real diretamente da sua página de perfil, proporcionando uma experiência mais fluida e interativa.
+  Exclusão ao vivo de favoritos na página de perfil. Os usuários poderão excluir seus favoritos em tempo real diretamente da sua página de perfil, proporcionando uma experiência mais fluida e interativa. [Changelog.](https://github.com/imprvhub/cinemathe/commit/c0f81dfb455e345522eb1092dd5dce212822446a)
 
 - **Feat: Adicionar link do Letterboxd aos Detalhes do Filme**  
   Esta funcionalidade adiciona um link do Letterboxd à página de detalhes do filme. O link é exibido condicionalmente com base no tipo de conteúdo; é visível apenas para filmes e não para séries de TV. Essa diferenciação é feita porque o Letterboxd suporta exclusivamente filmes, não séries de TV. [Changelog.](https://github.com/imprvhub/cinemathe/commit/fa1ffadb354fc7eeac0754ad8e465e00c9073eb0)
