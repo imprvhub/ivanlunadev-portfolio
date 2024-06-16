@@ -197,7 +197,7 @@ Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões p
   Melhorar a responsividade do menu da coleção de favoritos na página de perfil para resoluções maiores que 600px. Esta correção melhorará o layout e a usabilidade do menu de favoritos em telas maiores.
 
 - **Fix: Classificações com Estrelas no Perfil**  
-  Adicionar estrelas às classificações em profile/index.vue. Esta correção representará visualmente as classificações dos usuários com ícones de estrelas, proporcionando um sistema de classificação mais claro e intuitivo.
+  Integre ícones de estrela na seção de avaliações de usuário de profile/index.vue. Esta melhoria mostrará visualmente as avaliações dos usuários usando estrelas, oferecendo uma representação mais clara e intuitiva das avaliações. [Changelog.](https://github.com/imprvhub/cinemathe/commit/7475c00b4d9b40841c730da397e0f40a773c9eea)
 
 - **Fix: Mover o Seletor de Idioma para o Topo**
   Mova o Seletor de Idioma do rodapé para a parte superior da página. Essa mudança o tornará mais visível para todos os usuários e melhorará a experiência do usuário. [Changelog.](https://github.com/imprvhub/cinemathe/commit/46450650d3b44c72ded83d559abe0f09b2765049)
