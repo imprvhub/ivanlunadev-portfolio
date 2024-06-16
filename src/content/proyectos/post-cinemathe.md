@@ -198,7 +198,7 @@ python manage.py runserver
   Mejorar la responsividad del menú de la colección de favoritos en la página de perfil para resoluciones mayores de 600px. Esta corrección mejorará el diseño y la usabilidad del menú de favoritos en pantallas más grandes.
 
 - **Fix: Calificaciones con Estrellas en el Perfil**  
-  Añadir estrellas a las calificaciones en profile/index.vue. Esta corrección representará visualmente las calificaciones de los usuarios con íconos de estrellas, proporcionando un sistema de calificación más claro e intuitivo.
+  Integrar iconos de estrellas en la sección de valoraciones de usuario de profile/index.vue. Esta mejora mostrará visualmente las valoraciones de los usuarios utilizando estrellas, ofreciendo una representación más clara e intuitiva de las valoraciones. [Changelog.](https://github.com/imprvhub/cinemathe/commit/7475c00b4d9b40841c730da397e0f40a773c9eea)
 
 - **Fix: Mover el Selector de Idioma a la parte superior**
   Mueve el Selector de Idioma del pie de página a la parte superior de la página. Este cambio lo hará más visible para todos los usuarios y mejorará la experiencia en la aplicación. [Changelog.](https://github.com/imprvhub/cinemathe/commit/46450650d3b44c72ded83d559abe0f09b2765049)
