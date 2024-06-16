@@ -188,6 +188,9 @@ python manage.py runserver
 - **Feat: Agregar enlace a Letterboxd en detalles de Películas**  
   Esta función agrega un enlace a Letterboxd en la página de detalles cada pelicula. El enlace se muestra condicionalmente según el tipo de contenido; es visible solo para películas y no para series de TV. Esta diferenciación se hace porque Letterboxd solo admite películas, no series de TV. [Changelog.](https://github.com/imprvhub/cinemathe/commit/fa1ffadb354fc7eeac0754ad8e465e00c9073eb0)
 
+- **Feat: Agregar enlace a Trakt TV en Detalles de Películas y Series de TV**  
+  Esta función agrega un enlace a Trakt TV en la página de detalles de películas y series de TV. [Changelog.](https://github.com/imprvhub/cinemathe/commit/40b47b551998d1995172edcabbfc57a2d5fd633b)
+
 - **Fix: Problema de Visualización del Nombre en el Perfil**  
   Resolver un problema donde el nombre del perfil no se muestra en el primer inicio. Esta corrección garantizará que el nombre del perfil se muestre correctamente cuando un usuario acceda a su perfil por primera vez. [Changelog.](https://github.com/imprvhub/cinemathe/commit/1bddc978def7a5d02c861fb5c81b0736cd90512a)
 
