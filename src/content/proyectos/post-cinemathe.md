@@ -183,7 +183,7 @@ python manage.py runserver
   Implementar búsqueda avanzada por año, género y calificación. Esta característica mejorará la funcionalidad de búsqueda, permitiendo a los usuarios filtrar sus consultas de búsqueda de manera más precisa. Los usuarios podrán buscar por años específicos, géneros y calificaciones, facilitando encontrar exactamente lo que están buscando. [Changelog.](https://github.com/imprvhub/cinemathe/commit/ec436b5c5772836a3332506ffb0804b479061ab9)
 
 - **Feat: Eliminación de Favoritos en Tiempo Real**  
-  Eliminación en vivo de favoritos desde la página de perfil. Los usuarios podrán eliminar sus favoritos en tiempo real directamente desde su página de perfil, proporcionando una experiencia más fluida e interactiva.
+  Eliminación en vivo de favoritos desde la página de perfil. Los usuarios podrán eliminar sus favoritos en tiempo real directamente desde su página de perfil, proporcionando una experiencia más fluida e interactiva. [Changelog.](https://github.com/imprvhub/cinemathe/commit/c0f81dfb455e345522eb1092dd5dce212822446a)
 
 - **Feat: Agregar enlace a Letterboxd en detalles de Películas**  
   Esta función agrega un enlace a Letterboxd en la página de detalles cada pelicula. El enlace se muestra condicionalmente según el tipo de contenido; es visible solo para películas y no para series de TV. Esta diferenciación se hace porque Letterboxd solo admite películas, no series de TV. [Changelog.](https://github.com/imprvhub/cinemathe/commit/fa1ffadb354fc7eeac0754ad8e465e00c9073eb0)
