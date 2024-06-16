@@ -187,6 +187,9 @@ Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões p
 - **Feat: Adicionar link do Letterboxd aos Detalhes do Filme**  
   Esta funcionalidade adiciona um link do Letterboxd à página de detalhes do filme. O link é exibido condicionalmente com base no tipo de conteúdo; é visível apenas para filmes e não para séries de TV. Essa diferenciação é feita porque o Letterboxd suporta exclusivamente filmes, não séries de TV. [Changelog.](https://github.com/imprvhub/cinemathe/commit/fa1ffadb354fc7eeac0754ad8e465e00c9073eb0)
 
+- **Feat: Agregar enlace a Trakt TV en Detalles de Películas y Series de TV**  
+  Esta función agrega un enlace a Trakt TV en la página de detalles de películas y series de TV. [Changelog.](https://github.com/imprvhub/cinemathe/commit/40b47b551998d1995172edcabbfc57a2d5fd633b)
+
 - **Fix: Problema de Exibição do Nome no Perfil**  
   Resolver um problema onde o nome do perfil não é exibido no primeiro lançamento. Esta correção garantirá que o nome do perfil seja exibido corretamente quando um usuário acessar seu perfil pela primeira vez. [Changelog.](https://github.com/imprvhub/cinemathe/commit/1bddc978def7a5d02c861fb5c81b0736cd90512a)
 
