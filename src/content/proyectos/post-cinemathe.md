@@ -195,7 +195,7 @@ python manage.py runserver
   Resolver un problema donde el nombre del perfil no se muestra en el primer inicio. Esta corrección garantizará que el nombre del perfil se muestre correctamente cuando un usuario acceda a su perfil por primera vez. [Changelog.](https://github.com/imprvhub/cinemathe/commit/1bddc978def7a5d02c861fb5c81b0736cd90512a)
 
 - **Fix: Responsividad del Menú de Favoritos**  
-  Mejorar la responsividad del menú de la colección de favoritos en la página de perfil para resoluciones mayores de 600px. Esta corrección mejorará el diseño y la usabilidad del menú de favoritos en pantallas más grandes.
+  Mejorar la responsividad del menú de la colección de favoritos en la página de perfil para resoluciones mayores de 600px. Esta corrección mejorará el diseño y la usabilidad del menú de favoritos en pantallas más grandes. [Changelog.](https://github.com/imprvhub/cinemathe/commit/5f518c99e227a79290fa2a42b31679ed23d0bfdb)
 
 - **Fix: Calificaciones con Estrellas en el Perfil**  
   Integrar iconos de estrellas en la sección de valoraciones de usuario de profile/index.vue. Esta mejora mostrará visualmente las valoraciones de los usuarios utilizando estrellas, ofreciendo una representación más clara e intuitiva de las valoraciones. [Changelog.](https://github.com/imprvhub/cinemathe/commit/7475c00b4d9b40841c730da397e0f40a773c9eea)
