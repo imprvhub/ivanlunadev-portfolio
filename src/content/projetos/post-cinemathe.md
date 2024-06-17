@@ -194,7 +194,7 @@ Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões p
   Resolver um problema onde o nome do perfil não é exibido no primeiro lançamento. Esta correção garantirá que o nome do perfil seja exibido corretamente quando um usuário acessar seu perfil pela primeira vez. [Changelog.](https://github.com/imprvhub/cinemathe/commit/1bddc978def7a5d02c861fb5c81b0736cd90512a)
 
 - **Fix: Responsividade do Menu de Favoritos**  
-  Melhorar a responsividade do menu da coleção de favoritos na página de perfil para resoluções maiores que 600px. Esta correção melhorará o layout e a usabilidade do menu de favoritos em telas maiores.
+  Melhorar a responsividade do menu da coleção de favoritos na página de perfil para resoluções maiores que 600px. Esta correção melhorará o layout e a usabilidade do menu de favoritos em telas maiores. [Changelog.](https://github.com/imprvhub/cinemathe/commit/5f518c99e227a79290fa2a42b31679ed23d0bfdb)
 
 - **Fix: Classificações com Estrelas no Perfil**  
   Integre ícones de estrela na seção de avaliações de usuário de profile/index.vue. Esta melhoria mostrará visualmente as avaliações dos usuários usando estrelas, oferecendo uma representação mais clara e intuitiva das avaliações. [Changelog.](https://github.com/imprvhub/cinemathe/commit/7475c00b4d9b40841c730da397e0f40a773c9eea)
