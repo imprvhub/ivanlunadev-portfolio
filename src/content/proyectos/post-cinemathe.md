@@ -176,8 +176,8 @@ python manage.py runserver
 - **Feat: Implementar Reestructuración Global para Mejorar la Experiencia del Usuario.**
   Esta reestructuración tiene como objetivo mejorar fundamentalmente la interacción del usuario con la plataforma al introducir una barra de navegación global cohesiva con características clave como una función de búsqueda, panel de usuario personalizado, selector de idioma y un botón de retroceso conveniente. Estas modificaciones están diseñadas para simplificar la navegación y mejorar la usabilidad general, lo que conduce a una experiencia de usuario más intuitiva y eficiente en toda la plataforma. [Changelog.](https://github.com/imprvhub/cinemathe/commit/da82b26f4b22ead0de49a673f02aba83e0f04747)
 
-- **Feat: Recordatorios de Episodios de TV**  
-  Añadir recordatorios para nuevos episodios de programas de televisión. Esta característica permitirá a los usuarios recibir notificaciones sobre nuevos episodios de sus programas de TV favoritos, asegurándose de que nunca se pierdan una actualización.
+- **Feat: Página de Próximos Estrenos**  
+  Introducir una nueva página de 'Próximos Estrenos' diseñada para resaltar los próximos lanzamientos de programas de televisión y películas, junto con las últimas noticias de la industria del cine. Para los usuarios autenticados, el contenido se personalizará según sus preferencias, asegurando que reciban actualizaciones adaptadas a sus intereses.
 
 - **Feat: Filtros de Búsqueda Avanzada**  
   Implementar búsqueda avanzada por año, género y calificación. Esta característica mejorará la funcionalidad de búsqueda, permitiendo a los usuarios filtrar sus consultas de búsqueda de manera más precisa. Los usuarios podrán buscar por años específicos, géneros y calificaciones, facilitando encontrar exactamente lo que están buscando. [Changelog.](https://github.com/imprvhub/cinemathe/commit/ec436b5c5772836a3332506ffb0804b479061ab9)
