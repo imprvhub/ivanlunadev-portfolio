@@ -175,8 +175,8 @@ Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões p
 -** Feat: Implementar Reestruturação Global para Melhorar a Experiência do Usuário.**
   Esta reestruturação tem como objetivo melhorar fundamentalmente a interação do usuário com a plataforma ao introduzir uma barra de navegação global coesa com recursos-chave como uma função de pesquisa, painel de usuário personalizado, seletor de idioma e um botão de retorno conveniente. Essas modificações são projetadas para simplificar a navegação e melhorar a usabilidade geral, resultando em uma experiência do usuário mais intuitiva e eficiente em toda a plataforma. [Changelog.](https://github.com/imprvhub/cinemathe/commit/da82b26f4b22ead0de49a673f02aba83e0f04747)
 
-- **Feat: Lembretes de Episódios de TV**  
-  Adicionar lembretes para novos episódios de programas de TV. Este recurso permitirá que os usuários recebam notificações sobre novos episódios de seus programas de TV favoritos, garantindo que nunca percam uma atualização.
+- **Feat: Página de Próximos Lançamentos**  
+  Introduzir uma nova página de 'Próximos Lançamentos' projetada para destacar os próximos lançamentos de programas de TV e filmes, juntamente com as últimas notícias da indústria cinematográfica. Para usuários autenticados, o conteúdo será personalizado de acordo com suas preferências, garantindo que recebam atualizações adaptadas aos seus interesses.
 
 - **Feat: Filtros de Pesquisa Avançada**  
   Implementar pesquisa avançada por ano, gênero e classificação. Este recurso melhorará a funcionalidade de pesquisa, permitindo que os usuários filtrem suas consultas de pesquisa com mais precisão. Os usuários poderão pesquisar por anos específicos, gêneros e classificações, facilitando encontrar exatamente o que estão procurando. [Changelog.](https://github.com/imprvhub/cinemathe/commit/ec436b5c5772836a3332506ffb0804b479061ab9)
