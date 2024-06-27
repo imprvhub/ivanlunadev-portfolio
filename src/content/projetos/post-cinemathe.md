@@ -62,6 +62,13 @@ Uma aplicação web full-stack desenvolvida com Vue.js e Django Rest Framework q
   <img src="/images/assets/guide7.png" alt="Guide GIF" style="width: 70%; height: auto; border-radius: 10px;">
 </div>
 
+- **Página de 'Próximos Estrenos':**
+  Adicionada uma nova página 'Próxima' que destaca os lançamentos futuros de programas de TV e filmes. Para usuários autenticados, o conteúdo é personalizado de acordo com suas preferências, garantindo que recebam atualizações adaptadas aos seus interesses.
+
+<div align="center">
+  <img src="/images/assets/guide8.png" alt="Guide GIF" style="width: 70%; height: auto; border-radius: 10px;">
+</div>
+
 
 
 <div style="display: flex; justify-content: space-between;">
