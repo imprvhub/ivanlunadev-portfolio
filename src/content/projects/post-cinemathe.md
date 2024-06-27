@@ -51,7 +51,13 @@ The release of Cinemathe v1.3.0 is now available!. This release includes several
 - **Comprehensive User Profile Management:** Users enjoy complete control over their profiles, with the ability to save favorite movies and TV series, personalize their entertainment preferences, and conveniently access account settings. The addition of a user profile menu on both the main and profile pages further enhances user interaction, providing easy access to authentication and account customization options, including avatar changes.
 
 <div align="center">
-  <img src="/images/assets/guide2.gif" alt="Guide GIF" style="width: 70%; height: auto; border-radius: 10px;">
+  <img src="/images/assets/guide2.png" alt="Guide GIF" style="width: 70%; height: auto; border-radius: 10px;">
+</div>
+
+- **Advanced Search Filters:** Implemented advanced search functionality by year, genre, and rating. This enhancement allows users to filter search queries more precisely, making it easier to find exactly what they are looking for.
+
+<div align="center">
+  <img src="/images/assets/guide7.png" alt="Guide GIF" style="width: 70%; height: auto; border-radius: 10px;">
 </div>
 
 
