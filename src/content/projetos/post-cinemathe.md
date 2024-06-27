@@ -51,8 +51,17 @@ Uma aplicação web full-stack desenvolvida com Vue.js e Django Rest Framework q
 - **Gerenciamento Abrangente de Perfil de Usuário:** Os usuários desfrutam de controle total sobre seus perfis, com a capacidade de salvar filmes e séries de TV favoritos, personalizar suas preferências de entretenimento e acessar convenientemente as configurações da conta. A adição de um menu de perfil de usuário nas páginas principais e de perfil aprimora ainda mais a interação do usuário, fornecendo fácil acesso a opções de autenticação e personalização de conta, incluindo alterações de avatar.
 
 <div align="center">
-  <img src="/images/assets/guide2.gif" alt="Guia GIF" style="width: 70%; height: auto; border-radius: 10px;">
+  <img src="/images/assets/guide2.png" alt="Guia GIF" style="width: 70%; height: auto; border-radius: 10px;">
 </div>
+
+
+- **Filtros de Busca Avançada:** Implementamos funcionalidade avançada de busca por ano, gênero e classificação. Esta melhoria permite ao usuário filtrar consultas de busca de forma mais precisa, facilitando encontrar exatamente o que está procurando.
+
+
+<div align="center">
+  <img src="/images/assets/guide7.png" alt="Guide GIF" style="width: 70%; height: auto; border-radius: 10px;">
+</div>
+
 
 
 <div style="display: flex; justify-content: space-between;">
