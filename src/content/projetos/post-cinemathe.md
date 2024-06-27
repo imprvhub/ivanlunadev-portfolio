@@ -31,11 +31,11 @@ Uma aplicação web full-stack desenvolvida com Vue.js e Django Rest Framework q
 
 <div align="center">
 
-##### Anuncio de Lanzamiento: v1.2.2
+##### Anuncio de Lanzamiento: v1.3.0
 
-###### Fecha de Lanzamiento: 03 de Junio, 2024
+###### Fecha de Lanzamiento: 26 de Junio, 2024
 
-¡El lanzamiento de Cinemathe v1.2.2 ya está disponible! Esta versión incluye varias características nuevas, correcciones de errores y mejoras para mejorar la experiencia general del usuario. Para más detalles, por favor consulta las [Notas de la Versión v1.2.2](https://github.com/imprvhub/cinemathe/releases/tag/v1.2.2).
+¡El lanzamiento de Cinemathe v1.3.0 ya está disponible! Esta versión incluye varias características nuevas, correcciones de errores y mejoras para mejorar la experiencia general del usuario. Para más detalles, por favor consulta las [Notas de la Versión v1.3.0](https://github.com/imprvhub/cinemathe/releases/tag/v1.3.0).
 
 </div>
 
@@ -169,40 +169,6 @@ python manage.py runserver
 
 #### Feedback:
 Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões para melhorias, por favor, crie um novo problema no [repositório do GitHub](https://github.com/imprvhub/cinemathe/issues/new).
-
-##### Funcionalidades e Correções Planejadas para v1.3.0:
-
--** Feat: Implementar Reestruturação Global para Melhorar a Experiência do Usuário.**
-  Esta reestruturação tem como objetivo melhorar fundamentalmente a interação do usuário com a plataforma ao introduzir uma barra de navegação global coesa com recursos-chave como uma função de pesquisa, painel de usuário personalizado, seletor de idioma e um botão de retorno conveniente. Essas modificações são projetadas para simplificar a navegação e melhorar a usabilidade geral, resultando em uma experiência do usuário mais intuitiva e eficiente em toda a plataforma. [Changelog.](https://github.com/imprvhub/cinemathe/commit/da82b26f4b22ead0de49a673f02aba83e0f04747)
-
-- **Feat: Página de Próximos Lançamentos**  
-  Introduzir uma nova página de 'Próximos Lançamentos' projetada para destacar os próximos lançamentos de programas de TV e filmes, juntamente com as últimas notícias da indústria cinematográfica. Para usuários autenticados, o conteúdo será personalizado de acordo com suas preferências, garantindo que recebam atualizações adaptadas aos seus interesses. Changelogs: [b9e5e2f](https://github.com/imprvhub/cinemathe/commit/b9e5e2fbc9ad996bd2908d76f5b07f0759f538ac) - [4f21121](https://github.com/imprvhub/cinemathe/commit/4f2112188423255aa82bb45fe8e3457754f4a677) - [76c9c34](https://github.com/imprvhub/cinemathe/commit/76c9c34a076313843cdd717033db685dc328aa60) - [80e801f](https://github.com/imprvhub/cinemathe/commit/80e801fae06d6072a2e7b9a7d8b3974f8b3874f6) - [2457427](https://github.com/imprvhub/cinemathe/commit/24574279b30d170740848416174aea564e257aa1) - [81682ea](https://github.com/imprvhub/cinemathe/commit/81682ea1b6ec637efd4615bef06844889f90b3f9) - [dbbe70b](https://github.com/imprvhub/cinemathe/commit/dbbe70b132c072a7148551c5e4c95b88f800d120) - [5b824ad](https://github.com/imprvhub/cinemathe/commit/5b824ad4ce6307365cda3975ab90094de1fbc619).
-
-- **Feat: Filtros de Pesquisa Avançada**  
-  Implementar pesquisa avançada por ano, gênero e classificação. Este recurso melhorará a funcionalidade de pesquisa, permitindo que os usuários filtrem suas consultas de pesquisa com mais precisão. Os usuários poderão pesquisar por anos específicos, gêneros e classificações, facilitando encontrar exatamente o que estão procurando. [Changelog.](https://github.com/imprvhub/cinemathe/commit/ec436b5c5772836a3332506ffb0804b479061ab9)
-
-- **Feat: Exclusão de Favoritos em Tempo Real**  
-  Exclusão ao vivo de favoritos na página de perfil. Os usuários poderão excluir seus favoritos em tempo real diretamente da sua página de perfil, proporcionando uma experiência mais fluida e interativa. [Changelog.](https://github.com/imprvhub/cinemathe/commit/c0f81dfb455e345522eb1092dd5dce212822446a)
-
-- **Feat: Adicionar link do Letterboxd aos Detalhes do Filme**  
-  Esta funcionalidade adiciona um link do Letterboxd à página de detalhes do filme. O link é exibido condicionalmente com base no tipo de conteúdo; é visível apenas para filmes e não para séries de TV. Essa diferenciação é feita porque o Letterboxd suporta exclusivamente filmes, não séries de TV. [Changelog.](https://github.com/imprvhub/cinemathe/commit/fa1ffadb354fc7eeac0754ad8e465e00c9073eb0)
-
-- **Feat: Agregar enlace a Trakt TV en Detalles de Películas y Series de TV**  
-  Esta función agrega un enlace a Trakt TV en la página de detalles de películas y series de TV. [Changelog.](https://github.com/imprvhub/cinemathe/commit/40b47b551998d1995172edcabbfc57a2d5fd633b)
-
-- **Fix: Problema de Exibição do Nome no Perfil**  
-  Resolver um problema onde o nome do perfil não é exibido no primeiro lançamento. Esta correção garantirá que o nome do perfil seja exibido corretamente quando um usuário acessar seu perfil pela primeira vez. [Changelog.](https://github.com/imprvhub/cinemathe/commit/1bddc978def7a5d02c861fb5c81b0736cd90512a)
-
-- **Fix: Responsividade do Menu de Favoritos**  
-  Melhorar a responsividade do menu da coleção de favoritos na página de perfil para resoluções maiores que 600px. Esta correção melhorará o layout e a usabilidade do menu de favoritos em telas maiores. [Changelog.](https://github.com/imprvhub/cinemathe/commit/5f518c99e227a79290fa2a42b31679ed23d0bfdb)
-
-- **Fix: Classificações com Estrelas no Perfil**  
-  Integre ícones de estrela na seção de avaliações de usuário de profile/index.vue. Esta melhoria mostrará visualmente as avaliações dos usuários usando estrelas, oferecendo uma representação mais clara e intuitiva das avaliações. [Changelog.](https://github.com/imprvhub/cinemathe/commit/7475c00b4d9b40841c730da397e0f40a773c9eea)
-
-- **Fix: Mover o Seletor de Idioma para o Topo**
-  Mova o Seletor de Idioma do rodapé para a parte superior da página. Essa mudança o tornará mais visível para todos os usuários e melhorará a experiência do usuário. [Changelog.](https://github.com/imprvhub/cinemathe/commit/46450650d3b44c72ded83d559abe0f09b2765049)
-
-
 
 #### Atribuições
 
