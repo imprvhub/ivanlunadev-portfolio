@@ -51,8 +51,17 @@ Una aplicación fullstack desarrollada con Vue.js y Django Rest Framework. Ofrec
 - **Gestión Integral de Perfiles de Usuario:** Los usuarios tienen un control completo sobre sus perfiles, con la capacidad de guardar sus películas y series de televisión favoritas, personalizar sus preferencias de entretenimiento y acceder fácilmente a la configuración de la cuenta. La inclusión de un menú de perfil de usuario tanto en la página principal como en la de perfil mejora aún más la interacción del usuario, proporcionando un acceso sencillo a las opciones de autenticación y personalización de la cuenta, incluye los cambios de avatar.
 
 <div align="center">
-  <img src="/images/assets/guide2.gif" alt="Guía GIF" style="width: 70%; height: auto; border-radius: 10px;">
+  <img src="/images/assets/guide2.png" alt="Guía GIF" style="width: 70%; height: auto; border-radius: 10px;">
 </div>
+
+
+- **Búsqueda Avanzada:** Se implementó la funcionalidad avanzada de búsqueda por año, género y clasificación. Esta mejora permite al usuario filtrar las consultas de búsqueda de manera más precisa, facilitando encontrar exactamente lo que está buscando.
+
+
+<div align="center">
+  <img src="/images/assets/guide7.png" alt="Guide GIF" style="width: 70%; height: auto; border-radius: 10px;">
+</div>
+
 
 
 <div style="display: flex; justify-content: space-between;">
