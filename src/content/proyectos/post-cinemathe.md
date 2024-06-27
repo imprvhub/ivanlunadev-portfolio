@@ -31,11 +31,11 @@ Una aplicación fullstack desarrollada con Vue.js y Django Rest Framework. Ofrec
 
 <div align="center">
 
-##### Anuncio de Lanzamiento: v1.2.2
+##### Anuncio de Lanzamiento: v1.3.0
 
-###### Fecha de Lanzamiento: 03 de Junio, 2024
+###### Fecha de Lanzamiento: 26 de Junio, 2024
 
-¡El lanzamiento de Cinemathe v1.2.2 ya está disponible! Esta versión incluye varias características nuevas, correcciones de errores y mejoras para mejorar la experiencia general del usuario. Para más detalles, por favor consulta las [Notas de la Versión v1.2.2](https://github.com/imprvhub/cinemathe/releases/tag/v1.2.2).
+¡El lanzamiento de Cinemathe v1.3.0 ya está disponible! Esta versión incluye varias características nuevas, correcciones de errores y mejoras para mejorar la experiencia general del usuario. Para más detalles, por favor consulta las [Notas de la Versión v1.3.0](https://github.com/imprvhub/cinemathe/releases/tag/v1.3.0).
 
 </div>
 
@@ -170,38 +170,6 @@ python manage.py runserver
 
 #### Feedback:
 ¡Su opinión es importante! Si usted tiene alguna sugerencia para mejoras, cree un nuevo issue en el [Repositorio de Github](https://github.com/imprvhub/cinemathe/issues/new).
-
-##### Funcionalidades y Correcciones Planeadas para v1.3.0:
-
-- **Feat: Implementar Reestructuración Global para Mejorar la Experiencia del Usuario.**
-  Esta reestructuración tiene como objetivo mejorar fundamentalmente la interacción del usuario con la plataforma al introducir una barra de navegación global cohesiva con características clave como una función de búsqueda, panel de usuario personalizado, selector de idioma y un botón de retroceso conveniente. Estas modificaciones están diseñadas para simplificar la navegación y mejorar la usabilidad general, lo que conduce a una experiencia de usuario más intuitiva y eficiente en toda la plataforma. [Changelog.](https://github.com/imprvhub/cinemathe/commit/da82b26f4b22ead0de49a673f02aba83e0f04747)
-
-- **Feat: Página de Próximos Estrenos**  
-  Introducir una nueva página de 'Próximos Estrenos' diseñada para resaltar los próximos lanzamientos de programas de televisión y películas, junto con las últimas noticias de la industria del cine. Para los usuarios autenticados, el contenido se personalizará según sus preferencias, asegurando que reciban actualizaciones adaptadas a sus intereses. Changelogs: [b9e5e2f](https://github.com/imprvhub/cinemathe/commit/b9e5e2fbc9ad996bd2908d76f5b07f0759f538ac) - [4f21121](https://github.com/imprvhub/cinemathe/commit/4f2112188423255aa82bb45fe8e3457754f4a677) - [76c9c34](https://github.com/imprvhub/cinemathe/commit/76c9c34a076313843cdd717033db685dc328aa60) - [80e801f](https://github.com/imprvhub/cinemathe/commit/80e801fae06d6072a2e7b9a7d8b3974f8b3874f6) - [2457427](https://github.com/imprvhub/cinemathe/commit/24574279b30d170740848416174aea564e257aa1) - [81682ea](https://github.com/imprvhub/cinemathe/commit/81682ea1b6ec637efd4615bef06844889f90b3f9) - [dbbe70b](https://github.com/imprvhub/cinemathe/commit/dbbe70b132c072a7148551c5e4c95b88f800d120) - [5b824ad](https://github.com/imprvhub/cinemathe/commit/5b824ad4ce6307365cda3975ab90094de1fbc619).
-
-- **Feat: Filtros de Búsqueda Avanzada**  
-  Implementar búsqueda avanzada por año, género y calificación. Esta característica mejorará la funcionalidad de búsqueda, permitiendo a los usuarios filtrar sus consultas de búsqueda de manera más precisa. Los usuarios podrán buscar por años específicos, géneros y calificaciones, facilitando encontrar exactamente lo que están buscando. [Changelog.](https://github.com/imprvhub/cinemathe/commit/ec436b5c5772836a3332506ffb0804b479061ab9)
-
-- **Feat: Eliminación de Favoritos en Tiempo Real**  
-  Eliminación en vivo de favoritos desde la página de perfil. Los usuarios podrán eliminar sus favoritos en tiempo real directamente desde su página de perfil, proporcionando una experiencia más fluida e interactiva. [Changelog.](https://github.com/imprvhub/cinemathe/commit/c0f81dfb455e345522eb1092dd5dce212822446a)
-
-- **Feat: Agregar enlace a Letterboxd en detalles de Películas**  
-  Esta función agrega un enlace a Letterboxd en la página de detalles cada pelicula. El enlace se muestra condicionalmente según el tipo de contenido; es visible solo para películas y no para series de TV. Esta diferenciación se hace porque Letterboxd solo admite películas, no series de TV. [Changelog.](https://github.com/imprvhub/cinemathe/commit/fa1ffadb354fc7eeac0754ad8e465e00c9073eb0)
-
-- **Feat: Agregar enlace a Trakt TV en Detalles de Películas y Series de TV**  
-  Esta función agrega un enlace a Trakt TV en la página de detalles de películas y series de TV. [Changelog.](https://github.com/imprvhub/cinemathe/commit/40b47b551998d1995172edcabbfc57a2d5fd633b)
-
-- **Fix: Problema de Visualización del Nombre en el Perfil**  
-  Resolver un problema donde el nombre del perfil no se muestra en el primer inicio. Esta corrección garantizará que el nombre del perfil se muestre correctamente cuando un usuario acceda a su perfil por primera vez. [Changelog.](https://github.com/imprvhub/cinemathe/commit/1bddc978def7a5d02c861fb5c81b0736cd90512a)
-
-- **Fix: Responsividad del Menú de Favoritos**  
-  Mejorar la responsividad del menú de la colección de favoritos en la página de perfil para resoluciones mayores de 600px. Esta corrección mejorará el diseño y la usabilidad del menú de favoritos en pantallas más grandes. [Changelog.](https://github.com/imprvhub/cinemathe/commit/5f518c99e227a79290fa2a42b31679ed23d0bfdb)
-
-- **Fix: Calificaciones con Estrellas en el Perfil**  
-  Integrar iconos de estrellas en la sección de valoraciones de usuario de profile/index.vue. Esta mejora mostrará visualmente las valoraciones de los usuarios utilizando estrellas, ofreciendo una representación más clara e intuitiva de las valoraciones. [Changelog.](https://github.com/imprvhub/cinemathe/commit/7475c00b4d9b40841c730da397e0f40a773c9eea)
-
-- **Fix: Mover el Selector de Idioma a la parte superior**
-  Mueve el Selector de Idioma del pie de página a la parte superior de la página. Este cambio lo hará más visible para todos los usuarios y mejorará la experiencia en la aplicación. [Changelog.](https://github.com/imprvhub/cinemathe/commit/46450650d3b44c72ded83d559abe0f09b2765049)
 
 
 #### Atribuciones:
