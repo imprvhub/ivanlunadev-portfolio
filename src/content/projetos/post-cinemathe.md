@@ -186,6 +186,19 @@ python manage.py runserver
 #### Feedback:
 Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões para melhorias, por favor, crie um novo problema no [repositório do GitHub](https://github.com/imprvhub/cinemathe/issues/new).
 
+##### Funcionalidades e Correções Planejadas para v1.4.0:
+- **Feat: Tela de Boas-Vindas para Novos Usuários**
+  - Implementar uma tela de boas-vindas na página de lista de observação para novos usuários.
+  - Recomendar opções para adicionar aos favoritos para otimizar o motor de recomendações.
+
+- **Feat: Entrar com o Google**
+  - Adicionar funcionalidade no backend (Django) para permitir que os usuários entrem com o Google.
+
+- **Feat(advanced-search): Adicionar parâmetro 'Com Provedores de Conteúdo'**
+  - Implementar um menu suspenso na pesquisa avançada para filtrar programas de TV por provedor de conteúdo (Apple TV+, Disney+, Hulu, Max, Netflix, Prime Video).
+  - Garantir que o menu suspenso seja visível apenas quando 'TV Show' estiver selecionado e passar o ID do provedor selecionado para a chamada da API do TMDB. [ce4f5bf](https://github.com/imprvhub/cinemathe/commit/ce4f5bf559a9031de292b375ae8375e08822b59e).
+
+
 #### Atribuições
 
 A inspiração fundamental para este projeto é derivada do repositório [TasteJS](https://github.com/tastejs/nuxt-movies), e estendo minha gratidão pelo seu trabalho pioneiro.
