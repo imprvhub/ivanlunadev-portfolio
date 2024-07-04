@@ -187,6 +187,18 @@ python manage.py runserver
 #### Feedback:
 ¡Su opinión es importante! Si usted tiene alguna sugerencia para mejoras, cree un nuevo issue en el [Repositorio de Github](https://github.com/imprvhub/cinemathe/issues/new).
 
+##### Funcionalidades y Correcciones Planeadas para v1.4.0:
+- **Feat: Pantalla de Bienvenida para Nuevos Usuarios**
+  - Implementar una pantalla de bienvenida en la página de lista de seguimiento para nuevos usuarios.
+  - Recomendar opciones para agregar a favoritos para optimizar el motor de recomendaciones.
+
+- **Feat: Iniciar sesión con Google**
+  - Agregar funcionalidad en el backend (Django) para permitir a los usuarios iniciar sesión con Google.
+
+- **Feat(advanced-search): Agregar parámetro 'Plataformas de contenido'**
+  - Implementar un menú desplegable en la búsqueda avanzada para filtrar programas de TV por proveedor de contenido (Apple TV+, Disney+, Hulu, Max, Netflix, Prime Video).
+  - Asegurarse de que el menú desplegable solo sea visible cuando se seleccione 'TV Show' y pasar el ID del proveedor seleccionado a la llamada de la API de TMDB. [ce4f5bf](https://github.com/imprvhub/cinemathe/commit/ce4f5bf559a9031de292b375ae8375e08822b59e).
+
 
 #### Atribuciones:
 
