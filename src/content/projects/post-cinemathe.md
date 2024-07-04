@@ -183,6 +183,18 @@ python manage.py runserver
 #### Feedback:
 Your feedback is valuable! If you encounter any issues or have suggestions for improvements, please create a new issue in the [GitHub repository](https://github.com/imprvhub/cinemathe/issues/new).
 
+##### Planned Features and Fixes for v1.4.0:
+- **Feat: Welcome Screen for New Users**
+  - Implement a welcome screen on the watchlist page for new users.
+  - Recommend options for adding to favorites to optimize the recommendation engine.
+
+- **Feat: Sign In with Google**
+  - Add functionality in the backend (Django) to allow users to sign in with Google.
+
+- **Feat(advanced-search): Add 'With Watch Providers' Parameter**
+  - Implement a dropdown in the advanced search to filter TV shows by watch provider (Apple TV+, Disney+, Hulu, Max, Netflix, Prime Video).
+  - Ensure the dropdown is visible only when 'TV Show' is selected, and pass the selected provider ID to the TMDB API call. [ce4f5bf](https://github.com/imprvhub/cinemathe/commit/ce4f5bf559a9031de292b375ae8375e08822b59e).
+
 
 #### Attributions
 
