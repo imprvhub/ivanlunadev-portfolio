@@ -192,7 +192,7 @@ python manage.py runserver
 - **Feat: Iniciar sesión con Google**
   - Agregar funcionalidad en el backend (Django) para permitir a los usuarios iniciar sesión con Google.
 
-  - **Feat: Pantalla de Bienvenida para Nuevos Usuarios**
+- **Feat: Pantalla de Bienvenida para Nuevos Usuarios**
     - Implementar una pantalla de bienvenida en la página de lista de seguimiento para nuevos usuarios.
     - Recomendar opciones para agregar a favoritos para optimizar el motor de recomendaciones.
     - Estado: **Descartado** debido a que el enfoque actual no se alinea con los objetivos de la plataforma. Esta funcionalidad se considera irrelevante en este momento y podría reconsiderarse en el futuro.
