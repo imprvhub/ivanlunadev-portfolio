@@ -210,6 +210,10 @@ python manage.py runserver
 - **Fix: Alineación del Language Picker en el Footer Global** [5bc39c1](https://github.com/imprvhub/cinemathe/commit/5bc39c13fe4d5933dfff18ab6711d3271c0fcb0b)
   - Corregido el selector de idioma en el componente del footer global para evitar el reemplazo visual del idioma seleccionado antes de redirigir. Esta corrección aborda problemas de desalineación del menú en la página de origen.
 
+- **Fix: Actualización Automática de Ratings en el Watchlist**
+    - Implementar actualizaciones automáticas de ratings en el componente montado para películas y programas de TV, especialmente para nuevos lanzamientos. Actualmente, al añadir películas muy nuevas se lee desde la base de datos en lugar de la API, lo que impide mantener actualizados los ratings de las películas y series ya añadidas en la watchlist.
+
+
 
 #### Atribuciones:
 
