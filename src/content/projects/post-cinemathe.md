@@ -209,6 +209,7 @@ Your feedback is valuable! If you encounter any issues or have suggestions for i
 
 - **Fix: Automatic Rating Updates in Watchlist**
     - Implement automatic rating updates in the mounted component for movies and TV shows, especially for new releases. Currently, adding very new movies reads from the database instead of the API, preventing the ratings of already added movies and series in the watchlist from being kept up to date.
+    
 
 
 #### Attributions
