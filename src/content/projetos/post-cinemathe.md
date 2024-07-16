@@ -187,16 +187,27 @@ python manage.py runserver
 Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões para melhorias, por favor, crie um novo problema no [repositório do GitHub](https://github.com/imprvhub/cinemathe/issues/new).
 
 ##### Funcionalidades e Correções Planejadas para v1.4.0:
-- **Feat: Tela de Boas-Vindas para Novos Usuários**
+
+- **Feat: Iniciar sessão com Google**
+  - Adicionar funcionalidade no backend (Django) para permitir que os usuários iniciem sessão com o Google.
+
+- **Feat: Tela de boas-vindas para novos usuários**
   - Implementar uma tela de boas-vindas na página de lista de observação para novos usuários.
   - Recomendar opções para adicionar aos favoritos para otimizar o motor de recomendações.
+  - Estado: **Descartado** devido ao fato de que a abordagem atual não está alinhada com os objetivos da plataforma. Esta funcionalidade é considerada irrelevante neste momento e pode ser reconsiderada no futuro.
 
-- **Feat: Entrar com o Google**
-  - Adicionar funcionalidade no backend (Django) para permitir que os usuários entrem com o Google.
-
-- **Feat(advanced-search): Adicionar parâmetro 'Com Provedores de Conteúdo'**
+- **Feat(advanced-search): Adicionar parâmetro 'Plataformas de conteúdo'** [ce4f5bf](https://github.com/imprvhub/cinemathe/commit/ce4f5bf559a9031de292b375ae8375e08822b59e)
   - Implementar um menu suspenso na pesquisa avançada para filtrar programas de TV por provedor de conteúdo (Apple TV+, Disney+, Hulu, Max, Netflix, Prime Video).
-  - Garantir que o menu suspenso seja visível apenas quando 'TV Show' estiver selecionado e passar o ID do provedor selecionado para a chamada da API do TMDB. [ce4f5bf](https://github.com/imprvhub/cinemathe/commit/ce4f5bf559a9031de292b375ae8375e08822b59e).
+  - Garantir que o menu suspenso seja visível apenas quando 'TV Show' estiver selecionado e passar o ID do provedor selecionado para a chamada da API do TMDB.
+
+- **Fix: Alinhamento e Preenchimento de Ícones na Navbar** [5bc39c1](https://github.com/imprvhub/cinemathe/commit/5bc39c13fe4d5933dfff18ab6711d3271c0fcb0b)
+  - Melhorado o alinhamento e preenchimento dos ícones na navbar para aumentar a responsividade, editando diretamente nos assets.
+
+- **Fix: Filtragem de Séries na Função fetchTrendingTv** [5bc39c1](https://github.com/imprvhub/cinemathe/commit/5bc39c13fe4d5933dfff18ab6711d3271c0fcb0b)
+  - Aplicado um filtro na função `fetchTrendingTv` para excluir séries japonesas da lista de 'próximas séries'. Motivo: A grande quantidade de séries japonesas de anime (aproximadamente 80% dos resultados) estava obscurecendo outros gêneros. Este filtro visa melhorar a visibilidade de outros gêneros diversos de séries.
+
+- **Fix: Alinhamento do Seletor de Idioma no Rodapé Global** [5bc39c1](https://github.com/imprvhub/cinemathe/commit/5bc39c13fe4d5933dfff18ab6711d3271c0fcb0b)
+  - Corrigido o seletor de idioma no componente do rodapé global para evitar a substituição visual do idioma selecionado antes de redirecionar. Esta correção aborda problemas de desalinhamento do menu na página de origem.
 
 
 #### Atribuições
