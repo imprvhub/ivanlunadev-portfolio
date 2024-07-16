@@ -207,7 +207,7 @@ Your feedback is valuable! If you encounter any issues or have suggestions for i
 - **Fix: Alignment of Language Picker in Global Footer** [5bc39c1](https://github.com/imprvhub/cinemathe/commit/5bc39c13fe4d5933dfff18ab6711d3271c0fcb0b)
   - Corrected the language picker in the global footer component to prevent visual replacement of the selected language before redirecting. This fix addresses menu misalignment issues on the origin page.
 
-- **Fix: Automatic Rating Updates in Watchlist Menu**
+- **Fix: Automatic Rating Updates in Watchlist**
     - Implement automatic rating updates in the mounted component for movies and TV shows, especially for new releases. Currently, adding very new movies reads from the database instead of the API, preventing the ratings of already added movies and series in the watchlist from being kept up to date.
 
 
