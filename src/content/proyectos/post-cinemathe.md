@@ -188,16 +188,27 @@ python manage.py runserver
 ¡Su opinión es importante! Si usted tiene alguna sugerencia para mejoras, cree un nuevo issue en el [Repositorio de Github](https://github.com/imprvhub/cinemathe/issues/new).
 
 ##### Funcionalidades y Correcciones Planeadas para v1.4.0:
-- **Feat: Pantalla de Bienvenida para Nuevos Usuarios**
-  - Implementar una pantalla de bienvenida en la página de lista de seguimiento para nuevos usuarios.
-  - Recomendar opciones para agregar a favoritos para optimizar el motor de recomendaciones.
 
 - **Feat: Iniciar sesión con Google**
   - Agregar funcionalidad en el backend (Django) para permitir a los usuarios iniciar sesión con Google.
 
-- **Feat(advanced-search): Agregar parámetro 'Plataformas de contenido'**
+  - **Feat: Pantalla de Bienvenida para Nuevos Usuarios**
+    - Implementar una pantalla de bienvenida en la página de lista de seguimiento para nuevos usuarios.
+    - Recomendar opciones para agregar a favoritos para optimizar el motor de recomendaciones.
+    - Estado: **Descartado** debido a que el enfoque actual no se alinea con los objetivos de la plataforma. Esta funcionalidad se considera irrelevante en este momento y podría reconsiderarse en el futuro.
+
+- **Feat(advanced-search): Agregar parámetro 'Plataformas de contenido'** [ce4f5bf](https://github.com/imprvhub/cinemathe/commit/ce4f5bf559a9031de292b375ae8375e08822b59e).
   - Implementar un menú desplegable en la búsqueda avanzada para filtrar programas de TV por proveedor de contenido (Apple TV+, Disney+, Hulu, Max, Netflix, Prime Video).
-  - Asegurarse de que el menú desplegable solo sea visible cuando se seleccione 'TV Show' y pasar el ID del proveedor seleccionado a la llamada de la API de TMDB. [ce4f5bf](https://github.com/imprvhub/cinemathe/commit/ce4f5bf559a9031de292b375ae8375e08822b59e).
+  - Asegurarse de que el menú desplegable solo sea visible cuando se seleccione 'TV Show' y pasar el ID del proveedor seleccionado a la llamada de la API de TMDB. 
+
+- **Fix: Alineación y Padding de Iconos en Navbar** [5bc39c1](https://github.com/imprvhub/cinemathe/commit/5bc39c13fe4d5933dfff18ab6711d3271c0fcb0b)
+  - Se mejoró la alineación y padding de los iconos en el navbar para que sean mas responsive editandolos directamente desde los assets.
+
+- **Fix: Filtrado de Series en la Función fetchTrendingTv** [5bc39c1](https://github.com/imprvhub/cinemathe/commit/5bc39c13fe4d5933dfff18ab6711d3271c0fcb0b)
+  - Se aplicó un filtro en la función `fetchTrendingTv` para excluir series japonesas de la lista de 'upcoming series'. Motivo: La gran cantidad de series japonesas de anime (aproximadamente el 80% de los resultados) estaba opacando otros géneros. Este filtro busca mejorar la visibilidad de otros generos diversos de series.
+
+- **Fix: Alineación del Language Picker en el Footer Global** [5bc39c1](https://github.com/imprvhub/cinemathe/commit/5bc39c13fe4d5933dfff18ab6711d3271c0fcb0b)
+  - Corregido el selector de idioma en el componente del footer global para evitar el reemplazo visual del idioma seleccionado antes de redirigir. Esta corrección aborda problemas de desalineación del menú en la página de origen.
 
 
 #### Atribuciones:
