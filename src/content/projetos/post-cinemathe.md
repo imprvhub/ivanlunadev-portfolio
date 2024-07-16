@@ -209,7 +209,7 @@ Seu feedback é valioso! Se você encontrar algum problema ou tiver sugestões p
 - **Fix: Alinhamento do Seletor de Idioma no Rodapé Global** [5bc39c1](https://github.com/imprvhub/cinemathe/commit/5bc39c13fe4d5933dfff18ab6711d3271c0fcb0b)
   - Corrigido o seletor de idioma no componente do rodapé global para evitar a substituição visual do idioma selecionado antes de redirecionar. Esta correção aborda problemas de desalinhamento do menu na página de origem.
 
-**Fix: Atualizações Automáticas de Avaliações no Watchlist**
+- **Fix: Atualizações Automáticas de Avaliações no Watchlist**
   - Implementar atualizações automáticas de avaliações no componente montado para filmes e programas de TV, especialmente para novos lançamentos. Atualmente, ao adicionar filmes muito novos, os dados são lidos do banco de dados em vez da API, o que impede a manutenção atualizada das avaliações de filmes e séries já adicionadas na lista de observação.
 
 
