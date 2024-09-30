@@ -8,6 +8,7 @@ let h4 = h5 * font_scale;
 let h3 = h4 * font_scale;
 let h2 = h3 * font_scale;
 let h1 = h2 * font_scale;
+
 let fontPrimary, fontPrimaryType, fontSecondary, fontSecondaryType;
 if (theme.fonts.font_family.primary) {
   fontPrimary = theme.fonts.font_family.primary
@@ -56,10 +57,10 @@ module.exports = {
           dark: theme.colors.darkmode.text_color.dark,
           primary: theme.colors.darkmode.theme_color.primary,
           secondary: theme.colors.darkmode.theme_color.secondary,
-          body: theme.colors.darkmode.theme_color.body,
+          body: "#0d1822", 
           border: theme.colors.darkmode.theme_color.border,
-          "theme-light": theme.colors.darkmode.theme_color.theme_light,
-          "theme-dark": theme.colors.darkmode.theme_color.theme_dark,
+          "theme-light": "#121a26", 
+          "theme-dark": "#121a26",
         },
       },
       fontSize: {
