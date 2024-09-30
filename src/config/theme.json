@@ -6,7 +6,7 @@
         "body": "#fff",
         "border": "#eaeaea",
         "theme_light": "#f6f6f6",
-        "theme_dark": ""
+        "theme_dark": "#121a26"
       },
       "text_color": {
         "default": "#444444",
@@ -17,10 +17,10 @@
     "darkmode": {
       "theme_color": {
         "primary": "#fff",
-        "body": "#1c1c1c",
+        "body": "#121a26",
         "border": "#eaeaea",
         "theme_light": "#222222",
-        "theme_dark": ""
+        "theme_dark": "#121a26"
       },
       "text_color": {
         "default": "#B4AFB6",
