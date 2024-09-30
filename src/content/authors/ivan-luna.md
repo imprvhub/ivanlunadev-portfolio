@@ -12,5 +12,4 @@ social:
     link: https://linkedin.com/in/ivanluna-dev
 ---
 
-Situado en Buenos Aires, me especializo en el **Backend** y **Fullstack Development**, con un enfoque técnico en **Python** desde Octubre del 2020, cuando comencé con este aprendizaje. Mi experiencia en el desarrollo frontend incluye trabajar con **Vanilla JS, React.js,Node.js, entre otros.** Siempre integrando éstas tecnologías en soluciones backend de Python. Además, en mis proyectos utilicé plataformas cloud como **AWS, GCP y Azure**.
-Preparado para mi primera experiencia profesional en el desarrollo, estoy listo para contribuir a proyectos innovadores y aplicar mis habilidades al máximo.
+Con base en Buenos Aires, he estado trabajando con Python desde octubre de 2020, cuando empecé a aprender a programar. También tengo experiencia en desarrollo frontend utilizando Vanilla JS, React.js, Astro.js, Vue.js y Node.js, integrándolos con backends de Python e IA. He trabajado con servicios en la nube como **AWS, Azure y GCP**. Estoy dedicado a **aprender** y siempre dar lo mejor de mí, con **compromiso y exigencia**. Busco unirme a un equipo donde pueda seguir creciendo y contribuyendo.
