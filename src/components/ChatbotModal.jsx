@@ -181,7 +181,7 @@ const ChatbotModal = () => {
             type="text"
             value={inputMessage}
             onChange={(e) => setInputMessage(e.target.value)}
-            placeholder="Ask anything regarding my work..."
+            placeholder="Pregunta algo referido a mis proyectos..."
             className="flex-1 border dark:border-gray-700 rounded-lg px-4 py-2 
                 focus:outline-none focus:ring-2 focus:ring-gray-800 dark:focus:ring-gray-500
                 bg-white dark:bg-gray-800 text-gray-900 dark:text-white
