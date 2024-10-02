@@ -57,7 +57,7 @@ module.exports = {
           dark: theme.colors.darkmode.text_color.dark,
           primary: theme.colors.darkmode.theme_color.primary,
           secondary: theme.colors.darkmode.theme_color.secondary,
-          body: "#0F172A", 
+          body: "#152232", 
           border: theme.colors.darkmode.theme_color.border,
           "theme-light": "#121a26", 
           "theme-dark": "#121a26",
