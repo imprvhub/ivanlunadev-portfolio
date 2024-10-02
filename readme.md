@@ -1,5 +1,8 @@
 ## Welcome to the [Iván Luna Software Developer](https://ivanluna.dev/) Portfolio Repository.
 
+> [!NOTE]  
+> The release **v1.2.0** is now **available**!. Release Date: **02.10.2024** - This release includes several new features, bug fixes, and enhancements to improve the overall user experience. For further details, please refer to the [v1.2.0 Release Notes](https://github.com/imprvhub/ivanlunadev-portfolio/releases/tag/v1.2.0).
+
 Welcome to my software developer portfolio repository, meticulously crafted using Astro, TypeScript, SCSS, and JavaScript. This website serves as a showcase for my creative projects, professional journey, and expertise as Software Developer. All presented in a user-friendly and visually appealing manner.
 
 ### Demo
