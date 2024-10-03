@@ -62,8 +62,20 @@ const ChatbotModal = () => {
     const handleOpenModal = () => setIsOpen(true);
     document.addEventListener('openChatModal', handleOpenModal);
     
+    
+    const openAIChatBtn = document.getElementById('openAIChatBtn');
+    if (openAIChatBtn) {
+      openAIChatBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        setIsOpen(true);
+      });
+    }
+    
     return () => {
       document.removeEventListener('openChatModal', handleOpenModal);
+      if (openAIChatBtn) {
+        openAIChatBtn.removeEventListener('click', handleOpenModal);
+      }
     };
   }, []);
 
