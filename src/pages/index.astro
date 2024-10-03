@@ -2,12 +2,11 @@
 import Base from "@/layouts/Base.astro";
 import { markdownify } from "@/lib/utils/textConverter";
 import CallToAction from "@/partials/CallToAction.astro";
-import Testimonial from "@/partials/Testimonial.astro";
 import type { Button, Feature } from "@/types";
 import { Image } from "astro:assets";
 import { getEntry } from "astro:content";
 import { FaCheck } from "react-icons/fa/index.js";
-import ChatbotModal from "../components/ChatbotModal";
+import ChatbotModal from "../components/ChatbotModal.jsx";
 
 interface Homepage {
   banner: {
@@ -113,19 +112,6 @@ const { banner, features }: Homepage = homepage.data;
 
   <CallToAction call_to_action={call_to_action} />
 
-  <ChatbotModal client:load />
+  <ChatbotModal client:only="react" />
 </Base>
 
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const openAIChatBtn = document.getElementById('openAIChatBtn');
-    
-    if (openAIChatBtn) {
-      openAIChatBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        const event = new Event('openChatModal');
-        document.dispatchEvent(event);
-      });
-    }
-  });
-</script>

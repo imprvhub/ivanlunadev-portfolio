@@ -61,9 +61,20 @@ const ChatbotModal = () => {
   useEffect(() => {
     const handleOpenModal = () => setIsOpen(true);
     document.addEventListener('openChatModal', handleOpenModal);
+
+    const openAIChatBtn = document.getElementById('openAIChatBtn');
+    if (openAIChatBtn) {
+      openAIChatBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        setIsOpen(true);
+      });
+    }
     
     return () => {
       document.removeEventListener('openChatModal', handleOpenModal);
+      if (openAIChatBtn) {
+        openAIChatBtn.removeEventListener('click', handleOpenModal);
+      }
     };
   }, []);
 
@@ -155,7 +166,7 @@ const ChatbotModal = () => {
                 ? 'bg-gray-800 text-white dark:bg-gray-700'
                 : 'bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-gray-100'
             }`}
-            style={{ fontFamily: 'Signika, sans-serif', fontWeight: 700 }} // Aquí aplicas el estilo
+            style={{ fontFamily: 'Signika, sans-serif', fontWeight: 700 }}
             >
             {msg.text}
             </div>
@@ -165,7 +176,7 @@ const ChatbotModal = () => {
         <div className="flex justify-start">
             <div
             className="bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-gray-100 rounded-lg p-3"
-            style={{ fontFamily: 'Signika, sans-serif', fontWeight: 700 }} // Aquí aplicas el estilo
+            style={{ fontFamily: 'Signika, sans-serif', fontWeight: 700 }} 
             >
             Writing...
             </div>
