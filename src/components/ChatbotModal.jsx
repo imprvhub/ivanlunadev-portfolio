@@ -151,7 +151,20 @@ const ChatbotModal = () => {
 
         {/* Messages */}
         
-        <div className="flex-1 overflow-y-auto p-4 space-y-4">
+        <div className="flex-1 overflow-y-auto p-4 space-y-4 relative">
+          {/* Imagen de fondo con opacidad */}
+          <div 
+            className="absolute inset-0 opacity-20" 
+            style={{
+              backgroundImage: 'url(/images/assets/ia-bg.png)',
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat',
+              backgroundSize: 'contain'
+            }}
+          ></div>
+
+          {/* Contenido de mensajes */}
+          <div className="relative z-10">
         <span style={{ fontFamily: 'Signika, sans-serif', fontWeight: 700 }}>
         Por favor, tenha em mente que esta funcionalidade é apenas para fins de demonstração, e a precisão da IA pode não ser sempre exata.
         </span>
@@ -160,6 +173,7 @@ const ChatbotModal = () => {
         <div
             key={idx}
             className={`flex ${msg.sender === 'user' ? 'justify-end' : 'justify-start'}`}
+            style={{ paddingTop: '0.5rem' }}  
         >
             <div
             className={`max-w-[90%] rounded-lg p-3 ${
@@ -184,6 +198,7 @@ const ChatbotModal = () => {
         </div>
         )}
         <div ref={messagesEndRef} />
+        </div>
         </div>
 
         {/* Input */}
