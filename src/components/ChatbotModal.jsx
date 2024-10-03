@@ -133,7 +133,7 @@ const ChatbotModal = () => {
         className="fixed inset-0 bg-black/50 dark:bg-black/80 transition-opacity"
         onClick={handleClose}
       />
-      
+
       {/* Modal */}
       <div className="fixed inset-10 sm:inset-32 bg-white dark:bg-gray-900 rounded-lg shadow-xl flex flex-col">
         {/* Header */}
@@ -148,69 +148,84 @@ const ChatbotModal = () => {
           </button>
         </div>
 
-        {/* Messages */}
-        
-        <div className="flex-1 overflow-y-auto p-4 space-y-4">
-        <span style={{ fontFamily: 'Signika, sans-serif', fontWeight: 700 }}>
-        Please note that this functionality is for demonstration purposes only, and the AI's accuracy may not always be exact.
-        </span>
+        {/* Mensajes */}
+        <div className="flex-1 overflow-y-auto p-4 space-y-4 relative">
+          {/* Imagen de fondo con opacidad */}
+          <div 
+            className="absolute inset-0 opacity-20" 
+            style={{
+              backgroundImage: 'url(/images/assets/ia-bg.png)',
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat',
+              backgroundSize: 'contain'
+            }}
+          ></div>
 
-        {messages.map((msg, idx) => (
-        <div
-            key={idx}
-            className={`flex ${msg.sender === 'user' ? 'justify-end' : 'justify-start'}`}
-        >
-            <div
-            className={`max-w-[90%] rounded-lg p-3 ${
-                msg.sender === 'user'
-                ? 'bg-gray-800 text-white dark:bg-gray-700'
-                : 'bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-gray-100'
-            }`}
-            style={{ fontFamily: 'Signika, sans-serif', fontWeight: 700 }}
-            >
-            {msg.text}
-            </div>
-        </div>
-        ))}
-        {isLoading && (
-        <div className="flex justify-start">
-            <div
-            className="bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-gray-100 rounded-lg p-3"
-            style={{ fontFamily: 'Signika, sans-serif', fontWeight: 700 }} 
-            >
-            Writing...
-            </div>
-        </div>
-        )}
-        <div ref={messagesEndRef} />
+          {/* Contenido de mensajes */}
+          <div className="relative z-10">
+            <span style={{ fontFamily: 'Signika, sans-serif', fontWeight: 700 }}>
+              Please note that this functionality is for demonstration purposes only, and the AI's accuracy may not always be exact.
+            </span>
+
+            {messages.map((msg, idx) => (
+              <div
+                key={idx}
+                className={`flex ${msg.sender === 'user' ? 'justify-end' : 'justify-start'}`}
+                style={{ paddingTop: '0.5rem' }}  
+              >
+                <div
+                  className={`max-w-[90%] rounded-lg p-3 ${
+                    msg.sender === 'user'
+                      ? 'bg-gray-800 text-white dark:bg-gray-700'
+                      : 'bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-gray-100'
+                  }`}
+                  style={{ fontFamily: 'Signika, sans-serif', fontWeight: 700 }}
+                >
+                  {msg.text}
+                </div>
+              </div>
+            ))}
+
+            {isLoading && (
+              <div className="flex justify-start">
+                <div
+                  className="bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-gray-100 rounded-lg p-3"
+                  style={{ fontFamily: 'Signika, sans-serif', fontWeight: 700 }} 
+                >
+                  Writing...
+                </div>
+              </div>
+            )}
+            <div ref={messagesEndRef} />
+          </div>
         </div>
 
         {/* Input */}
         <form onSubmit={handleSubmit} className="border-t dark:border-gray-700 p-4">
-        <div className="flex space-x-4">
+          <div className="flex space-x-4">
             <input
-            type="text"
-            value={inputMessage}
-            onChange={(e) => setInputMessage(e.target.value)}
-            placeholder="Ask anything regarding my work..."
-            className="flex-1 border dark:border-gray-700 rounded-lg px-4 py-2 
+              type="text"
+              value={inputMessage}
+              onChange={(e) => setInputMessage(e.target.value)}
+              placeholder="Ask anything regarding my work..."
+              className="flex-1 border dark:border-gray-700 rounded-lg px-4 py-2 
                 focus:outline-none focus:ring-2 focus:ring-gray-800 dark:focus:ring-gray-500
                 bg-white dark:bg-gray-800 text-gray-900 dark:text-white
                 placeholder-gray-500 dark:placeholder-gray-400"
-            disabled={isLoading}
+              disabled={isLoading}
             />
             <button
-            type="submit"
-            className={`px-6 py-2 rounded-lg transition-colors ${
+              type="submit"
+              className={`px-6 py-2 rounded-lg transition-colors ${
                 isLoading
                 ? 'bg-gray-400 dark:bg-gray-600 cursor-not-allowed'
                 : 'bg-gray-800 hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-600 text-white'
-            }`}
-            disabled={isLoading}
+              }`}
+              disabled={isLoading}
             >
-            Send
+              Send
             </button>
-        </div>
+          </div>
         </form>
 
       </div>
