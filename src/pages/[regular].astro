@@ -2,6 +2,7 @@
 import Base from "@/layouts/Base.astro";
 import PageHeader from "@/partials/PageHeader.astro";
 import { getCollection } from "astro:content";
+import ChatbotModal from "../components/ChatbotModal.jsx";
 
 export async function getStaticPaths() {
   const COLLECTION_FOLDER = "pages";
@@ -42,4 +43,5 @@ const { Content } = await page.render();
         </div>
       </div>
   </section>
+  <ChatbotModal client:only="react" />
 </Base>
