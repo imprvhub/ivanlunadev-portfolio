@@ -17,7 +17,7 @@ draft: false
 
 ### Perfil Profesional:
 
-Con base en Buenos Aires, he estado trabajando con Python desde octubre de 2020, cuando empecé a aprender a programar. También tengo experiencia en desarrollo frontend utilizando Vanilla JS, React.js, Astro.js, Vue.js y Node.js, integrándolos con backends de Python e IA. He trabajado con servicios en la nube como **AWS, Azure y GCP**. Estoy dedicado a **aprender** y siempre dar lo mejor de mí, con **compromiso y exigencia**. Busco unirme a un equipo donde pueda seguir creciendo y contribuyendo.
+Me dedico a impulsar **la innovación, la integridad y el trabajo en equipo** en cada proyecto en el que participo, generando **soluciones de alto impacto y valor agregado**. Comencé a especializarme en **Python** en octubre del 2020. A lo largo de mi experiencia, he trabajado **integrando backends** en Python con **inteligencia artificial y soluciones frontend**. Tengo conocimientos en desarrollo frontend utilizando tecnologías como **Vanilla JS, React.js, Astro.js, Vue.js y Node.js**, además de experiencia en plataformas en la nube como **AWS, Azure y GCP**.
 
 ### Experiencia Laboral:
 
