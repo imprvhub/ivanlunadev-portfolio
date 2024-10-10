@@ -14,6 +14,7 @@ AnalyzeMyDream is an innovative platform built using Astro.js, offering AI-power
 </div>
 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
 <button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://analyzemydream.com', '_blank');">Live Demo</button>  
+<button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://github.com/imprvhub/analyzemydream/', '_blank');">GitHub Frontend Code</button>   
 </div>
 
 #### What's New:
