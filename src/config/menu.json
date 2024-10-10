@@ -14,6 +14,10 @@
       "hasChildren": true,
       "children": [
         {
+          "name": "AnalyzeMyDream [Astro.js - FastAPI - Paypal SDK]",
+          "url": "/proyectos/post-analyzemydream"
+        },
+        {
           "name": "Cinemathe [Vue.js - Django Rest Framework]",
           "url": "/proyectos/post-cinemathe"
         },
