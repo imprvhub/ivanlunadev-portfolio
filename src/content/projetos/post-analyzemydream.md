@@ -38,10 +38,10 @@ O lançamento do **AnalyzeMyDream v1.3.0** já está **disponível**! Esta vers�
 </div>
 
 - **Recursos baseados em Assinatura:**
- -**Analisador de Sonhos Advanced-AI:** Oferece análises de sonhos mais profundas e com base em pesquisa.
- -**Analisador de Sonhos Custom-AI:** Permite que os usuários personalizem a análise dos sonhos de acordo com seus parâmetros preferidos.
- -**Analisador de Sonhos Comparativo-AI:** Compara duas descrições de sonhos para identificar padrões.
- -**Analisador de Sonhos Batch-AI:** Analisa múltiplos sonhos em uma sessão, proporcionando uma visão holística.
+ - **Analisador de Sonhos Advanced-AI:** Oferece análises de sonhos mais profundas e com base em pesquisa.
+ - **Analisador de Sonhos Custom-AI:** Permite que os usuários personalizem a análise dos sonhos de acordo com seus parâmetros preferidos.
+ - **Analisador de Sonhos Comparativo-AI:** Compara duas descrições de sonhos para identificar padrões.
+ - **Analisador de Sonhos Batch-AI:** Analisa múltiplos sonhos em uma sessão, proporcionando uma visão holística.
 
 <div align="center">
   <img src="https://analyzemydream.com/changelog/changelog-02.png" alt="Guide GIF" style="width: 70%; height: auto; border-radius: 10px;">
