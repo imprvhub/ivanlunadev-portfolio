@@ -132,6 +132,6 @@ En definitiva, AnalyzeMyDream ha sido fundamental para fortalecer mis habilidade
 <hr>
 <br>
 <div class="flex justify-between">
-      <button class="btn btn-primary" onclick="window.location.href='/';">Volver a Inicio</button>
-      <button class="btn btn-primary" onclick="window.location.href='/projects';">Volver a Proyectos</button>     
+      <button class="btn btn-primary" onclick="window.location.href='/';">Volver al Inicio</button>
+      <button class="btn btn-primary" onclick="window.location.href='/proyectos';">Volver a los Proyectos</button>     
 </div>
