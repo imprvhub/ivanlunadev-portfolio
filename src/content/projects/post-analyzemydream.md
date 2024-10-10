@@ -104,6 +104,12 @@ DB_TOKEN: The token or key used to authenticate and securely connect to the data
 
 #### Conclusion:
 
+##### Clarification on Code Availability
+
+The **AnalyzeMyDream** project was developed as a commission for a client, which means that the paid functionalities and associated code will not be made publicly available, as this would not be a good professional practice. However, the repository and the frontend code will be shared publicly, allowing the community to contribute without compromising the integrity of the project and business agreements.
+
+---
+
 Working on AnalyzeMyDream has been a transformative experience, both in terms of technical growth and practical problem-solving. One of the key achievements was successfully implementing third-party authentication via Google and GitHub using OAuth2, in conjunction with Turso Connect for secure database management. This allowed seamless, passwordless login for users, enhancing the overall security and user experience of the platform. Additionally, integrating PayPal SDK for managing subscriptions was a critical milestone. With a robust subscription system in place, users can now easily upgrade to advanced dream analysis plans, unlocking deeper insights.
 
 The architecture of AnalyzeMyDream, consisting of three distinct backend services, also provided a significant challenge and learning opportunity. The FastAPI backend powers the core API functionalities, while a separate Flask backend handles the generation and management of API keys, attributing them to specific PayPal subscription plans. A third Node.js backend captures PayPal webhooks, automatically creating subscriptions and assigning users their respective API keys and plans based on real-time transaction data. This multi-backend approach ensures scalability and efficient handling of different functionalities within the system.
