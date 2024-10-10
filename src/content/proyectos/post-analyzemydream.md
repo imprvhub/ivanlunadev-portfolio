@@ -8,7 +8,7 @@ tags: ["analyzemydream"]
 draft: false
 ---
 
-AnalyzeMyDream es una plataforma innovadora construida utilizando Astro.js, que ofrece interpretaciones de sueños impulsadas por IA para ayudar a los usuarios a obtener una comprensión más profunda de sus sueños. La plataforma se integra perfectamente con FastAPI, Flask y modelos avanzados de IA, proporcionando análisis rápidos y detallados. Los planes de suscripción dan acceso a características mejoradas, incluidas interpretaciones de sueños más personalizadas y en profundidad. También cuenta con una API completamente documentada, que garantiza pruebas integrales y una integración fluida para desarrolladores.
+AnalyzeMyDream es una plataforma innovadora que utiliza Astro.js para ofrecer interpretaciones de sueños basadas en inteligencia artificial, ayudando a los usuarios a comprender mejor lo que sueñan. Gracias a su integración con FastAPI, Flask y modelos avanzados de IA, la plataforma proporciona análisis rápidos y detallados. Además, los planes de suscripción ofrecen características mejoradas, como interpretaciones más personalizadas y profundas. También cuenta con una API bien documentada, lo que facilita pruebas exhaustivas y una integración sencilla para los desarrolladores.
 
 <br>
 </div>
@@ -37,7 +37,7 @@ Analizador de Sueños Fast-AI:** Interpretación rápida y general disponible pa
 </div>
 
 Características Basadas en Suscripción:**
-Analizador de Sueños Advanced-AI:** Ofrece un análisis de sueños más profundo y respaldado por investigaciones.
+Analizador de Sueños Advanced-AI:** Ofrece un análisis de sueños más profundo y respaldado por investigaciones académicas.
 Analizador de Sueños Custom-AI:** Permite a los usuarios personalizar el análisis de sueños de acuerdo con sus parámetros preferidos.
 Analizador de Sueños Comparativo-AI:** Compara dos descripciones de sueños para identificar patrones.
 Analizador de Sueños Batch-AI:** Analiza múltiples sueños en una sesión, proporcionando una visión holística.
@@ -46,17 +46,30 @@ Analizador de Sueños Batch-AI:** Analiza múltiples sueños en una sesión, pro
   <img src="https://analyzemydream.com/changelog/changelog-02.png" alt="Guide GIF" style="width: 70%; height: auto; border-radius: 10px;">
 </div>
 
-- **Manejo Seguro de Suscripciones por PayPal:** Incluye planes de suscripción Básico, Estándar y Premium con una opción de prueba de 7 días para el plan Básico.
-- **Autenticación Sin Contraseña:** Los usuarios pueden iniciar sesión usando cuentas de Google o GitHub.
-- **Gestión de Claves API:** Impulsada por un backend basado en Flask para crear y gestionar claves de API a través del panel del usuario.
-- **API para Desarrolladores:** Una API completa con documentación detallada y capacidades de prueba, permitiendo a los desarrolladores integrar las funciones de análisis de sueños de la plataforma en sus propias aplicaciones. Las claves de API se generan según los planes de suscripción, con diferentes niveles desbloqueando funcionalidades específicas.
+
+- **Manejo Seguro de Suscripciones con PayPal:** 
+  - La plataforma implementa un sistema de suscripción que incluye tres niveles: Básico, Estándar y Premium, con una opción de prueba gratuita de 7 días para el plan Básico, permitiendo a los usuarios explorar las funcionalidades antes de obtener una subscripción paga.
+
+- **Autenticación Sin Contraseña:** 
+  - Se utiliza un mecanismo de inicio de sesión basado en OAuth que permite a los usuarios autenticarse mediante cuentas de Google o GitHub, simplificando el proceso y mejorando la seguridad al evitar la gestión de contraseñas.
+
+- **Gestión de Claves API:** 
+  - La arquitectura de backend, construida sobre **Flask** y **FastAPI**, facilita la creación y gestión de claves de API a través de un panel de usuario intuitivo, garantizando un control eficiente sobre el acceso a las funcionalidades de la plataforma.
+
+- **API para Desarrolladores:** 
+  - Se ofrece una API RESTful a través de un backend paralelo de **FastAPI** completamente documentada, que incluye capacidades de prueba para desarrolladores. Esta API permite integrar las funciones de análisis de sueños en aplicaciones externas. Las claves de API se generan en función del plan de suscripción seleccionado, proporcionando diferentes niveles de acceso y funcionalidades.
+
+
 
 <div align="center">
   <img src="https://analyzemydream.com/changelog/changelog-04.png" alt="Guide GIF" style="width: 70%; height: auto; border-radius: 10px;">
 </div>
 
-- **Frontend Responsivo:** Construido con Astro.js para una experiencia de usuario fluida en escritorio y móvil.
-- **Soporte Multilingüe:** Proporcionando interpretaciones de sueños en varios idiomas para alcanzar una audiencia más amplia.
+- **Frontend Responsivo:** 
+  - La interfaz de usuario está diseñada con **Astro.js**, asegurando una experiencia fluida y adaptable tanto en dispositivos de escritorio como móviles, lo que optimiza la interacción del usuario con la plataforma.
+
+- **Soporte Multilingüe:** 
+  - Se implementa un sistema de interpretaciones de sueños en múltiples idiomas, lo que amplía el alcance de la plataforma y mejora la accesibilidad para una audiencia global.
 
 <div align="center">
   <img src="https://analyzemydream.com/changelog/changelog_03.png" alt="Guide GIF" style="width: 70%; height: auto; border-radius: 10px;">
