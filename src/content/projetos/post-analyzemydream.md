@@ -98,6 +98,12 @@ DB_TOKEN: O token ou chave utilizada para autenticar e conectar-se de forma segu
 
 #### Conclusão:
 
+##### Esclarecimento sobre a Disponibilidade do Código
+
+O projeto **AnalyzeMyDream** foi desenvolvido como um pedido de um cliente, o que implica que as funcionalidades pagas e o código associado a elas não serão disponibilizados publicamente, pois isso não seria uma boa prática profissional. No entanto, o repositório e o código do frontend serão compartilhados publicamente, permitindo que a comunidade contribua sem comprometer a integridade do projeto e os acordos comerciais.
+
+---
+
 Participar do AnalyzeMyDream foi uma experiência fundamental para meu crescimento profissional, tanto em termos técnicos quanto na resolução de desafios práticos. Um dos marcos mais significativos foi a implementação da autenticação de terceiros através do Google e GitHub utilizando OAuth2. Essa integração, juntamente com Turso Connect para uma gestão segura do banco de dados, permitiu que os usuários fizessem login sem senha, o que não apenas melhorou a segurança, mas também otimizou a experiência do usuário na plataforma. Além disso, a integração do SDK do PayPal para gerenciar assinaturas foi crucial. Isso permitiu estabelecer um sistema robusto que facilita a atualização dos usuários para planos avançados de análise de sonhos, concedendo acesso a percepções mais profundas.
 
 A arquitetura do AnalyzeMyDream, composta por três serviços backend distintos, apresentou tanto um desafio quanto uma grande oportunidade de aprendizado. Utilizamos FastAPI para as funcionalidades principais da API, enquanto um backend separado em Flask se encarrega da geração e gestão de chaves API, atribuindo-as a planos específicos de assinatura no PayPal. Um terceiro serviço em Node.js cuida dos webhooks do PayPal, criando automaticamente assinaturas e atribuindo aos usuários suas respectivas chaves API e planos com base em dados de transação em tempo real. Essa estratégia de microserviços garante a escalabilidade do sistema e uma gestão eficiente das distintas funcionalidades.
