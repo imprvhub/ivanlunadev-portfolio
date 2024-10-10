@@ -37,11 +37,11 @@ Analizador de Sueños Fast-AI:** Interpretación rápida y general disponible pa
     <img src="https://analyzemydream.com/changelog/changelog-01.png" alt="Guide GIF" style="width: 70%; height: auto; border-radius: 10px;">
 </div>
 
-Características Basadas en Suscripción:**
-Analizador de Sueños Advanced-AI:** Ofrece un análisis de sueños más profundo y respaldado por investigaciones académicas.
-Analizador de Sueños Custom-AI:** Permite a los usuarios personalizar el análisis de sueños de acuerdo con sus parámetros preferidos.
-Analizador de Sueños Comparativo-AI:** Compara dos descripciones de sueños para identificar patrones.
-Analizador de Sueños Batch-AI:** Analiza múltiples sueños en una sesión, proporcionando una visión holística.
+**Funcionalidades con Suscripción:**
+-**Analizador de Sueños Advanced-AI:** Ofrece un análisis de sueños más profundo y respaldado por investigaciones académicas.
+-**Analizador de Sueños Custom-AI:** Permite a los usuarios personalizar el análisis de sueños de acuerdo con sus parámetros preferidos.
+-**Analizador de Sueños Comparativo-AI:** Compara dos descripciones de sueños para identificar patrones.
+-**Analizador de Sueños Batch-AI:** Analiza múltiples sueños en una sesión, proporcionando una visión holística.
 
 <div align="center">
   <img src="https://analyzemydream.com/changelog/changelog-02.png" alt="Guide GIF" style="width: 70%; height: auto; border-radius: 10px;">
