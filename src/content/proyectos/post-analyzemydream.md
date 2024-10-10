@@ -13,7 +13,7 @@ AnalyzeMyDream es una plataforma innovadora que utiliza Astro.js para ofrecer in
 <br>
 </div>
 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
-<button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://analyzemydream.com', '_blank');">Demostración en Vivo</button>  
+<button class="btn btn-primary" style="margin-right: 10px; margin-bottom: 10px;" onclick="window.open('https://analyzemydream.com', '_blank');">Demo</button>  
 </div>
 
 #### Novedades:
@@ -109,6 +109,12 @@ El proyecto debería ser accesible en 'http://localhost:4321'.
 
 
 #### Conclusión:
+
+##### Aclaración sobre la Disponibilidad del Código
+
+El proyecto **AnalyzeMyDream** fue desarrollado como un encargo para un cliente, lo que implica que no se proporcionarán públicamente las funcionalidades de pago ni el código asociado a ellas, ya que esto no sería una buena práctica profesional. Sin embargo, se compartirá el repositorio y el código del frontend de manera pública, permitiendo a la comunidad contribuir sin comprometer la integridad del proyecto y los acuerdos comerciales.
+
+---
 
 Participar en AnalyzeMyDream ha sido una experiencia clave para mi crecimiento profesional, tanto en términos técnicos como en la resolución de desafíos prácticos. Uno de los hitos más significativos fue la implementación de la autenticación de terceros a través de Google y GitHub utilizando OAuth2. Esta integración, junto con Turso Connect para una gestión segura de la base de datos, permitió a los usuarios iniciar sesión sin contraseña, lo que no solo mejoró la seguridad, sino que también optimizó la experiencia del usuario en la plataforma. Además, la integración del SDK de PayPal para gestionar suscripciones fue crucial. Esto permitió establecer un sistema robusto que facilita a los usuarios la actualización a planes de análisis de sueños avanzados, otorgándoles acceso a percepciones más profundas.
 
