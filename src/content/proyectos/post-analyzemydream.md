@@ -33,8 +33,8 @@ El lanzamiento de **AnalyzeMyDream v1.3.0** ya está **disponible**. Esta versi�
 ---
 
 - **Funcionalidades Gratuitas:**
-  **Artículos de Interpretaciónes de sueños:** Los mismos están basados en contenido bibliográfico acádemico.
-  **Fast-AI Dream Analyzer:** Interpretación rápida y general disponible para todos los usuarios.
+  - **Artículos de Interpretaciónes de sueños:** Los mismos están basados en contenido bibliográfico acádemico.
+  - **Fast-AI Dream Analyzer:** Interpretación rápida y general disponible para todos los usuarios.
   <div align="center">
     <img src="https://analyzemydream.com/changelog/changelog-01.png" alt="Guide GIF" style="width: 70%; height: auto; border-radius: 10px;">
   </div>
