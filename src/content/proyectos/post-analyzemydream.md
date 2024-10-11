@@ -3,7 +3,7 @@ title: "✨ AnalyzeMyDream [Astro.js - FastAPI]"
 meta_title: "AnalyzeMyDream - Plataforma de Análisis de Sueños"
 date: 2024-10-10T05:00:00Z
 image: "https://analyzemydream.com/preview.png"
-categories: ["Astro.js", "FastAPI", "Flask", "Desarrollo Fullstack", "IA", "PayPal SDK", "API", "Auth", "PostgreSQL", "Turso", "Autenticación Passwordless"]
+categories: ["Astro.js", "FastAPI", "Flask", "Python", "Desarrollo Fullstack", "IA", "PayPal SDK", "API", "Auth", "PostgreSQL", "Turso", "Autenticación Passwordless"]
 tags: ["analyzemydream"]
 draft: false
 ---
