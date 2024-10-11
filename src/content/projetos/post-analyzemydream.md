@@ -3,7 +3,7 @@ title: "✨ AnalyzeMyDream [Astro.js - FastAPI - IA - Paypal SDK]"
 meta_title: "Iván Luna - Desenvolvedor de Software - AnalyzeMyDream"
 date: 2024-10-10T05:00:00Z
 image: "https://analyzemydream.com/preview.png"
-categories: ["Astro.js", "FastAPI", "Flask", "Desenvolvimento Fullstack", "IA", "PayPal SDK", "API", "Auth", "PostgreSQL", "Turso","Google Passwordless Auth", "Github Passwordless Auth"]
+categories: ["Astro.js", "FastAPI", "Flask", "Desenvolvimento Fullstack", "IA", "PayPal SDK", "API", "Auth", "PostgreSQL", "Turso"]
 tags: ["analyzemydream"]
 draft: false
 ---
@@ -32,13 +32,15 @@ O lançamento do **AnalyzeMyDream v1.3.0** já está **disponível**! Esta vers�
 
 ---
 
-- **Recursos Principais:**
-  - **Analisador de Sonhos Fast-AI:** Interpretação rápida e geral disponível para todos os usuários.
+- **Funcionalidades Gratuitas:**
+  - **Artigos de Interpretação de Sonhos:** Baseados em conteúdo bibliográfico acadêmico.
+  - **Fast-AI Dream Analyzer:** Interpretação rápida e geral disponível para todos os usuários.
+
   <div align="center">
     <img src="https://analyzemydream.com/changelog/changelog-01.png" alt="Guide GIF" style="width: 70%; height: auto; border-radius: 10px;">
 </div>
 
-- **Recursos baseados em Assinatura:**
+- **Funcionalidades baseados em Assinatura:**
  - **Analisador de Sonhos Advanced-AI:** Oferece análises de sonhos mais profundas e com base em pesquisa.
  - **Analisador de Sonhos Custom-AI:** Permite que os usuários personalizem a análise dos sonhos de acordo com seus parâmetros preferidos.
  - **Analisador de Sonhos Comparativo-AI:** Compara duas descrições de sonhos para identificar padrões.
@@ -102,21 +104,18 @@ DB_TOKEN: O token ou chave utilizada para autenticar e conectar-se de forma segu
 
 ##### Esclarecimento sobre a Disponibilidade do Código
 
-O projeto **AnalyzeMyDream** foi desenvolvido como um pedido de um cliente, o que implica que as funcionalidades pagas e o código associado a elas não serão disponibilizados publicamente, pois isso não seria uma boa prática profissional. No entanto, o repositório e o código do frontend serão compartilhados publicamente, permitindo que a comunidade contribua sem comprometer a integridade do projeto e os acordos comerciais.
+O projeto AnalyzeMyDream foi desenvolvido para um cliente, o que significa que o código diretamente relacionado aos aspectos que geram valor comercial não será compartilhado publicamente, em conformidade com as melhores práticas profissionais e os acordos firmados. No entanto, para promover a colaboração da comunidade, o código referente ao frontend será disponibilizado em um repositório público, permitindo contribuições que não comprometam a integridade do projeto nem os compromissos comerciais estabelecidos.
 
----
+A participação no AnalyzeMyDream foi uma experiência crucial para o desenvolvimento profissional em backend, tanto em termos de habilidades técnicas quanto na resolução de desafios práticos. Um dos marcos mais importantes foi a implementação de autenticação de terceiros através do Google e GitHub utilizando OAuth2. Esta integração, combinada com o Turso Connect para uma gestão segura do banco de dados, permitiu a criação de logins sem senha, aumentando não apenas a segurança, mas também a experiência do usuário na plataforma. Além disso, a integração com o SDK do PayPal para a gestão de assinaturas desempenhou um papel fundamental. Esse sistema permitiu o desenvolvimento de um processo robusto para a atualização de planos premium de análise de sonhos, dando acesso a insights mais profundos e personalizados.
 
-Participar do AnalyzeMyDream foi uma experiência fundamental para meu crescimento profissional, tanto em termos técnicos quanto na resolução de desafios práticos. Um dos marcos mais significativos foi a implementação da autenticação de terceiros através do Google e GitHub utilizando OAuth2. Essa integração, juntamente com Turso Connect para uma gestão segura do banco de dados, permitiu que os usuários fizessem login sem senha, o que não apenas melhorou a segurança, mas também otimizou a experiência do usuário na plataforma. Além disso, a integração do SDK do PayPal para gerenciar assinaturas foi crucial. Isso permitiu estabelecer um sistema robusto que facilita a atualização dos usuários para planos avançados de análise de sonhos, concedendo acesso a percepções mais profundas.
-
-A arquitetura do AnalyzeMyDream, composta por três serviços backend distintos, apresentou tanto um desafio quanto uma grande oportunidade de aprendizado. Utilizamos FastAPI para as funcionalidades principais da API, enquanto um backend separado em Flask se encarrega da geração e gestão de chaves API, atribuindo-as a planos específicos de assinatura no PayPal. Um terceiro serviço em Node.js cuida dos webhooks do PayPal, criando automaticamente assinaturas e atribuindo aos usuários suas respectivas chaves API e planos com base em dados de transação em tempo real. Essa estratégia de microserviços garante a escalabilidade do sistema e uma gestão eficiente das distintas funcionalidades.
+A arquitetura do AnalyzeMyDream, composta por três serviços backend independentes, apresentou tanto desafios quanto oportunidades de aprendizado valiosas. O FastAPI foi utilizado para as funcionalidades principais da API, enquanto um backend separado em Flask lidava com a geração e gestão de chaves de API, vinculando-as a planos de assinatura no PayPal. Um terceiro serviço, implementado em Node.js, gerenciava os webhooks do PayPal, automatizando a criação de assinaturas e a atribuição das respectivas chaves de API e planos com base em transações em tempo real. Esta estratégia baseada em microsserviços garante a escalabilidade do sistema e uma gestão eficiente das diferentes funcionalidades.
 
 ##### Aprendizados:
-Este projeto me proporcionou lições chave sobre arquitetura de sistemas, autenticação e gestão de assinaturas. A implementação do OAuth2 para Google e GitHub me permitiu aprofundar nos fluxos de autenticação seguros e em como integrá-los com Turso Connect, garantindo uma gestão de usuários fluida e uma sólida integridade de dados.
+Este projeto forneceu lições fundamentais em arquitetura de sistemas, autenticação e gestão de assinaturas. A implementação do OAuth2 para Google e GitHub permitiu um entendimento mais profundo sobre fluxos de autenticação segura e sua integração com o Turso Connect, assegurando uma gestão eficiente de usuários e a integridade dos dados.
 
-Além disso, a integração do SDK do PayPal me expôs às complexidades do processamento de pagamentos em tempo real, a gestão de níveis de assinatura e a geração de chaves API. Ao gerenciar três sistemas backend diferentes — FastAPI para a API principal, Flask para a geração de chaves API e Node.js para lidar com os webhooks do PayPal — adquiri uma compreensão mais profunda da arquitetura de microserviços e da distribuição eficaz de cargas de trabalho entre os diferentes serviços. Essa configuração modular permitiu uma clara separação de responsabilidades, tornando o sistema mais escalável e fácil de manter.
+Além disso, a integração com o SDK do PayPal revelou as complexidades envolvidas no processamento de pagamentos em tempo real, na gestão de diferentes níveis de assinatura e na geração de chaves de API. A experiência de gerir três backends distintos — FastAPI para a API principal, Flask para a geração de chaves de API e Node.js para lidar com os webhooks do PayPal — proporcionou uma visão mais aprofundada sobre a arquitetura de microsserviços e como distribuir eficientemente a carga de trabalho entre serviços independentes. Essa abordagem modular permite uma clara separação de responsabilidades, tornando o sistema mais escalável e fácil de manter.
 
-Em suma, o AnalyzeMyDream foi fundamental para fortalecer minhas habilidades em desenvolvimento full-stack, gestão de APIs e autenticação segura, além de aprofundar meu conhecimento sobre processamento de pagamentos em tempo real e serviços baseados em assinaturas.
-
+Em resumo, o AnalyzeMyDream foi essencial para o fortalecimento de competências em desenvolvimento full-stack, gestão de APIs e autenticação segura, além de aprofundar o conhecimento sobre processamento de pagamentos em tempo real e serviços baseados em assinaturas.
 
 <hr>
 <br>
