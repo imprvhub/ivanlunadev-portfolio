@@ -3,7 +3,7 @@ title: "✨ AnalyzeMyDream [Astro.js - FastAPI]"
 meta_title: "Iván Luna - Desenvolvedor de Software - AnalyzeMyDream"
 date: 2024-10-10T05:00:00Z
 image: "https://analyzemydream.com/preview.png"
-categories: ["Astro.js", "FastAPI", "Flask", "Desenvolvimento Fullstack", "IA", "PayPal SDK", "API", "Auth", "PostgreSQL", "Turso"]
+categories: ["Astro.js", "FastAPI", "Flask", "Python", "Desenvolvimento Fullstack", "IA", "PayPal SDK", "API", "Auth", "PostgreSQL", "Turso"]
 tags: ["analyzemydream"]
 draft: false
 ---
