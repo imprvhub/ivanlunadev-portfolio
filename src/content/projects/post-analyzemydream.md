@@ -1,9 +1,9 @@
 ---
-title: "✨ AnalyzeMyDream [Astro.js - FastAPI - IA - Paypal SDK]"
+title: "✨ AnalyzeMyDream [Astro.js - FastAPI]"
 meta_title: "Iván Luna - Software Developer - AnalyzeMyDream"
 date: 2024-10-10T05:00:00Z
 image: "https://analyzemydream.com/preview.png"
-categories: ["Astro.js", "FastAPI", "Flask", "Fullstack Development", "AI", "PayPal SDK", "API", "Auth", "PostgreSQL", "Turso","Google Passwordless Auth", "Github Passwordless Auth"]
+categories: ["Astro.js", "FastAPI", "Flask", "Python", "Fullstack Development", "AI", "PayPal SDK", "API", "Auth", "PostgreSQL", "Turso","Google Passwordless Auth", "Github Passwordless Auth"]
 tags: ["analyzemydream"]
 draft: false
 ---
@@ -32,8 +32,9 @@ The release of **AnalyzeMyDream v1.3.0** is now **available**!. This release int
 
 ---
 
-- **Primary Features:**
-  - **Fast-AI Dream Analyzer:** Quick, general interpretation available to all users.
+- **Free Features:**
+  - **Dream Interpretation Articles:** These are based on academic bibliographic content.
+  - **Fast-AI Dream Analyzer:** Quick and general interpretation available to all users.
   <div align="center">
     <img src="https://analyzemydream.com/changelog/changelog-01.png" alt="Guide GIF" style="width: 70%; height: auto; border-radius: 10px;">
 </div>
@@ -106,24 +107,18 @@ DB_TOKEN: The token or key used to authenticate and securely connect to the data
 
 #### Conclusion:
 
-##### Clarification on Code Availability
+The AnalyzeMyDream project was developed for a client, meaning that any code directly tied to the client’s commercial value will remain private in adherence to best professional practices and contractual agreements. However, to foster community engagement, the frontend code will be made publicly available in a repository, encouraging open collaboration without compromising the project’s integrity or commercial obligations.
 
-The **AnalyzeMyDream** project was developed as a commission for a client, which means that the paid functionalities and associated code will not be made publicly available, as this would not be a good professional practice. However, the repository and the frontend code will be shared publicly, allowing the community to contribute without compromising the integrity of the project and business agreements.
+Working on AnalyzeMyDream has been a pivotal experience for my growth as a backend developer, both from a technical perspective and in addressing real-world challenges. One of the key achievements was implementing third-party authentication via Google and GitHub using OAuth2. This integration, combined with Turso Connect for secure database management, facilitated passwordless logins, enhancing both platform security and user experience. Another critical component was the integration of the PayPal SDK for subscription management, enabling a seamless system that supports upgrades to advanced dream analysis tiers, providing users with richer insights.
 
----
-
-Working on AnalyzeMyDream has been a transformative experience, both in terms of technical growth and practical problem-solving. One of the key achievements was successfully implementing third-party authentication via Google and GitHub using OAuth2, in conjunction with Turso Connect for secure database management. This allowed seamless, passwordless login for users, enhancing the overall security and user experience of the platform. Additionally, integrating PayPal SDK for managing subscriptions was a critical milestone. With a robust subscription system in place, users can now easily upgrade to advanced dream analysis plans, unlocking deeper insights.
-
-The architecture of AnalyzeMyDream, consisting of three distinct backend services, also provided a significant challenge and learning opportunity. The FastAPI backend powers the core API functionalities, while a separate Flask backend handles the generation and management of API keys, attributing them to specific PayPal subscription plans. A third Node.js backend captures PayPal webhooks, automatically creating subscriptions and assigning users their respective API keys and plans based on real-time transaction data. This multi-backend approach ensures scalability and efficient handling of different functionalities within the system.
+The architecture of AnalyzeMyDream, built around three distinct backend services, posed both challenges and valuable learning opportunities. FastAPI was utilized for core API functionalities, while a separate Flask backend managed API key generation, linking them to PayPal subscription plans. Additionally, a Node.js service was responsible for handling PayPal webhooks, automating the creation of subscriptions and associating the appropriate API keys with plans based on real-time transaction data. This microservices approach ensures the system is scalable and enables efficient management of disparate functionalities.
 
 ##### Learnings:
-This project taught me invaluable lessons about system architecture, authentication, and subscription management. Implementing OAuth2 for both Google and GitHub required deepening my understanding of secure authentication flows, as well as integrating these flows with Turso Connect to ensure smooth user management and data integrity.
+This project reinforced critical lessons in system architecture, authentication, and subscription management. Implementing OAuth2 for Google and GitHub offered deeper insights into secure authentication flows and how to integrate them with Turso Connect to maintain user management and data integrity.
 
-Furthermore, integrating the PayPal SDK introduced me to the complexities of handling real-time payment processing, subscription tiers, and API key generation. By managing three separate backend systems
-—FastAPI for the core API, Flask for API key generation, and Node.js for PayPal webhook handling
-—I gained a better understanding of microservice architecture and how to distribute workloads effectively across different services. This multi-backend setup allowed for clear separation of concerns, making the system more modular and easier to maintain.
+Moreover, integrating the PayPal SDK unveiled the complexities of real-time payment processing, subscription tier management, and API key generation. Orchestrating three distinct backend systems—FastAPI for the main API, Flask for API key management, and Node.js for handling PayPal webhooks—provided a hands-on understanding of microservices architecture and how to effectively distribute workloads across services. This modular design promotes clear separation of concerns, making the system more scalable and maintainable.
 
-Overall, AnalyzeMyDream helped me enhance my skills in full-stack development, API management, and secure authentication, while also deepening my knowledge of handling real-time payment processing and subscription-based services.
+In conclusion, AnalyzeMyDream has been instrumental in honing my full-stack development skills, particularly in API management and secure authentication. It has also deepened my expertise in real-time payment processing and the implementation of subscription-based services.
 <hr>
 <br>
 <div class="flex justify-between">
