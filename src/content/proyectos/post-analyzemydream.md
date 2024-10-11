@@ -1,5 +1,5 @@
 ---
-title: "✨ AnalyzeMyDream [Astro.js - FastAPI - IA - Paypal SDK]"
+title: "✨ AnalyzeMyDream [Astro.js - FastAPI]"
 meta_title: "AnalyzeMyDream - Plataforma de Análisis de Sueños"
 date: 2024-10-10T05:00:00Z
 image: "https://analyzemydream.com/preview.png"
