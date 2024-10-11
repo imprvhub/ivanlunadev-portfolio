@@ -1,5 +1,5 @@
 ---
-title: "✨ AnalyzeMyDream [Astro.js - FastAPI - IA - Paypal SDK]"
+title: "✨ AnalyzeMyDream [Astro.js - FastAPI]"
 meta_title: "Iván Luna - Desenvolvedor de Software - AnalyzeMyDream"
 date: 2024-10-10T05:00:00Z
 image: "https://analyzemydream.com/preview.png"
