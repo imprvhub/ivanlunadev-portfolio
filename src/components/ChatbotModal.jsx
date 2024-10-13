@@ -24,8 +24,6 @@ const ChatbotModal = () => {
       .replace(/_(.*?)_/g, '$1')
       // Elimina # headers
       .replace(/^#+\s/gm, '')
-      // Elimina [texto](url)
-      .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
       // Elimina ```código``` (bloques de código)
       .replace(/```[^`]*```/g, '')
       // Elimina `código` (código inline)
@@ -117,9 +115,12 @@ const ChatbotModal = () => {
       }
 
       const data = await response.json();
-
+      const cleanedResponse = data.response.replace(/<a\s+(?:[^>]*?\s+)?href="([^"]*)"[^>]*>(.*?)<\/a>/g, (match) => {
+        return match; 
+      });
+      const finalResponse = cleanMarkdown(cleanedResponse);
       setMessages(prev => [...prev, {
-        text: cleanMarkdown(data.response), 
+        text: finalResponse,
         sender: 'bot'
       }]);
     } catch (error) {
@@ -192,7 +193,7 @@ const ChatbotModal = () => {
             }`}
             style={{ fontFamily: 'Signika, sans-serif', fontWeight: 700 }}
             >
-            {msg.text}
+            <span dangerouslySetInnerHTML={{ __html: msg.text }} />
             </div>
         </div>
         ))}
